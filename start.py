@@ -1,21 +1,26 @@
-import datetime
-
 import dash
+import numpy as np
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly
 from dash.dependencies import Input, Output
-
-# pip install pyorbital
-from pyorbital.orbital import Orbital
-satellite = Orbital('TERRA')
+import plotly
+import pandas as pd
+import random as rand
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+styles = {
+    'pre': {
+        'border': 'thin lightgrey solid',
+        'overflowX': 'scroll'
+    }
+}
+
 app.layout = html.Div(
     html.Div([
-        html.H4('TERRA Satellite Live Feed'),
+        html.H4('Test for python performance'),
         html.Div(id='live-update-text'),
         dcc.Graph(id='live-update-graph'),
         dcc.Interval(
@@ -26,67 +31,31 @@ app.layout = html.Div(
     ])
 )
 
-
-@app.callback(Output('live-update-text', 'children'),
+@app.callback(Output('live-update-graph','figure'),
               [Input('interval-component', 'n_intervals')])
-def update_metrics(n):
-    lon, lat, alt = satellite.get_lonlatalt(datetime.datetime.now())
-    style = {'padding': '5px', 'fontSize': '16px'}
-    return [
-        html.Span('Longitude: {0:.2f}'.format(lon), style=style),
-        html.Span('Latitude: {0:.2f}'.format(lat), style=style),
-        html.Span('Altitude: {0:0.2f}'.format(alt), style=style)
-    ]
-
-
-# Multiple components can update everytime interval gets fired.
-@app.callback(Output('live-update-graph', 'figure'),
-              [Input('interval-component', 'n_intervals')])
-def update_graph_live(n):
-    satellite = Orbital('TERRA')
-    data = {
-        'time': [],
-        'Latitude': [],
-        'Longitude': [],
-        'Altitude': []
-    }
-
-    # Collect some data
-    for i in range(180):
-        time = datetime.datetime.now() - datetime.timedelta(seconds=i*20)
-        lon, lat, alt = satellite.get_lonlatalt(
-            time
-        )
-        data['Longitude'].append(lon)
-        data['Latitude'].append(lat)
-        data['Altitude'].append(alt)
-        data['time'].append(time)
-
-    # Create the graph with subplots
-    fig = plotly.tools.make_subplots(rows=2, cols=1, vertical_spacing=0.2)
+def updateGraph(n):
+    #get the data
+    data = np.linspace(0,n,100)
+    #create the plots
+    fig = plotly.tools.make_subplots(rows = 3,cols = 2,vertical_spacing = .5)
     fig['layout']['margin'] = {
         'l': 30, 'r': 10, 'b': 30, 't': 10
     }
     fig['layout']['legend'] = {'x': 0, 'y': 1, 'xanchor': 'left'}
+    fig.append_trace({
+        'x' : data,
+        'y' : np.sin(data),
+        'name' : "sin wave"},2,1)
 
     fig.append_trace({
-        'x': data['time'],
-        'y': data['Altitude'],
-        'name': 'Altitude',
-        'mode': 'lines+markers',
-        'type': 'scatter'
-    }, 1, 1)
-    fig.append_trace({
-        'x': data['Longitude'],
-        'y': data['Latitude'],
-        'text': data['time'],
-        'name': 'Longitude vs Latitude',
-        'mode': 'lines+markers',
-        'type': 'scatter'
-    }, 2, 1)
+        'x' : data,
+        'y' : np.cos(data),
+        'name' : "cos wave"},2,2)
 
+    fig.append_trace({
+        'x' : data,
+        'y' : np.exp(data),
+        'name' : "exp wave"},3,1)
     return fig
-
-
 if __name__ == '__main__':
-    app.run_server(debug=True,host = '0.0.0.0')
+    app.run_server(debug=True)
