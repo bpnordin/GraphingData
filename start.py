@@ -37,7 +37,7 @@ def updateGraph(n):
     #get the data
     data = np.linspace(0,n,100)
     #create the plots
-    fig = plotly.tools.make_subplots(rows = 3,cols = 2,vertical_spacing = .5)
+    fig = plotly.tools.make_subplots(rows = 3,cols = 1,vertical_spacing = .05)
     fig['layout']['margin'] = {
         'l': 30, 'r': 10, 'b': 30, 't': 10
     }
@@ -45,12 +45,12 @@ def updateGraph(n):
     fig.append_trace({
         'x' : data,
         'y' : np.sin(data),
-        'name' : "sin wave"},2,1)
+        'name' : "sin wave"},1,1)
 
     fig.append_trace({
         'x' : data,
         'y' : np.cos(data),
-        'name' : "cos wave"},2,2)
+        'name' : "cos wave"},2,1)
 
     fig.append_trace({
         'x' : data,
