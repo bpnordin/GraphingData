@@ -32,7 +32,7 @@ app.layout = html.Div(
         dcc.Graph(id='live-update-graph'),
         dcc.Interval(
             id='interval-component',
-            interval=1*1000, # in milliseconds
+            interval=2*1000, # in milliseconds
             n_intervals=0
         )
     ])
@@ -53,7 +53,7 @@ stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
               [Input('interval-component', 'n_intervals')])
 def updateGraph(n):
     #create the plots
-    fig = plotly.tools.make_subplots(rows = 3,cols = 1,vertical_spacing = .05)
+    fig = plotly.tools.make_subplots(rows = 7,cols = 1,vertical_spacing = .05)
     fig['layout']['margin'] = {
         'l': 30, 'r': 10, 'b': 30, 't': 10
     }
@@ -78,6 +78,22 @@ def updateGraph(n):
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['X1'],
         'name' : "X1"},3,1)
+    fig.append_trace({
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['Y1'],
+        'name' : "Y1"},4,1)
+    fig.append_trace({
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['Y2'],
+        'name' : "Y2"},5,1)
+    fig.append_trace({
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['Z2'],
+        'name' : "Z2"},6,1)
+    fig.append_trace({
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['Z1'],
+        'name' : "Z1"},7,1)
 
     return fig
 if __name__ == '__main__':
