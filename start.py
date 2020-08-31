@@ -4,8 +4,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly
-import pandas as pd
-import random as rand
 import sys
 import os
 import random
@@ -85,23 +83,23 @@ def updateGraph(n):
     fig.append_trace({
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['X1'],
-        'name' : "X1"},3,1)
+        'name' : "X1"},2,1)
     fig.append_trace({
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['Y1'],
-        'name' : "Y1"},4,1)
+        'name' : "Y1"},2,1)
     fig.append_trace({
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['Y2'],
-        'name' : "Y2"},5,1)
+        'name' : "Y2"},2,1)
     fig.append_trace({
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['Z2'],
-        'name' : "Z2"},6,1)
+        'name' : "Z2"},2,1)
     fig.append_trace({
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['Z1'],
-        'name' : "Z1"},7,1)
+        'name' : "Z1"},2,1)
 
     return fig
 if __name__ == '__main__':
