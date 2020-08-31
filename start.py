@@ -12,6 +12,14 @@ import random
 import time
 import zmq
 import json
+
+# first find ourself
+fullBinPath  = os.path.abspath(os.getcwd() + "/" + sys.argv[0])
+fullBasePath = os.path.dirname(os.path.dirname(fullBinPath))
+fullLibPath  = os.path.join(fullBasePath, "lib")
+fullCfgPath  = os.path.join(fullBasePath, "config")
+sys.path.append(fullLibPath)
+
 from origin.client import server, random_data
 import ConfigParser
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
