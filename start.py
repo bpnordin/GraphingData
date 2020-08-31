@@ -6,7 +6,14 @@ from dash.dependencies import Input, Output
 import plotly
 import pandas as pd
 import random as rand
-
+import sys
+import os
+import random
+import time
+import zmq
+import json
+from origin.client import server, random_data
+import ConfigParser
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -30,32 +37,48 @@ app.layout = html.Div(
         )
     ])
 )
+configfile = "origin-server.cfg"
+config = ConfigParser.ConfigParser()
+config.read(configfile)
+
+context = zmq.Context()
+socket = context.socket(zmq.REQ)
+host = config.get('Server','ip')
+port = config.getint('Server','read_port')
+socket.connect("tcp://%s:%s" % (host,port))
+
+stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
 
 @app.callback(Output('live-update-graph','figure'),
               [Input('interval-component', 'n_intervals')])
 def updateGraph(n):
-    #get the data
-    data = np.linspace(0,n,100)
     #create the plots
     fig = plotly.tools.make_subplots(rows = 3,cols = 1,vertical_spacing = .05)
     fig['layout']['margin'] = {
         'l': 30, 'r': 10, 'b': 30, 't': 10
     }
     fig['layout']['legend'] = {'x': 0, 'y': 1, 'xanchor': 'left'}
-    fig.append_trace({
-        'x' : data,
-        'y' : np.sin(data),
-        'name' : "sin wave"},1,1)
+    #get the data
+    data = [None,None]
+    for index,stream in enumerate(stream_test_list):
+        request_obj = { 'stream': stream, 'raw': True } 
+        socket.send(json.dumps(request_obj))
+        response = socket.recv()
+        data[index] = json.loads(response)
 
     fig.append_trace({
-        'x' : data,
-        'y' : np.cos(data),
-        'name' : "cos wave"},2,1)
-
+        'x' : data[0][1]['measurement_time'],
+        'y' : data[0][1]['FORT'],
+        'name' : "FORT"},1,1)
     fig.append_trace({
-        'x' : data,
-        'y' : np.exp(data),
-        'name' : "exp wave"},3,1)
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['X2'],
+        'name' : "X2"},2,1)
+    fig.append_trace({
+        'x' : data[1][1]['measurement_time'],
+        'y' : data[1][1]['X1'],
+        'name' : "X1"},3,1)
+
     return fig
 if __name__ == '__main__':
     app.run_server(debug=True,host = '0.0.0.0')
