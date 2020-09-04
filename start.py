@@ -57,7 +57,7 @@ port = config.getint('Server','read_port')
 socket.connect("tcp://%s:%s" % (host,port))
 '''
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
-sub.subscribe("Hybrid_Mux",callback = updateGraph)
+
 @app.callback(Output('live-update-graph','figure'),
               [Input('interval-component', 'n_intervals')])
 def updateGraph(n):
@@ -69,6 +69,8 @@ def updateGraph(n):
     fig['layout']['legend'] = {'x': 0, 'y': 1, 'xanchor': 'left'}
     #get the data
     data = [None,None]
+    sub.subscribe("Hybrid_Mux")
+    '''
     for index,stream in enumerate(stream_test_list):
         request_obj = { 'stream': stream, 'raw': True } 
         socket.send(json.dumps(request_obj))
@@ -103,7 +105,9 @@ def updateGraph(n):
         'x' : data[1][1]['measurement_time'],
         'y' : data[1][1]['Z1'],
         'name' : "Z1"},2,1)
-
+    '''
+    time.sleep(.1)
+    sub.close()
     return fig
 if __name__ == '__main__':
     app.run_server(debug=True,host = '0.0.0.0')
