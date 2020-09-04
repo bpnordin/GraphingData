@@ -3,6 +3,7 @@ import numpy as np
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import logging
 import plotly
 import sys
 import os
@@ -18,7 +19,7 @@ fullLibPath  = os.path.join(fullBasePath, "lib")
 fullCfgPath  = os.path.join(fullBasePath, "config")
 sys.path.append(fullLibPath)
 
-from origin.client import server, random_data
+from origin.client import server, random_data, origin_subscriber
 import ConfigParser
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -47,14 +48,16 @@ configfile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configfile)
 
+sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__))
+'''
 context = zmq.Context()
 socket = context.socket(zmq.SUB)
 host = config.get('Server','ip')
 port = config.getint('Server','read_port')
 socket.connect("tcp://%s:%s" % (host,port))
-
+'''
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
-
+sub.subscribe("Hybrid_Mux",callback = updateGraph)
 @app.callback(Output('live-update-graph','figure'),
               [Input('interval-component', 'n_intervals')])
 def updateGraph(n):
