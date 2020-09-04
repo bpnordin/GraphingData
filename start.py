@@ -48,7 +48,7 @@ config = ConfigParser.ConfigParser()
 config.read(configfile)
 
 context = zmq.Context()
-socket = context.socket(zmq.REQ)
+socket = context.socket(zmq.SUB)
 host = config.get('Server','ip')
 port = config.getint('Server','read_port')
 socket.connect("tcp://%s:%s" % (host,port))
