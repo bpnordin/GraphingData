@@ -18,7 +18,6 @@ configfile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configfile)
 
-'''
 sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__))
 sub.subscribe("Hybrid_Mux")
 time.sleep(10)
@@ -33,3 +32,4 @@ socket.connect("tcp://%s:%s" % (host,port))
 
 socket.setsockopt(zmq.SUBSCRIBE, "0038")
 print socket.recv()
+'''

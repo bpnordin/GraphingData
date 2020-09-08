@@ -106,9 +106,9 @@ def updateGraph(n):
         'y' : data[1][1]['Z1'],
         'name' : "Z1"},2,1)
     '''
-    time.sleep(.1)
+    time.sleep(1)
     sub.close()
     return fig
 if __name__ == '__main__':
-    app.run_server(debug=True,host = '0.0.0.0')
+    app.run_server(debug=True)
 
