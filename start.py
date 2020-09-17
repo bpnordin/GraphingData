@@ -168,7 +168,7 @@ def updateTimeLength(time_value):
 
 if __name__ == '__main__':
     print "running server"
-    app.run_server(debug=True,use_reloader=False)
+    app.run_server(debug=True,use_reloader=False,host = '0.0.0.0')
     print "exiting"
 
 
