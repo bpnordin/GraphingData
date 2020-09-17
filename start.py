@@ -73,6 +73,8 @@ def updateGraph(n):
     #create the plots
     global DATA
     global COUNT
+    tempStorage = {}
+
     start = 0
     #get the data
     while not data_queue.empty():
@@ -81,16 +83,30 @@ def updateGraph(n):
 #        measurement['measurement_time'] = change to normal time
         if streamId == '0038':
             #fort
+
             stream = 'Hybrid_Mux'
             length = len(DATA[stream]['measurement_time'])
-            if COUNT[stream] > length:
+            if COUNT[stream] >= length:
                 COUNT[stream] = 0
-            DATA[stream]['measurement_time'][COUNT[stream]] = measurement['measurement_time']
-            DATA[stream]['FORT'][COUNT[stream]] = measurement['FORT']
+            tempStorage[stream]['measurement_time'][COUNT[stream]] = measurement['measurement_time']
+            tempStorage[stream]['FORT'][COUNT[stream]] = measurement['FORT']
             COUNT[stream] = COUNT[stream] + 1
+            start = start + 1
         elif streamId == '0013':
             #MOT beam balances
-            pass
+            stream = 'Hybrid_Beam_Balances'
+            length = len(DATA[stream]['measurement_time'])
+            if COUNT[stream] >= length:
+                COUNT[stream] = 0
+            DATA[stream]['measurement_time'][length -1- COUNT[stream]] = measurement['measurement_time']
+            DATA[stream]['X1'][length -1- COUNT[stream]] = measurement['X1']
+            DATA[stream]['X2'][length - 1-COUNT[stream]] = measurement['X2']
+            DATA[stream]['Y2'][length - 1-COUNT[stream]] = measurement['Y2']
+            DATA[stream]['Y1'][length - 1-COUNT[stream]] = measurement['Y1']
+            DATA[stream]['Z1'][length - 1-COUNT[stream]] = measurement['Z1']
+            DATA[stream]['Z2'][length - 1-COUNT[stream]] = measurement['Z2']
+            COUNT[stream] = COUNT[stream] + 1
+            start = start + 1
 
     '''
         if len(DATA['measurement_time']) < MAXSIZE:
@@ -120,14 +136,38 @@ def updateGraph(n):
                         name='verticle-line'))
     '''
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'][0:COUNT['Hybrid_Mux']],
-                             y=DATA['Hybrid_Mux']['FORT'][0:COUNT['Hybrid_Mux']],
+    '''
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'],
+                             y=DATA['Hybrid_Mux']['FORT'],
                     mode='lines',
-                    name='lines'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'][COUNT['Hybrid_Mux']:-1],
-                             y=DATA['Hybrid_Mux']['FORT'][COUNT['Hybrid_Mux']:-1],
+                    name='FORT'))
+'''
+
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['X1'],
                     mode='lines',
-                    name='lines'))
+                    name='X1'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['Y1'],
+                    mode='lines',
+                    name='Y1'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['Y2'],
+                    mode='lines',
+                    name='Y2'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['X2'],
+                    mode='lines',
+                    name='X2'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['Z1'],
+                    mode='lines',
+                    name='Z1'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
+                             y=DATA['Hybrid_Beam_Balances']['Z2'],
+                    mode='lines',
+                    name='Z2'))
+
     return fig
 
 
@@ -144,6 +184,7 @@ def updateTimeLength(time_value):
     current_time = int(time.time()) - time_value
     for stream in stream_test_list:
         DATA[stream] = reader.get_stream_raw_data(stream,start=current_time)
+        print DATA['Hybrid_Beam_Balances'].keys()
         COUNT[stream] = 0
     reader.close()
     return None
