@@ -59,7 +59,13 @@ def serve_layout():
                 min = 5,
                 max = 600,
                 step = 5,
-                value = 150,
+                value = 60,
+                marks={
+        0: {'label': '5 seconds ', 'style': {'color': '#77b0b1'}},
+        60: {'label': '60 seconds'},
+        300: {'label': '5 minutes'},
+        600: {'label': '10 minutes', 'style': {'color': '#f50'}}
+    }
             ),html.P(id='placeholder')
         ])
     )
