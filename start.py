@@ -1,4 +1,7 @@
 import dash
+import datetime
+import plotly.graph_objects as go
+import multiprocessing
 import numpy as np
 import dash_core_components as dcc
 import dash_html_components as html
@@ -19,7 +22,8 @@ fullLibPath  = os.path.join(fullBasePath, "lib")
 fullCfgPath  = os.path.join(fullBasePath, "config")
 sys.path.append(fullLibPath)
 
-from origin.client import server, random_data, origin_subscriber
+from origin.client import server, random_data, origin_subscriber,origin_reader
+
 import ConfigParser
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -31,84 +35,131 @@ styles = {
         'overflowX': 'scroll'
     }
 }
-
-app.layout = html.Div(
-    html.Div([
-        html.H4('Test for python performance'),
-        html.Div(id='live-update-text'),
-        dcc.Graph(id='live-update-graph'),
-        dcc.Interval(
-            id='interval-component',
-            interval=2*1000, # in milliseconds
-            n_intervals=0
-        )
-    ])
-)
 configfile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configfile)
 
-sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__))
-'''
-context = zmq.Context()
-socket = context.socket(zmq.SUB)
-host = config.get('Server','ip')
-port = config.getint('Server','read_port')
-socket.connect("tcp://%s:%s" % (host,port))
-'''
+def serve_layout():
+    return html.Div(
+        html.Div([
+            dcc.Graph(id='live-update-graph'),
+            dcc.Interval(
+                id='interval-component',
+                interval=.5*1000, # in milliseconds
+                n_intervals=0
+            ),
+            dcc.Slider(
+                id='time-slider',
+                min = 5,
+                max = 600,
+                step = 5,
+                value = 150,
+            ),html.P(id='placeholder')
+        ])
+    )
+
+app.layout = serve_layout()
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
+DATA = {}
+COUNT = {}
+for stream in stream_test_list:
+    DATA[stream] = {'measurement_time':[]}
+    COUNT[stream] = 0
+START = 0
 
 @app.callback(Output('live-update-graph','figure'),
               [Input('interval-component', 'n_intervals')])
 def updateGraph(n):
     #create the plots
-    fig = plotly.tools.make_subplots(rows = 7,cols = 1,vertical_spacing = .05)
-    fig['layout']['margin'] = {
-        'l': 30, 'r': 10, 'b': 30, 't': 10
-    }
-    fig['layout']['legend'] = {'x': 0, 'y': 1, 'xanchor': 'left'}
+    global DATA
+    global COUNT
+    start = 0
     #get the data
-    data = [None,None]
-    sub.subscribe("Hybrid_Mux")
-    '''
-    for index,stream in enumerate(stream_test_list):
-        request_obj = { 'stream': stream, 'raw': True } 
-        socket.send(json.dumps(request_obj))
-        response = socket.recv()
-        data[index] = json.loads(response)
+    while not data_queue.empty():
+        #get data and figure out which stream it is for
+        streamId,measurement = data_queue.get()
+#        measurement['measurement_time'] = change to normal time
+        if streamId == '0038':
+            #fort
+            stream = 'Hybrid_Mux'
+            length = len(DATA[stream]['measurement_time'])
+            if COUNT[stream] > length:
+                COUNT[stream] = 0
+            DATA[stream]['measurement_time'][COUNT[stream]] = measurement['measurement_time']
+            DATA[stream]['FORT'][COUNT[stream]] = measurement['FORT']
+            COUNT[stream] = COUNT[stream] + 1
+        elif streamId == '0013':
+            #MOT beam balances
+            pass
 
-    fig.append_trace({
-        'x' : data[0][1]['measurement_time'],
-        'y' : data[0][1]['FORT'],
-        'name' : "FORT"},1,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['X2'],
-        'name' : "X2"},2,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['X1'],
-        'name' : "X1"},2,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['Y1'],
-        'name' : "Y1"},2,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['Y2'],
-        'name' : "Y2"},2,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['Z2'],
-        'name' : "Z2"},2,1)
-    fig.append_trace({
-        'x' : data[1][1]['measurement_time'],
-        'y' : data[1][1]['Z1'],
-        'name' : "Z1"},2,1)
     '''
-    time.sleep(1)
-    sub.close()
+        if len(DATA['measurement_time']) < MAXSIZE:
+            mes = data_queue.get()
+            DATA['measurement_time'].append(mes['measurement_time'])
+            DATA['FORT'].append(mes['FORT'])
+            START = DATA['measurement_time'][0]
+        elif COUNT < MAXSIZE:
+            #start replacing earlier measurments
+            mes = data_queue.get()
+            DATA['measurement_time'][COUNT] = mes['measurement_time']
+            DATA['FORT'][COUNT] =mes['FORT']
+            COUNT = COUNT + 1
+        else:
+            COUNT = 0
+            #get the start of where we overwrite
+            START = DATA['measurement_time'][0]
+
+
+    if COUNT > 0:
+        fig.add_trace(go.Scatter(x=[i-DATA['measurement_time'][-1]+START for i in DATA['measurement_time'][0:COUNT]], y=DATA['FORT'][0:COUNT],
+                        mode='lines',
+                        name='lines-overwrite'))
+        fig.add_trace(go.Scatter(x=np.full(2,DATA['measurement_time'][COUNT-1]-DATA['measurement_time'][-1]+START ),
+                                 y=[min(DATA['FORT']),max(DATA['FORT'])],
+                        mode='lines',
+                        name='verticle-line'))
+    '''
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'][0:COUNT['Hybrid_Mux']],
+                             y=DATA['Hybrid_Mux']['FORT'][0:COUNT['Hybrid_Mux']],
+                    mode='lines',
+                    name='lines'))
+    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'][COUNT['Hybrid_Mux']:-1],
+                             y=DATA['Hybrid_Mux']['FORT'][COUNT['Hybrid_Mux']:-1],
+                    mode='lines',
+                    name='lines'))
     return fig
+
+
+
+@app.callback(Output('placeholder','children'),
+              [Input('time-slider','value')])
+def updateTimeLength(time_value):
+    global stream_test_list
+    global DATA
+    global COUNT
+    reader = origin_reader.Reader(config,logging.getLogger(__name__))
+    #we want to get the data from all subscribed streams from now
+    #back until time_value
+    current_time = int(time.time()) - time_value
+    for stream in stream_test_list:
+        DATA[stream] = reader.get_stream_raw_data(stream,start=current_time)
+        COUNT[stream] = 0
+    reader.close()
+    return None
+
+data_queue = None
+
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    data_queue = multiprocessing.Queue()
+    sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__),
+                                       data_queue)
+    for stream in stream_test_list:
+        sub.subscribe(stream)
+    print "running server"
+    app.run_server(debug=True,use_reloader=False)
+    print "exiting"
+    sub.close()
+
+
 

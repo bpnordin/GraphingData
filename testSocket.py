@@ -1,4 +1,5 @@
 import zmq
+import multiprocessing
 import time
 import logging
 import sys
@@ -18,9 +19,14 @@ configfile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configfile)
 
-sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__))
+
+data_queue = multiprocessing.Queue()
+sub = origin_subscriber.Subscriber(config,logging.getLogger(__name__),data_queue)
 sub.subscribe("Hybrid_Mux")
+print data_queue.get()
 time.sleep(10)
+while not data_queue.empty():
+    print data_queue.get()
 sub.close()
 '''
 context = zmq.Context()
