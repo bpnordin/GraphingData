@@ -23,8 +23,8 @@ def poller_loop(sub_addr,sub_list,data_queue,cmd_queue):
         except:
             pass
         try:
-            [streamID, content] = sub_sock.recv_multipart()
-            data_queue.put(json.loads(content))
+            [streamID,content]= sub_sock.recv_multipart()
+            data_queue.put((streamID,json.loads(content)))
         except zmq.ZMQError as e:
             if e.errno != zmq.EAGAIN:
                 print e
@@ -33,6 +33,7 @@ def poller_loop(sub_addr,sub_list,data_queue,cmd_queue):
 
     sub_sock.close()
     context.term()
+
 
 class HybridSubscriber(origin_reciever.Reciever):
 
@@ -49,6 +50,18 @@ class HybridSubscriber(origin_reciever.Reciever):
         )
         self.loop.start()
 
+    def get_stream_filter(self, stream):
+        """!@brief Make the appropriate stream filter to subscribe to a stream
+        @param stream A string holding the stream name
+        @return stream_filter A string holding the filter to subscribe to the
+            resquested data stream
+        """
+        stream_id = str(self.known_streams[stream]['id'])
+        # ascii to unicode str
+        stream_id = stream_id.zfill(self.filter_len)
+        stream_id = stream_id.decode('ascii')
+        self.log.info(stream_id)
+        return stream_id
 
     def close(self):
         super(HybridSubscriber,self).close()

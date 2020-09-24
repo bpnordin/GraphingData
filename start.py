@@ -1,4 +1,5 @@
 import dash
+from dash.exceptions import PreventUpdate
 import HybridSubscriber as hybrid_sub
 import datetime
 import plotly.graph_objects as go
@@ -6,7 +7,7 @@ import multiprocessing
 import numpy as np
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 import logging
 import plotly
 import sys
@@ -43,87 +44,125 @@ config.read(configfile)
 def serve_layout():
     return html.Div(
         html.Div([
+            dcc.Store(id='dataID'),
+            dcc.Store(id='live'),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
                 id='interval-component',
-                interval=.5*1000, # in milliseconds
+                interval=1*1000, # in milliseconds
+                n_intervals=0,
+                disabled = False
+            ),
+            dcc.Interval(
+                id='disableInterval',
+                interval=1*1000, # in milliseconds
                 n_intervals=0
             ),
             dcc.Slider(
                 id='time-slider',
                 min = 5,
-                max = 600,
+                max = 60*60*3,
                 step = 5,
                 value = 150,
-            ),html.P(id='placeholder')
+            )
         ])
     )
 
 app.layout = serve_layout()
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
-DATA = {}
-COUNT = {}
-data_queue = None
-for stream in stream_test_list:
-    DATA[stream] = {'measurement_time':[]}
-    COUNT[stream] = 0
-START = 0
+stream_id_list = {}
 
-@app.callback(Output('live-update-graph','figure'),
-              [Input('interval-component', 'n_intervals')])
-def updateGraph(n):
-    #create the plots
-    global DATA
-    global COUNT
+@app.callback(Output('interval-component','disabled'),
+              [Input('time-slider','value'),
+               Input('disableInterval', 'n_intervals')],
+              State('interval-component','disabled'))
+def stopInterval(value,n,boolean):
+    ctx = dash.callback_context
+    if "time-slider" in ctx.triggered[0]['prop_id']:
+        #then we should turn off auto updates
+        print "diabled"
+        return True
+    elif boolean == True:
+        #then we should turn it back on after a bit
+        time.sleep(100)
+        print "enabled"
+        return False
+    else:
+        return False
+
+
+@app.callback(Output('dataID','data'),
+              [Input('interval-component', 'n_intervals'),
+              Input('time-slider','value')],
+              [State('dataID','data')])
+def updateData(n,timeValue,oldData):
     global data_queue
-    tempStorage = {}
-
-    start = 0
+    global stream_test_list
+    global stream_id_list
+    ctx = dash.callback_context
+    print ctx.triggered
+    data = {}
+    if oldData is None or "time-slider" in ctx.triggered[0]["prop_id"]:
+        #get the data on start up
+        read =  origin_reader.Reader(config,
+                                    logging.getLogger(__name__))
+        for stream in stream_test_list:
+            data[stream_id_list[stream]] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
+        read.close()
+        print "got data"
+        return data
+    else:
+        print "got else"
+        data = oldData
     #get the data
     while not data_queue.empty():
         #get data and figure out which stream it is for
-        data =  data_queue.get()
-        print data
-#        measurement['measurement_time'] = change to normal time
-        if streamId == '0038':
-            #fort
-            pass
-        elif streamId == '0013':
-            #MOT beam balances
-            pass
-    fig = go.Figure()
-    '''
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Mux']['measurement_time'],
-                             y=DATA['Hybrid_Mux']['FORT'],
-                    mode='lines',
-                    name='FORT'))
+        streamID,mesDict= data_queue.get()
+        for key in mesDict.keys():
+            data[streamID][key].append(mesDict[key])
+    return data
 
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['X1'],
+
+
+@app.callback(Output('live-update-graph','figure'),
+              [Input('dataID', 'modified_timestamp')],
+              [State('dataID','data')])
+def updateGraph(ts,data):
+    #create the plots
+    fig = go.Figure()
+    if data is None:
+        raise PreventUpdate
+    fig.add_trace(go.Scatter(x=data['0038']['measurement_time'],
+                             y =data['0038']['FORT'],
+                             mode = 'lines',
+                             name = 'FORT'))
+    '''
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['X1'],
                     mode='lines',
                     name='X1'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['Y1'],
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['Y1'],
                     mode='lines',
                     name='Y1'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['Y2'],
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['Y2'],
                     mode='lines',
                     name='Y2'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['X2'],
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['X2'],
                     mode='lines',
                     name='X2'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['Z1'],
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['Z1'],
                     mode='lines',
                     name='Z1'))
-    fig.add_trace(go.Scatter(x=DATA['Hybrid_Beam_Balances']['measurement_time'],
-                             y=DATA['Hybrid_Beam_Balances']['Z2'],
+    fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
+                             y=data['0013']['Z2'],
                     mode='lines',
                     name='Z2'))
+                    '''
 
-'''
     return fig
 
 
@@ -134,6 +173,8 @@ if __name__ == '__main__':
     data_queue = multiprocessing.Queue()
     sub = hybrid_sub.HybridSubscriber(config,logging.getLogger(__name__),
                                        data_queue)
+    for stream in stream_test_list:
+        stream_id_list[stream] = sub.get_stream_filter(stream)
     print "running server"
     app.run_server(debug=True,use_reloader=False)
     print "exiting"
