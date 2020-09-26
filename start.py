@@ -61,9 +61,9 @@ def serve_layout():
             dcc.Slider(
                 id='time-slider',
                 min = 5,
-                max = 60*60*3,
-                step = 5,
-                value = 150,
+                max = 90,
+                step = 1,
+                value = 45,
             )
         ])
     )
@@ -72,23 +72,24 @@ app.layout = serve_layout()
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
 stream_id_list = {}
 
-@app.callback(Output('interval-component','disabled'),
+@app.callback([Output('interval-component','disabled'),Output('live','data')],
               [Input('time-slider','value'),
                Input('disableInterval', 'n_intervals')],
-              State('interval-component','disabled'))
-def stopInterval(value,n,boolean):
+              [State('interval-component','disabled'),State('interval-component','n_intervals'),
+               State('live','data')])
+def stopInterval(value,n,boolean,nMain,dataLive):
     ctx = dash.callback_context
     if "time-slider" in ctx.triggered[0]['prop_id']:
         #then we should turn off auto updates
-        print "diabled"
-        return True
+        print "disabled"
+        return True,n+10
     elif boolean == True:
-        #then we should turn it back on after a bit
-        time.sleep(100)
-        print "enabled"
-        return False
+        if n == dataLive:
+            print "enabled"
+            return False,None
+        return True,dataLive
     else:
-        return False
+        return False,None
 
 
 @app.callback(Output('dataID','data'),
@@ -106,10 +107,14 @@ def updateData(n,timeValue,oldData):
         #get the data on start up
         read =  origin_reader.Reader(config,
                                     logging.getLogger(__name__))
+        print "getting data"
         for stream in stream_test_list:
             data[stream_id_list[stream]] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
         read.close()
-        print "got data"
+        print "got data, getting the ends sorted"
+        span = 100
+        for streamID in stream_id_list:
+            for time in data[streamID]['measurement_time'][-1:-1-100]
         return data
     else:
         print "got else"
