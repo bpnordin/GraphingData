@@ -1,9 +1,10 @@
 import multiprocessing
+import datetime
 import time
 import sys
 import logging
 import ConfigParser
-from origin.client import origin_reciever
+from origin.client import origin_reciever,origin_reader
 import zmq
 import os
 import json
@@ -82,6 +83,22 @@ if __name__ == '__main__':
     configfile = "origin-server.cfg"
     config = ConfigParser.ConfigParser()
     config.read(configfile)
+
+    print "getting reader"
+    logging.info("Begin")
+    read =  origin_reader.Reader(config,
+                                logging.getLogger(__name__))
+    print "getting data"
+    stream = "Hybrid_Mux"
+    timeValue = 60
+    data = {}
+    data[stream] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
+    for index,timeValue in enumerate(data[stream]['measurement_time']):
+        data[stream]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(timeValue)/float(2**32))
+    read.close()
+    print "got data and closed read"
+    print data
+
     data_queue = multiprocessing.Queue()
     sub = HybridSubscriber(config,logging.getLogger(__name__),data_queue)
     time.sleep(9)

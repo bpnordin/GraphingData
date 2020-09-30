@@ -102,6 +102,7 @@ def updateData(n,timeValue,oldData):
     global stream_id_list
     ctx = dash.callback_context
     print ctx.triggered
+    logging.info("Begin")
     data = {}
     if oldData is None or "time-slider" in ctx.triggered[0]["prop_id"]:
         #get the data on start up
@@ -110,21 +111,27 @@ def updateData(n,timeValue,oldData):
         print "getting data"
         for stream in stream_test_list:
             data[stream_id_list[stream]] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
+            for index,timeValue in enumerate(data[stream_id_list[stream]]['measurement_time']):
+                data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(timeValue)/float(2**32))
         read.close()
-        print "got data, getting the ends sorted"
-        span = 100
-        for streamID in stream_id_list:
-            for time in data[streamID]['measurement_time'][-1:-1-100]
+        print "got data and closed read"
         return data
     else:
-        print "got else"
+        print "appending data from subscriber"
         data = oldData
     #get the data
     while not data_queue.empty():
         #get data and figure out which stream it is for
         streamID,mesDict= data_queue.get()
+        if streamID == '0038':
+            date = datetime.datetime.fromtimestamp(float(mesDict['measurement_time'])/float(2**32))
+            print date
         for key in mesDict.keys():
-            data[streamID][key].append(mesDict[key])
+            if key == 'measurement_time':
+                date = datetime.datetime.fromtimestamp(float(mesDict['measurement_time'])/float(2**32))
+                data[streamID][key].append(date)
+            else:
+                data[streamID][key].append(mesDict[key])
     return data
 
 
