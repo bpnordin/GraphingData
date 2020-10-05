@@ -1,4 +1,5 @@
 import dash
+from plotly.subplots import make_subplots
 import readStream
 from dash.exceptions import PreventUpdate
 import HybridSubscriber as hybrid_sub
@@ -99,10 +100,12 @@ def serve_layout():
 def stopInterval(value,n,boolean,nMain,dataLive):
     ctx = dash.callback_context
     if "time-slider" in ctx.triggered[0]['prop_id']:
+        print ctx.triggered
         #then we should turn off auto updates
-        print "disabled"
+        print "disabledi unitl {} is {}".format(n,n+10)
         return True,n+10
     elif boolean == True:
+        print n
         if n == dataLive:
             print "enabled"
             return False,None
@@ -120,7 +123,6 @@ def updateData(n,timeValue,oldData):
     global stream_test_list
     global stream_id_list
     ctx = dash.callback_context
-    print ctx.triggered
     data = {}
     if oldData is None or "time-slider" in ctx.triggered[0]["prop_id"]:
 
@@ -135,21 +137,19 @@ def updateData(n,timeValue,oldData):
         print "got data and closed read"
         return data
     else:
-        print "appending data from subscriber"
         data = oldData
     #get the data
     while not data_queue.empty():
         #get data and figure out which stream it is for
         streamID,mesDict= data_queue.get()
-        if streamID == '0038':
-            date = datetime.datetime.fromtimestamp(float(mesDict['measurement_time'])/float(2**32))
-            print date
         for key in mesDict.keys():
             if key == 'measurement_time':
                 date = datetime.datetime.fromtimestamp(float(mesDict['measurement_time'])/float(2**32))
                 data[streamID][key].append(date)
+                data[streamID][key].pop(0)
             else:
                 data[streamID][key].append(mesDict[key])
+                data[streamID][key].pop(0)
     return data
 
 
@@ -159,39 +159,44 @@ def updateData(n,timeValue,oldData):
               [State('dataID','data')])
 def updateGraph(ts,data):
     #create the plots
-    fig = go.Figure()
+    fig = make_subplots(rows=2, cols=1)
     if data is None:
         raise PreventUpdate
     fig.add_trace(go.Scatter(x=data['0038']['measurement_time'],
                              y =data['0038']['FORT'],
                              mode = 'lines',
-                             name = 'FORT'))
-    '''
+                             name = 'FORT'),
+                             row=1,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['X1'],
                     mode='lines',
-                    name='X1'))
+                    name='X1'),
+                    row=2,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['Y1'],
                     mode='lines',
-                    name='Y1'))
+                    name='Y1'),
+                    row=2,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['Y2'],
                     mode='lines',
-                    name='Y2'))
+                    name='Y2'),
+                    row=2,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['X2'],
                     mode='lines',
-                    name='X2'))
+                    name='X2'),
+                    row=2,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['Z1'],
                     mode='lines',
-                    name='Z1'))
+                    name='Z1'),
+                    row=2,col=1)
     fig.add_trace(go.Scatter(x=data['0013']['measurement_time'],
                              y=data['0013']['Z2'],
                     mode='lines',
-                    name='Z2'))
-                    '''
+                    name='Z2'),
+                    row=2,col=1)
 
     return fig
 
@@ -210,7 +215,7 @@ if __name__ == '__main__':
         stream_id_list[stream] = sub.get_stream_filter(stream)
     print "running server"
     app.layout = serve_layout()
-    app.run_server(debug=True,use_reloader=False)
+    app.run_server(debug=True,use_reloader=False,host = '0.0.0.0')
     print "exiting"
     sub.close()
 
