@@ -44,17 +44,16 @@ config = ConfigParser.ConfigParser()
 config.read(configfile)
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
 stream_id_list = {}
-def initialData():
+def initialData(sub,startTimeSec = 300):
 
     global stream_test_list
     global stream_id_list
     data = {}
-    timeValue = 60
     read = readStream.readStream()
     #get the data on start up
     print "getting data"
     for stream in stream_test_list:
-        data[stream_id_list[stream]] =read.read_streams(stream,stop = time.time()-timeValue) 
+        data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-startTimeSec) 
         time.sleep(1)
         for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
             data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
@@ -62,12 +61,12 @@ def initialData():
     print "got data and closed read"
     return data
 
-def serve_layout():
+def serve_layout(sub):
     
     return html.Div(
         html.Div([
             dcc.Store(id='dataID',
-                data = initialData()),
+                data = initialData(sub)),
             dcc.Store(id='live'),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -83,10 +82,17 @@ def serve_layout():
             ),
             dcc.Slider(
                 id='time-slider',
-                min = 5,
-                max = 90,
+                min = 1,
+                max = 7200,
                 step = 1,
-                value = 45,
+                value = 300,
+                marks = {
+                    300: "5 minutes",
+                    600: "10 minutes",
+                    3600: "1 hour",
+                    1800: "30 minutes",
+                    7200: "2 hours"
+                }
             )
         ])
     )
@@ -124,13 +130,13 @@ def updateData(n,timeValue,oldData):
     global stream_id_list
     ctx = dash.callback_context
     data = {}
-    if oldData is None or "time-slider" in ctx.triggered[0]["prop_id"]:
+    if "time-slider" in ctx.triggered[0]["prop_id"]:
 
         read = readStream.readStream()
         #get the data on start up
         print "getting data"
         for stream in stream_test_list:
-            data[stream_id_list[stream]] =read.read_streams(stream,stop = time.time()-timeValue) 
+            data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-timeValue) 
             for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
                 data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
         read.close()
@@ -214,7 +220,7 @@ if __name__ == '__main__':
     for stream in stream_test_list:
         stream_id_list[stream] = sub.get_stream_filter(stream)
     print "running server"
-    app.layout = serve_layout()
+    app.layout = serve_layout(sub)
     app.run_server(debug=True,use_reloader=False,host = '0.0.0.0')
     print "exiting"
     sub.close()
