@@ -90,9 +90,9 @@ if __name__ == '__main__':
                                 logging.getLogger(__name__))
     print "getting data"
     stream = "Hybrid_Mux"
-    timeValue = 60
+    timeValue = 600
     data = {}
-    data[stream] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
+    data[stream] = read.get_stream_data(stream,start=int(time.time())-timeValue)
     for index,timeValue in enumerate(data[stream]['measurement_time']):
         data[stream]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(timeValue)/float(2**32))
     read.close()
