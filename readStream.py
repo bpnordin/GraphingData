@@ -15,34 +15,30 @@ class readStream():
         config = ConfigParser.ConfigParser()
         config.read(configfile)
 
-        context = zmq.Context()
-        socket = context.socket(zmq.REQ)
+        self.context = zmq.Context()
+        self.socket = self.context.socket(zmq.REQ)
         host = config.get('Server','ip')
         port = config.getint('Server','read_port')
-        socket.connect("tcp://%s:%s" % (host,port))
+        self.socket.connect("tcp://%s:%s" % (host,port))
 
-        stream_test_list = ["Hybrid_Mux"]
 
-    time.sleep(5)
 
-    def read_streams():
-        for stream in stream_test_list:
-            print "sending read request for stream `{}`....".format(stream)
-            request_obj = { 'stream': stream }
-            socket.send(json.dumps(request_obj))
-            response = socket.recv()
-            print "sever responds with: "
-            print response
-            print "+"*80
-            time.sleep(3)
-        for stream in stream_test_list:
-            print "sending raw read request for stream `{}`....".format(stream)
-            request_obj = { 'stream': stream, 'raw': True } 
-            socket.send(json.dumps(request_obj))
-            response = socket.recv()
-            print "sever responds with: "
-            print response
-            data = json.loads(response)
-            print "+"*80
-            time.sleep(3)
-        return data
+    def read_streams(self,stream,start=None,stop=None):
+        data = None
+        print "sending raw read request for stream `{}`....".format(stream)
+        request_obj = { 'stream': stream, 'raw': True,'start' : start,'stop' : stop } 
+        print request_obj
+        self.socket.send(json.dumps(request_obj))
+        response = self.socket.recv()
+        data = json.loads(response)
+        print "+"*80
+        return data[1]
+
+    def close(self):
+        self.socket.close()
+        self.context.term()
+
+if __name__ == "__main__":
+    read = readStream()
+    print read.read_streams(stop=time.time()-60)
+    read.close()

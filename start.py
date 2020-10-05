@@ -1,4 +1,5 @@
 import dash
+import readStream
 from dash.exceptions import PreventUpdate
 import HybridSubscriber as hybrid_sub
 import datetime
@@ -40,11 +41,32 @@ styles = {
 configfile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configfile)
+stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
+stream_id_list = {}
+def initialData():
+
+    global stream_test_list
+    global stream_id_list
+    data = {}
+    timeValue = 60
+    read = readStream.readStream()
+    #get the data on start up
+    print "getting data"
+    for stream in stream_test_list:
+        data[stream_id_list[stream]] =read.read_streams(stream,stop = time.time()-timeValue) 
+        time.sleep(1)
+        for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
+            data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
+    read.close()
+    print "got data and closed read"
+    return data
 
 def serve_layout():
+    
     return html.Div(
         html.Div([
-            dcc.Store(id='dataID'),
+            dcc.Store(id='dataID',
+                data = initialData()),
             dcc.Store(id='live'),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -68,9 +90,6 @@ def serve_layout():
         ])
     )
 
-app.layout = serve_layout()
-stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
-stream_id_list = {}
 
 @app.callback([Output('interval-component','disabled'),Output('live','data')],
               [Input('time-slider','value'),
@@ -102,17 +121,16 @@ def updateData(n,timeValue,oldData):
     global stream_id_list
     ctx = dash.callback_context
     print ctx.triggered
-    logging.info("Begin")
     data = {}
     if oldData is None or "time-slider" in ctx.triggered[0]["prop_id"]:
+
+        read = readStream.readStream()
         #get the data on start up
-        read =  origin_reader.Reader(config,
-                                    logging.getLogger(__name__))
         print "getting data"
         for stream in stream_test_list:
-            data[stream_id_list[stream]] = read.get_stream_raw_data(stream,start=int(time.time())-timeValue)
-            for index,timeValue in enumerate(data[stream_id_list[stream]]['measurement_time']):
-                data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(timeValue)/float(2**32))
+            data[stream_id_list[stream]] =read.read_streams(stream,stop = time.time()-timeValue) 
+            for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
+                data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
         read.close()
         print "got data and closed read"
         return data
@@ -183,11 +201,15 @@ def updateGraph(ts,data):
 
 if __name__ == '__main__':
     data_queue = multiprocessing.Queue()
+
+    sub = ['0038'.decode('ascii'),'0013'.decode('ascii')]
     sub = hybrid_sub.HybridSubscriber(config,logging.getLogger(__name__),
-                                       data_queue)
+                                       data_queue, 
+                    sub_list = sub)
     for stream in stream_test_list:
         stream_id_list[stream] = sub.get_stream_filter(stream)
     print "running server"
+    app.layout = serve_layout()
     app.run_server(debug=True,use_reloader=False)
     print "exiting"
     sub.close()

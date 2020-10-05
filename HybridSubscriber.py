@@ -5,6 +5,7 @@ import sys
 import logging
 import ConfigParser
 from origin.client import origin_reciever,origin_reader
+import readStream
 import zmq
 import os
 import json
@@ -38,13 +39,14 @@ def poller_loop(sub_addr,sub_list,data_queue,cmd_queue):
 
 class HybridSubscriber(origin_reciever.Reciever):
 
-    def __init__(self,config,logger,data_queue,loop=poller_loop):
+    def __init__(self,config,logger,data_queue,sub_list=None,loop=poller_loop):
         super(HybridSubscriber, self).__init__(config,logger)
         self.connect(self.read_sock, self.read_port)
         self.get_available_streams()
         self.cmd_queue = multiprocessing.Queue()
         sub_addr = "tcp://{}:{}".format(self.ip,self.sub_port)
-        sub_list = ['0038'.decode('ascii'),'0013'.decode('ascii')]
+        if sub_list is None:
+            sub_list = ['0038'.decode('ascii'),'0013'.decode('ascii')]
         self.loop = multiprocessing.Process(
             target = loop,
             args=(sub_addr,sub_list,data_queue,self.cmd_queue)
@@ -85,14 +87,12 @@ if __name__ == '__main__':
     config.read(configfile)
 
     print "getting reader"
-    logging.info("Begin")
-    read =  origin_reader.Reader(config,
-                                logging.getLogger(__name__))
+    read = readStream.readStream()
     print "getting data"
-    stream = "Hybrid_Mux"
-    timeValue = 600
+    stream = "Hybrid_Beam_Balances"
+    timeValue = 60
     data = {}
-    data[stream] = read.get_stream_data(stream,start=int(time.time())-timeValue)
+    data[stream] = read.read_streams(stream,stop = time.time()-timeValue)
     for index,timeValue in enumerate(data[stream]['measurement_time']):
         data[stream]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(timeValue)/float(2**32))
     read.close()
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
     data_queue = multiprocessing.Queue()
     sub = HybridSubscriber(config,logging.getLogger(__name__),data_queue)
-    time.sleep(9)
+    time.sleep(1)
     while not data_queue.empty():
         print data_queue.get()
     time.sleep(10)
