@@ -6,4 +6,5 @@ Things to do:
     * try and fix the problems with not getting all of the data
     * there are a few bugs with large time periods but they are hard to know 
      what is going on
+    * add y axis selector in case of any spikes throw that off
 

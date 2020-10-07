@@ -20,8 +20,8 @@ import time
 import zmq
 import json
 import pandas as pd
-
 # first find ourself
+LOG = logging.getLogger(__name__)
 fullBinPath  = os.path.abspath(os.getcwd() + "/" + sys.argv[0])
 fullBasePath = os.path.dirname(os.path.dirname(fullBinPath))
 fullLibPath  = os.path.join(fullBasePath, "lib")
@@ -46,21 +46,28 @@ config = ConfigParser.ConfigParser()
 config.read(configfile)
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
 stream_id_list = {}
+
 def initialData(startTimeSec = 300):
 
     global stream_test_list
     global stream_id_list
-    data = {}
+    global LOG
     read = readStream.readStream()
     #get the data on start up
-    print "getting initial data"
-    for stream in stream_test_list:
-        data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-startTimeSec) 
-        time.sleep(1)
-        for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
-            data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
+    LOG.debug( "getting initial data")
+    data = {stream_id_list[stream]: pd.DataFrame(read.read_streams(stream,start=time.time(),stop=time.time()-startTimeSec)) for stream in stream_test_list}
+
+    for key in data.keys():
+        data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time']/float(2**32),unit="s")
+        s = data[key]['measurement_time'].iloc[-1] - data[key]['measurement_time'].iloc[0]
+        data[key] = data[key].resample("{}S".format(int(s.seconds/100)),on='measurement_time').mean()
+        data[key].index.name = 'measurement_time'
+        data[key].reset_index(inplace=True)
+        data[key] = data[key].to_dict('series')
+
     read.close()
-    print "got data and closed read"
+
+    LOG.debug( "got data and closed read")
     return data
 
 
@@ -83,7 +90,6 @@ def overviewGraph(value,windowSize = 1000):
         print df['0038']['FORT'].rolling(window = windowSize).mean()
         print df['0013']['measurement_time']
         #plotData = df.iloc[0].rolling(window = windowSize).mean()
-    print "HIITIITIT"
 
 
 def serve_layout():
@@ -96,13 +102,13 @@ def serve_layout():
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
                 id='interval-component',
-                interval=1*1000, # in milliseconds
+                interval=10*1000, # in milliseconds
                 n_intervals=0,
                 disabled = False
             ),
             dcc.Interval(
                 id='disableInterval',
-                interval=1*1000, # in milliseconds
+                interval=9*1000, # in milliseconds
                 n_intervals=0
             ),
             dcc.Slider(
@@ -156,34 +162,36 @@ def updateData(n,timeValue,oldData):
     global data_queue
     global stream_test_list
     global stream_id_list
+    global LOG
     ctx = dash.callback_context
     data = {}
     if "time-slider" in ctx.triggered[0]["prop_id"]:
-
-        read = readStream.readStream()
-        #get the data on start up
-        print "getting data"
-        for stream in stream_test_list:
-            data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-timeValue) 
-            for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
-                data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
-        read.close()
-        print "got data and closed read"
-        return data
+        return initialData(startTimeSec = timeValue)
     else:
-        data = oldData
+        for key in oldData.keys():
+            data[key] = pd.DataFrame(oldData[key])
+            data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time'])
     #get the data
     while not data_queue.empty():
+        print data_queue.get()
+        '''
         #get data and figure out which stream it is for
         streamID,mesDict= data_queue.get()
+        mesDict['measurement_time'] = pd.to_datetime(mesDict['measurement_time']/float(2**32))
         for key in mesDict.keys():
-            if key == 'measurement_time':
-                date = datetime.datetime.fromtimestamp(float(mesDict['measurement_time'])/float(2**32))
-                data[streamID][key].append(date)
-                data[streamID][key].pop(0)
-            else:
-                data[streamID][key].append(mesDict[key])
-                data[streamID][key].pop(0)
+            mesDict[key] = [mesDict[key]]
+        data[streamID] = data[streamID].append(pd.DataFrame(mesDict),ignore_index=True).drop([0])
+    for key in data.keys():
+        #do averaging
+        s = data[key]['measurement_time'].iloc[-1] - data[key]['measurement_time'].iloc[0]
+        data[key] = data[key].resample("{}S".format(int(s.seconds/100)),on='measurement_time').mean()
+        data[key].index.name = 'measurement_time'
+        data[key].reset_index(inplace=True)
+        data[key] = data[key].to_dict('series')
+        '''
+
+
+
     return data
 
 
@@ -239,11 +247,12 @@ def updateGraph(ts,data):
 
 
 if __name__ == '__main__':
+    LOG.setLevel(logging.DEBUG)
     data_queue = multiprocessing.Queue()
 
     sub = ['0038'.decode('ascii'),'0013'.decode('ascii')]
-    sub = hybrid_sub.HybridSubscriber(config,logging.getLogger(__name__),
-                                       data_queue, 
+    sub = hybrid_sub.HybridSubscriber(config,logging.getLogger("__sub__"),
+                                       data_queue,
                     sub_list = sub)
     for stream in stream_test_list:
         stream_id_list[stream] = sub.get_stream_filter(stream)

@@ -10,7 +10,7 @@ import zmq
 import os
 import json
 
-def poller_loop(sub_addr,sub_list,data_queue,cmd_queue):
+def poller_loop(sub_addr,sub_list,data_queue,cmd_queue,logger):
     context = zmq.Context()
     sub_sock = context.socket(zmq.SUB)
     sub_sock.setsockopt(zmq.RCVTIMEO,1000)
@@ -29,7 +29,7 @@ def poller_loop(sub_addr,sub_list,data_queue,cmd_queue):
             data_queue.put((streamID,json.loads(content)))
         except zmq.ZMQError as e:
             if e.errno != zmq.EAGAIN:
-                print e
+                pass
         if cmd == 'close':
             break
 
@@ -49,7 +49,7 @@ class HybridSubscriber(origin_reciever.Reciever):
             sub_list = ['0038'.decode('ascii'),'0013'.decode('ascii')]
         self.loop = multiprocessing.Process(
             target = loop,
-            args=(sub_addr,sub_list,data_queue,self.cmd_queue)
+            args=(sub_addr,sub_list,data_queue,self.cmd_queue,logger)
         )
         self.loop.start()
 
