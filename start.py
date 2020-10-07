@@ -9,6 +9,7 @@ import multiprocessing
 import numpy as np
 import dash_core_components as dcc
 import dash_html_components as html
+import dash_daq as daq
 from dash.dependencies import Input, Output, State
 import logging
 import plotly
@@ -18,6 +19,7 @@ import random
 import time
 import zmq
 import json
+import pandas as pd
 
 # first find ourself
 fullBinPath  = os.path.abspath(os.getcwd() + "/" + sys.argv[0])
@@ -44,14 +46,14 @@ config = ConfigParser.ConfigParser()
 config.read(configfile)
 stream_test_list = ["Hybrid_Mux","Hybrid_Beam_Balances"]
 stream_id_list = {}
-def initialData(sub,startTimeSec = 300):
+def initialData(startTimeSec = 300):
 
     global stream_test_list
     global stream_id_list
     data = {}
     read = readStream.readStream()
     #get the data on start up
-    print "getting data"
+    print "getting initial data"
     for stream in stream_test_list:
         data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-startTimeSec) 
         time.sleep(1)
@@ -61,12 +63,35 @@ def initialData(sub,startTimeSec = 300):
     print "got data and closed read"
     return data
 
-def serve_layout(sub):
+
+
+@app.callback([Output('24hr-graph','figure'),Output('24hr-graph-container','style')],[Input('24hr-switch','on')])
+def overviewGraph(value,windowSize = 1000):
+
+    #24 hour graph
+    global stream_test_list
+    global stream_id_list
+    data = {}
+    if value:
+        read = readStream.readStream()
+        for stream in stream_test_list:
+            data[stream_id_list[stream]] =read.read_streams(stream,start = time.time(),stop = time.time()-24*100) 
+            for index,unixTime in enumerate(data[stream_id_list[stream]]['measurement_time']):
+                data[stream_id_list[stream]]['measurement_time'][index] = datetime.datetime.fromtimestamp(float(unixTime)/float(2**32))
+        read.close()
+        df = pd.DataFrame(data)
+        print df['0038']['FORT'].rolling(window = windowSize).mean()
+        print df['0013']['measurement_time']
+        #plotData = df.iloc[0].rolling(window = windowSize).mean()
+    print "HIITIITIT"
+
+
+def serve_layout():
     
     return html.Div(
         html.Div([
             dcc.Store(id='dataID',
-                data = initialData(sub)),
+                data = initialData()),
             dcc.Store(id='live'),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -93,7 +118,10 @@ def serve_layout(sub):
                     1800: "30 minutes",
                     7200: "2 hours"
                 }
-            )
+            ),
+            daq.BooleanSwitch(id = '24hr-switch',on = False),
+            html.Div(id = '24hr-graph-container',
+                children = [dcc.Graph(id='24hr-graph')]),
         ])
     )
 
@@ -220,7 +248,7 @@ if __name__ == '__main__':
     for stream in stream_test_list:
         stream_id_list[stream] = sub.get_stream_filter(stream)
     print "running server"
-    app.layout = serve_layout(sub)
+    app.layout = serve_layout
     app.run_server(debug=True,use_reloader=False,host = '0.0.0.0')
     print "exiting"
     sub.close()
