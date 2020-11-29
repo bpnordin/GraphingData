@@ -61,4 +61,5 @@ class readStream():
     def close(self):
         self.socket.close()
         self.context.term()
+        print "closed"
 

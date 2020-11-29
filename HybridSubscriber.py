@@ -8,6 +8,8 @@ import zmq
 import os
 import json
 import readStream
+from origin.client import origin_reciever
+
 
 def poller_loop(sub_addr,sub_list,data_queue,cmd_queue,logger):
     context = zmq.Context()
