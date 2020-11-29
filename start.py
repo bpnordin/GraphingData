@@ -20,8 +20,15 @@ import time
 import zmq
 import json
 import pandas as pd
+
+logger = logging.getLogger(__name__)
+c_handler = logging.StreamHandler()
+c_handler.setLevel(logging.DEBUG)
+c_format = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+c_handler.setFormatter(c_format)
+logger.addHandler(c_handler)
 # first find ourself
-LOG = logging.getLogger(__name__)
+
 fullBinPath  = os.path.abspath(os.getcwd() + "/" + sys.argv[0])
 fullBasePath = os.path.dirname(os.path.dirname(fullBinPath))
 fullLibPath  = os.path.join(fullBasePath, "lib")
@@ -51,10 +58,9 @@ def initialData(startTimeSec = 300):
 
     global stream_test_list
     global stream_id_list
-    global LOG
+    #this can throw an error if it cant connect to the server
     read = readStream.readStream()
     #get the data on start up
-    LOG.debug( "getting initial data")
     data = {stream_id_list[stream]: pd.DataFrame(read.read_streams(stream,start=time.time(),stop=time.time()-startTimeSec)) for stream in stream_test_list}
 
     for key in data.keys():
@@ -67,7 +73,6 @@ def initialData(startTimeSec = 300):
 
     read.close()
 
-    LOG.debug( "got data and closed read")
     return data
 
 
@@ -92,7 +97,7 @@ def overviewGraph(value,windowSize = 1000):
         #plotData = df.iloc[0].rolling(window = windowSize).mean()
 
 
-def serve_layout():
+def serve_layout_graph():
     
     return html.Div(
         html.Div([
@@ -131,6 +136,15 @@ def serve_layout():
         ])
     )
 
+def serve_layout_home():
+    print "test"
+    return html.Div([
+        dcc.Checklist(
+        options=[{'label': i, 'value': i} for i in sub_list ],
+        ),
+        dcc.Button('Submit', id='submit-val', n_clicks=0)
+    ])
+
 
 @app.callback([Output('interval-component','disabled'),Output('live','data')],
               [Input('time-slider','value'),
@@ -155,22 +169,19 @@ def stopInterval(value,n,boolean,nMain,dataLive):
 
 
 @app.callback(Output('dataID','data'),
-              [Input('interval-component', 'n_intervals'),
-              Input('time-slider','value')],
+              [Input('interval-component', 'n_intervals')],
               [State('dataID','data')])
 def updateData(n,timeValue,oldData):
     global data_queue
     global stream_test_list
     global stream_id_list
-    global LOG
     ctx = dash.callback_context
     data = {}
-    if "time-slider" in ctx.triggered[0]["prop_id"]:
-        return initialData(startTimeSec = timeValue)
-    else:
-        for key in oldData.keys():
-            data[key] = pd.DataFrame(oldData[key])
-            data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time'])
+
+    for key in oldData.keys():
+        data[key] = pd.DataFrame(oldData[key])
+        data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time'])
+
     #get the data
     while not data_queue.empty():
         print data_queue.get()
@@ -189,9 +200,6 @@ def updateData(n,timeValue,oldData):
         data[key].reset_index(inplace=True)
         data[key] = data[key].to_dict('series')
         '''
-
-
-
     return data
 
 
@@ -247,7 +255,6 @@ def updateGraph(ts,data):
 
 
 if __name__ == '__main__':
-    LOG.setLevel(logging.DEBUG)
     data_queue = multiprocessing.Queue()
 
     sub = ['0038'.decode('ascii'),'0013'.decode('ascii')]
@@ -256,11 +263,17 @@ if __name__ == '__main__':
                     sub_list = sub)
     for stream in stream_test_list:
         stream_id_list[stream] = sub.get_stream_filter(stream)
+
+    print "getting class"
+    read = readStream.readStream()
+    print "getting list"
+    sub_list =  read.stream_list()
+
     print "running server"
-    app.layout = serve_layout
-    app.run_server(debug=True,use_reloader=False,host = '0.0.0.0')
+    app.layout = serve_layout_home()
+    app.run_server(debug=True,use_reloader=False)
     print "exiting"
-    sub.close()
+
 
 
 

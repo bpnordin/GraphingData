@@ -4,11 +4,10 @@ import time
 import sys
 import logging
 import ConfigParser
-from origin.client import origin_reciever,origin_reader
-import readStream
 import zmq
 import os
 import json
+import readStream
 
 def poller_loop(sub_addr,sub_list,data_queue,cmd_queue,logger):
     context = zmq.Context()

@@ -4,41 +4,56 @@ import random
 import time
 import zmq
 import json
+import logging
 
 
 from origin.client import server, random_data
 import ConfigParser
 
 class readStream():
-    def __init__(self):
-        configfile = "origin-server.cfg"
-        config = ConfigParser.ConfigParser()
-        config.read(configfile)
+
+    def __init__(self,debug=True,configfile = "origin-server.cfg"):
+        self.config = ConfigParser.ConfigParser()
+        self.config.read(configfile)
 
         self.context = zmq.Context()
         self.socket = self.context.socket(zmq.REQ)
-        host = config.get('Server','ip')
-        port = config.getint('Server','read_port')
-        self.socket.connect("tcp://%s:%s" % (host,port))
+        host = self.config.get('Server','ip')
+        port = self.config.getint('Server','read_port')
+        try:
+            self.socket.connect("tcp://%s:%s" % (host,port))
+        except:
+            print "error"
+            pass
+            #log something, throw error for other places to catch??
 
 
 
     def read_streams(self,stream,start=None,stop=None):
         data = None
-        print "sending raw read request for stream `{}`....".format(stream)
-        request_obj = { 'stream': stream, 'raw': True,'start' : start,'stop' : stop } 
-        print request_obj
-        self.socket.send(json.dumps(request_obj))
-        response = self.socket.recv()
-        data = json.loads(response)
-        print "+"*80
+        try:
+            request_obj = { 'stream': stream, 'raw': True,'start' : start,'stop' : stop } 
+            self.socket.send(json.dumps(request_obj))
+            response = self.socket.recv()
+            data = json.loads(response)
+        except Exception as e:
+            pass
         return data[1]
 
+    def stream_list(self):
+        data = None
+        try:
+            self.socket.send(json.dumps(''))
+            response = self.socket.recv()
+            data = json.loads(response)
+        except Exception as e:
+            print e
+        #list of keys sorted
+        if (data[0] == 1):
+            return data[1]
+        else:
+            return "error"
     def close(self):
         self.socket.close()
         self.context.term()
 
-if __name__ == "__main__":
-    read = readStream()
-    print read.read_streams(stop=time.time()-60)
-    read.close()
