@@ -38,7 +38,12 @@ class readStream():
             data = json.loads(response)
         except Exception as e:
             pass
-        return data[1]
+        
+        if data[0] == 1:
+            if data[1]['error'] == "Stream declared, but no data in range.":
+                return None
+            return data[1]
+        
 
     def stream_list(self):
         data = None

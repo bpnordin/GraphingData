@@ -9,8 +9,9 @@ def serve_layout_graph():
     return html.Div(
         html.Div([
             dcc.Store(id='dataID',
-                data = None),
+            ),
             dcc.Store(id='live'),
+            html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
                 id='interval-component',
@@ -33,7 +34,9 @@ def get_sub_list():
 
 def serve_layout_home():
     return html.Div([
-        dcc.Link(html.Button('Submit', id='submit-val', n_clicks=0),href = '/apps/graph'),
+        dcc.Store(id='dataID',
+                data = None),
+        dcc.Link(html.Button('Submit', id='submit_val', n_clicks=0),href = '/apps/graph'),
         dcc.Checklist(id = "subCheckList",
         options=[{'label': i, 'value': i} for i in get_sub_list()],
        # labelStyle={'display': 'inline-block'}
