@@ -1,0 +1,40 @@
+2020-11-30 12:52:20,636 - callbacks - DEBUG - started subscriber instance
+2020-11-30 12:59:19,062 - callbacks - DEBUG - started subscriber instance
+2020-11-30 12:59:24,708 - callbacks - INFO - 0038
+2020-11-30 12:59:24,708 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 12:59:24,708 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x117bdcb50>}
+2020-11-30 13:01:30,166 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:05:36,591 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:05:40,073 - callbacks - INFO - 0038
+2020-11-30 13:05:40,074 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 13:05:40,074 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x1052632d0>}
+2020-11-30 13:08:26,992 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:08:38,561 - callbacks - INFO - 0041
+2020-11-30 13:08:38,561 - callbacks - INFO - Subscribing to stream: Hybrid_Hybrid_Mux [0041]
+2020-11-30 13:08:38,561 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0041', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x10f5102d0>}
+2020-11-30 13:08:39,018 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-11-30 13:08:39,019 - callbacks - INFO - Updating stream definitions from server.
+2020-11-30 13:08:49,034 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-11-30 13:08:49,034 - callbacks - INFO - Updating stream definitions from server.
+2020-11-30 13:08:58,995 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-11-30 13:08:58,995 - callbacks - INFO - Updating stream definitions from server.
+2020-11-30 13:09:10,137 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-11-30 13:09:10,137 - callbacks - INFO - Updating stream definitions from server.
+2020-11-30 13:09:16,964 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:09:30,699 - callbacks - INFO - 0038
+2020-11-30 13:09:30,700 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 13:09:30,700 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x10f5102d0>}
+2020-11-30 13:11:10,461 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:11:16,211 - callbacks - INFO - 0038
+2020-11-30 13:11:16,211 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 13:11:16,211 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x109e7d2d0>}
+2020-11-30 13:11:36,780 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:12:53,140 - callbacks - INFO - 0038
+2020-11-30 13:12:53,141 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 13:12:53,141 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x109e7d2d0>}
+2020-11-30 13:13:45,606 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:14:21,105 - callbacks - DEBUG - started subscriber instance
+2020-11-30 13:14:28,205 - callbacks - INFO - 0038
+2020-11-30 13:14:28,206 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 13:14:28,206 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x1171782d0>}
+2020-11-30 13:14:40,866 - callbacks - DEBUG - started subscriber instance

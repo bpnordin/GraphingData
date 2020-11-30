@@ -6,6 +6,7 @@ import time
 import HybridSubscriber as hybrid_sub
 import ConfigParser,logging
 import pandas as pd
+import multiprocessing
 
 configFile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
@@ -24,12 +25,37 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
+subscriber = None
+DATA = {}
+SUB_TIME = None
+
+def reset():
+    global subscriber
+    if isinstance(subscriber,origin_subscriber.Subscriber):
+        #make sure that everyhting is shut down properly
+        subscriber.close()
+    #make the subscriber object again
+    subscriber = origin_subscriber.Subscriber(config,logger)
+    logger.debug("started subscriber instance")
+
+def subCallback(stream_id,data,state,log,crtl):
+    #store data locally 
+    return state
+
 @app.callback(
     Output("keyValues",'data'),
     Input('submit_val',"n_clicks"),
     State("subCheckList","value")
 )
 def storeKeys(n_clicks,keyList):
+    #now we should subscriber and also note the time
+    global subscriber
+    global SUB_TIME
+    if keyList is None:
+        return None
+    for sub in keyList:
+        subscriber.subscribe(sub)
+    SUB_TIME = time.time()
     return keyList
    
 
@@ -49,10 +75,12 @@ def updateData(n,subList,oldData):
         #get the data on start up
         read = origin_reader.Reader(config,logger) 
         timeWindow = 300
-        t = time.time()
-        data = {stream : pd.DataFrame(read.get_stream_raw_data(stream,start = t,stop = t-timeWindow))
-            for stream in subList}
+        global SUB_TIME
+        data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
+                stop = SUB_TIME-timeWindow) for stream in subList}
+        read.close()
         
+        '''
         #now format the data
         for key in data.keys():
             if not data[key].empty:
@@ -64,11 +92,12 @@ def updateData(n,subList,oldData):
                 data[key] = data[key].to_dict('series')
             else:
                 data[key] = None
-        read.close()
+                '''
 
         return data
-    print data_queue
-    return "test"
+    else:
+        #there is already data, just update it with the new data from the subscriber
+        pass
 """
     for key in oldData.keys():
         data[key] = pd.DataFrame(oldData[key])

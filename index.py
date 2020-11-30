@@ -1,6 +1,6 @@
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output,State
 import HybridSubscriber as hybrid_sub
 import multiprocessing
 import ConfigParser
@@ -9,6 +9,7 @@ import logging
 from app import app
 from layouts import serve_layout_graph,serve_layout_home
 import callbacks
+
 configFile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
 config.read(configFile)
@@ -37,12 +38,14 @@ app.layout = html.Div([
               Input('url', 'pathname'))
 def display_page(pathname):
     if pathname == '/apps/home':
-         return serve_layout_home()
+        callbacks.reset()
+        return serve_layout_home()
     elif pathname == '/apps/graph':
-         return serve_layout_graph()
+        return serve_layout_graph()
     else:
         return '404'
 
 if __name__ == '__main__':
     
     app.run_server(debug=True)
+    callbacks.subscriber.close()
