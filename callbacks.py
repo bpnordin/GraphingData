@@ -1,23 +1,28 @@
-import readStream
-import pandas as pd
+from origin.client import origin_reader,origin_subscriber
 from dash.dependencies import Input, Output,State
 import dash
 from app import app
 import time
 import HybridSubscriber as hybrid_sub
-import multiprocessing
-import ConfigParser
-import logging
+import ConfigParser,logging
+import pandas as pd
 
-configfile = "origin-server.cfg"
+configFile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
-config.read(configfile)
-
-data_queue = multiprocessing.Queue()
-
-sub = hybrid_sub.HybridSubscriber(config,logging.getLogger("__sub__"),
-                                    data_queue,
-                sub_list = None)
+config.read(configFile)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+fh = logging.FileHandler('callbacks.log')
+fh.setLevel(logging.DEBUG)
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+# create formatter and add it to the handlers
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)
+# add the handlers to the logger
+logger.addHandler(fh)
+logger.addHandler(ch)
 
 @app.callback(
     Output("keyValues",'data'),
@@ -32,26 +37,23 @@ def storeKeys(n_clicks,keyList):
 @app.callback(Output('dataID','data'),
               [Input('interval-component', 'n_intervals')],
               [State('keyValues','data'),State('dataID','data')])
-def updateData(n,keyList,oldData):
+def updateData(n,subList,oldData):
     ctx = dash.callback_context
-    global data_queue
     data = {}
 
     if oldData is None:
         #get the data
-        if keyList is None:
+        if subList is None:
+            #there is nothing selected, dont get the data
             return None
-        #this can throw an error if it cant connect to the server
-        read = readStream.readStream()
-        sub_dict = read.stream_list()['streams']
-        stream_id_list = {}
-        for key in keyList:
-            stream_id_list[key] = (str(sub_dict[key]['id']).zfill(4))
         #get the data on start up
-        startTimeSec = 300
-        data = {stream_id_list[stream]: pd.DataFrame(read.read_streams(stream,start=time.time(),stop=time.time()-startTimeSec)) for stream in keyList}
+        read = origin_reader.Reader(config,logger) 
+        timeWindow = 300
+        t = time.time()
+        data = {stream : pd.DataFrame(read.get_stream_raw_data(stream,start = t,stop = t-timeWindow))
+            for stream in subList}
         
-
+        #now format the data
         for key in data.keys():
             if not data[key].empty:
                 data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time']/float(1**32),unit="s")

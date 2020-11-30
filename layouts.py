@@ -1,8 +1,25 @@
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_daq as daq
-import readStream
+from origin.client import origin_reader
+import ConfigParser,logging
 
+configFile = "origin-server.cfg"
+config = ConfigParser.ConfigParser()
+config.read(configFile)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+fh = logging.FileHandler('callbacks.log')
+fh.setLevel(logging.DEBUG)
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+# create formatter and add it to the handlers
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)
+# add the handlers to the logger
+logger.addHandler(fh)
+logger.addHandler(ch)
 
 def serve_layout_graph():
     
@@ -27,8 +44,8 @@ def serve_layout_graph():
     )
 
 def get_sub_list():
-    read = readStream.readStream()
-    sub_list =sorted(read.stream_list()['streams'].keys()) 
+    read = origin_reader.Reader(config,logger)
+    sub_list =sorted(read.known_streams) 
     read.close()
     return sub_list
 

@@ -37,6 +37,7 @@ class readStream():
             response = self.socket.recv()
             data = json.loads(response)
         except Exception as e:
+            print e
             pass
         
         if data[0] == 1:
@@ -63,3 +64,13 @@ class readStream():
         self.context.term()
         print "closed"
 
+
+if __name__ == '__main__':
+    #unit testing of a sort
+    read = readStream()
+    test_streams = ['Hybrid_Mux']
+    for stream in test_streams:
+        print(read.read_streams(stream,start = time.time(),
+            stop = time.time()-300))
+        print (read.read_streams(stream))
+        
