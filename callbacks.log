@@ -38,3 +38,4 @@
 2020-11-30 13:14:28,206 - callbacks - INFO - Subscribing to stream: Hybrid_Mux [0038]
 2020-11-30 13:14:28,206 - callbacks - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function sub_print at 0x1171782d0>}
 2020-11-30 13:14:40,866 - callbacks - DEBUG - started subscriber instance
+2020-11-30 14:55:16,745 - callbacks - DEBUG - started subscriber instance

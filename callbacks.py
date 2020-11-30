@@ -25,9 +25,9 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
-subscriber = None
-DATA = {}
-SUB_TIME = None
+subscriber = origin_subscriber.Subscriber(config,logger) 
+DATA = 'data.csv'
+TIME = 'time.txt'
 
 def reset():
     global subscriber
@@ -39,7 +39,10 @@ def reset():
     logger.debug("started subscriber instance")
 
 def subCallback(stream_id,data,state,log,crtl):
-    #store data locally 
+    #store data locally in some file
+    #with all of the timedate stuff and all that already in there
+    df = pd.DataFrame(data)
+    df.to_csv(DATA,mode = 'a',header=False)
     return state
 
 @app.callback(
@@ -48,14 +51,16 @@ def subCallback(stream_id,data,state,log,crtl):
     State("subCheckList","value")
 )
 def storeKeys(n_clicks,keyList):
-    #now we should subscriber and also note the time
     global subscriber
-    global SUB_TIME
+    #now we should subscriber and also note the time
     if keyList is None:
         return None
     for sub in keyList:
-        subscriber.subscribe(sub)
-    SUB_TIME = time.time()
+        subscriber.subscribe(sub,callback=subCallback)
+    #store the time the subscribing happened in a file
+    with open(TIME,'w') as f:
+        f.write(time.time())
+
     return keyList
    
 
@@ -75,9 +80,13 @@ def updateData(n,subList,oldData):
         #get the data on start up
         read = origin_reader.Reader(config,logger) 
         timeWindow = 300
-        global SUB_TIME
-        data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
-                stop = SUB_TIME-timeWindow) for stream in subList}
+        SUB_TIME = open(TIME,'r').read()
+        
+        data = {stream :pd.DataFrame( read.get_stream_raw_data(stream,start = SUB_TIME,
+                stop = SUB_TIME-timeWindow)) for stream in subList}
+        
+        #save to file
+
         read.close()
         
         '''

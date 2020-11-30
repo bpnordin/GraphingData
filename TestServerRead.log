@@ -1,0 +1,54 @@
+2020-11-30 14:32:41,187 - __main__ - INFO - 0038
+2020-11-30 14:32:41,188 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:32:41,188 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x110126950>}
+2020-11-30 14:33:33,805 - __main__ - INFO - 0038
+2020-11-30 14:33:33,807 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:33:33,807 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x115d84950>}
+2020-11-30 14:33:56,429 - __main__ - INFO - 0038
+2020-11-30 14:33:56,431 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:33:56,431 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x108dbb950>}
+2020-11-30 14:35:46,644 - __main__ - INFO - 0038
+2020-11-30 14:35:46,644 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:35:46,645 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x11709a950>}
+2020-11-30 14:36:45,663 - __main__ - INFO - 0038
+2020-11-30 14:36:45,664 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:36:45,664 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x108305950>}
+2020-11-30 14:37:21,507 - __main__ - INFO - 0038
+2020-11-30 14:37:21,508 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:37:21,508 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x1083e7950>}
+2020-11-30 14:39:13,714 - __main__ - INFO - 0038
+2020-11-30 14:39:13,715 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:39:13,715 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x108b58950>}
+2020-11-30 14:40:34,883 - __main__ - INFO - 0038
+2020-11-30 14:40:34,883 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:40:34,883 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x107ae3950>}
+2020-11-30 14:41:02,296 - __main__ - INFO - 0038
+2020-11-30 14:41:02,296 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:41:02,297 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x114ad8950>}
+2020-11-30 14:42:40,343 - __main__ - INFO - 0038
+2020-11-30 14:42:40,344 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:42:40,344 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x114056950>}
+2020-11-30 14:42:40,587 - __main__ - INFO - 0038
+2020-11-30 14:42:40,587 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:42:40,588 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 3, 'callback': <function subCallback at 0x114056950>}
+2020-11-30 14:43:35,332 - __main__ - INFO - 0038
+2020-11-30 14:43:35,332 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:43:35,333 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x10d7f3950>}
+2020-11-30 14:45:05,808 - __main__ - INFO - 0038
+2020-11-30 14:45:05,809 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:45:05,809 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x10d9c0950>}
+2020-11-30 14:47:37,886 - __main__ - INFO - 0038
+2020-11-30 14:47:37,886 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:47:37,887 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x109202950>}
+2020-11-30 14:56:01,123 - __main__ - INFO - 0038
+2020-11-30 14:56:01,124 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:56:01,124 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x10f477950>}
+2020-11-30 14:56:01,361 - __main__ - INFO - 0013
+2020-11-30 14:56:01,361 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-11-30 14:56:01,361 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0013', 'kwargs': {}, 'id': 3, 'callback': <function subCallback at 0x10f477950>}
+2020-11-30 14:59:09,259 - __main__ - INFO - 0038
+2020-11-30 14:59:09,260 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-11-30 14:59:09,260 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0038', 'kwargs': {}, 'id': 1, 'callback': <function subCallback at 0x110e519d0>}
+2020-11-30 14:59:10,270 - __main__ - INFO - 0013
+2020-11-30 14:59:10,271 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-11-30 14:59:10,271 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0013', 'kwargs': {}, 'id': 3, 'callback': <function subCallback at 0x110e519d0>}

@@ -1,7 +1,8 @@
-from origin.client import origin_reader
+from origin.client import origin_reader,origin_subscriber
 import time
 import ConfigParser
 import logging
+import pandas as pd
 
 configFile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
@@ -19,9 +20,25 @@ ch.setFormatter(formatter)
 # add the handlers to the logger
 logger.addHandler(fh)
 logger.addHandler(ch)
+def subCallback(stream_id,data,state,log,crtl):
+    #store data locally in some file
+    #with all of the timedate stuff and all that already in there
+    print data
+    df = pd.DataFrame([data])
+    df.to_csv('test' + str(stream_id).strip()+ '.csv',mode = 'a',header=False,index=False)
+    return state
 
 reader = origin_reader.Reader(config,logger)
-test_streams = ['Hybrid_Mux']
+sub = origin_subscriber.Subscriber(config,logger)
+test_streams = ['Hybrid_Mux','Hybrid_Beam_Balances']
 for stream in test_streams:
-    print reader.get_stream_raw_data(stream,start = time.time(),stop = time.time()-300)
+    data = {stream: 
+        pd.DataFrame(reader.get_stream_raw_data(stream,start = time.time(),stop = time.time()-300))
+                        }
+    data[stream].to_csv('test' + str(stream).strip()+ '.csv',index=False)
+    sub.subscribe(stream,callback = subCallback)
 reader.close()
+time.sleep(10)
+sub.close()
+for stream in test_streams:
+    print pd.read_csv('test' + str(stream).strip()+ '.csv').tail()
