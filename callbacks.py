@@ -26,7 +26,9 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
-subscriber = origin_subscriber.Subscriber(config,logger) 
+def start():
+    global subscriber
+    subscriber = origin_subscriber.Subscriber(config,logger) 
 lengthFile = 'length.txt'
 
 def reset():
@@ -40,8 +42,13 @@ def reset():
 
 def subCallback(stream_id,data,state,log,crtl):
     #store data locally in some file
+    fileName = 'data'+str(stream_id)+'.csv'
     df = pd.DataFrame([data])
-    df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=False,index=False)
+    if os.path.isfile(fileName):
+        #make the header
+        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=True,index=False)
+    else:
+        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=False,index=False)
     log.debug('appended data to file')
     return state
 
@@ -67,6 +74,8 @@ def storeKeys(n_clicks,subList):
 def updateData(n,subList,oldData):
     global subscriber
     data = {}
+    logger.debug('went into update data')
+
 
     if not isinstance(subscriber,origin_subscriber.Subscriber):
         return None
@@ -89,16 +98,18 @@ def updateData(n,subList,oldData):
     else:
         #read the data from the sub file
         for stream in subList:
+            #can store these values locally in a store probably
             streamId = subscriber.get_stream_filter(stream)
-            data[stream] = pd.read_csv('data'+streamId+'.csv')
+            file = 'data'+streamId+'.csv'
+            data[stream] = pd.read_csv(file).to_dict('list')
             #clear the data in that file
-            os.remove('data'+streamId+'.csv')
+            os.remove(file)
+            logger.debug('read from subscriber file')
             #now add the data together
             '''
             data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=False, keys=None,
                     levels=None, names=None, verify_integrity=False, copy=True)
                     '''
-            logger.debug(data[stream].head())
         return data
 
 

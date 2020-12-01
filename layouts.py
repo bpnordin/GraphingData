@@ -25,10 +25,8 @@ def serve_layout_graph():
     
     return html.Div(
         html.Div([
-            dcc.Store(id='dataID',
-            ),dcc.Store(id='keyValues',
-                data = None,storage_type = 'local'),
-            dcc.Store(id='live'),
+            dcc.Store(id='dataID',storage_type = 'memory',data=None),
+            dcc.Store(id='keyValues', data = None,),
             html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -36,10 +34,10 @@ def serve_layout_graph():
                 interval=10*1000, # in milliseconds
                 n_intervals=0,
                 disabled = False
-            ),
+                ),
             daq.BooleanSwitch(id = '24hr-switch',on = False),
             html.Div(id = '24hr-graph-container',
-                children = [dcc.Graph(id='24hr-graph')]),
+                children = [dcc.Graph(id='24hr-graph') ])
         ])
     )
 
