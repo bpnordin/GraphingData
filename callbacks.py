@@ -7,6 +7,7 @@ import HybridSubscriber as hybrid_sub
 import ConfigParser,logging
 import pandas as pd
 import multiprocessing
+import os
 
 configFile = "origin-server.cfg"
 config = ConfigParser.ConfigParser()
@@ -26,8 +27,7 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 subscriber = origin_subscriber.Subscriber(config,logger) 
-DATA = 'data.csv'
-TIME = 'time.txt'
+lengthFile = 'length.txt'
 
 def reset():
     global subscriber
@@ -40,9 +40,9 @@ def reset():
 
 def subCallback(stream_id,data,state,log,crtl):
     #store data locally in some file
-    #with all of the timedate stuff and all that already in there
-    df = pd.DataFrame(data)
-    df.to_csv(DATA,mode = 'a',header=False)
+    df = pd.DataFrame([data])
+    df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=False,index=False)
+    log.debug('appended data to file')
     return state
 
 @app.callback(
@@ -50,18 +50,14 @@ def subCallback(stream_id,data,state,log,crtl):
     Input('submit_val',"n_clicks"),
     State("subCheckList","value")
 )
-def storeKeys(n_clicks,keyList):
+def storeKeys(n_clicks,subList):
     global subscriber
-    #now we should subscriber and also note the time
-    if keyList is None:
-        return None
-    for sub in keyList:
-        subscriber.subscribe(sub,callback=subCallback)
-    #store the time the subscribing happened in a file
-    with open(TIME,'w') as f:
-        f.write(time.time())
 
-    return keyList
+    #now subscribe
+    for sub in subList:
+        subscriber.subscribe(sub,callback=subCallback)
+
+    return subList
    
 
 
@@ -69,25 +65,49 @@ def storeKeys(n_clicks,keyList):
               [Input('interval-component', 'n_intervals')],
               [State('keyValues','data'),State('dataID','data')])
 def updateData(n,subList,oldData):
-    ctx = dash.callback_context
+    global subscriber
     data = {}
+
+    if not isinstance(subscriber,origin_subscriber.Subscriber):
+        return None
+
+    if subList is None:
+        return None
 
     if oldData is None:
         #get the data
-        if subList is None:
-            #there is nothing selected, dont get the data
-            return None
-        #get the data on start up
-        read = origin_reader.Reader(config,logger) 
         timeWindow = 300
-        SUB_TIME = open(TIME,'r').read()
-        
-        data = {stream :pd.DataFrame( read.get_stream_raw_data(stream,start = SUB_TIME,
-                stop = SUB_TIME-timeWindow)) for stream in subList}
-        
+        read = origin_reader.Reader(config,logger) 
+        SUB_TIME = time.time()
+            
+        data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
+                stop = SUB_TIME-timeWindow) for stream in subList}
+        logger.debug(data)
         #save to file
-
         read.close()
+        return data
+    else:
+        #read the data from the sub file
+        for stream in subList:
+            streamId = subscriber.get_stream_filter(stream)
+            data[stream] = pd.read_csv('data'+streamId+'.csv')
+            #clear the data in that file
+            os.remove('data'+streamId+'.csv')
+            #now add the data together
+            '''
+            data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=False, keys=None,
+                    levels=None, names=None, verify_integrity=False, copy=True)
+                    '''
+            logger.debug(data[stream].head())
+        return data
+
+
+
+
+
+    # put the data through filters
+    # remove the old data    
+   
         
         '''
         #now format the data
@@ -103,10 +123,6 @@ def updateData(n,subList,oldData):
                 data[key] = None
                 '''
 
-        return data
-    else:
-        #there is already data, just update it with the new data from the subscriber
-        pass
 """
     for key in oldData.keys():
         data[key] = pd.DataFrame(oldData[key])

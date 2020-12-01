@@ -27,7 +27,7 @@ def serve_layout_graph():
         html.Div([
             dcc.Store(id='dataID',
             ),dcc.Store(id='keyValues',
-                data = None,storage_type = 'session'),
+                data = None,storage_type = 'local'),
             dcc.Store(id='live'),
             html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
