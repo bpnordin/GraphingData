@@ -7,6 +7,7 @@ import configparser,logging
 import pandas as pd
 import multiprocessing
 import os
+import reciever
 
 configFile = "origin-server.cfg"
 config = configparser.ConfigParser(inline_comment_prefixes=';')
@@ -33,17 +34,15 @@ logger.addHandler(ch)
     State("subCheckList","value")
 )
 def storeKeys(n_clicks,subList):
-
     return subList
    
 
 
 @app.callback(Output('dataID','data'),
               [Input('interval-component', 'n_intervals')],
-              [State('keyValues','data'),State('dataID','data'),State('streamId','data')])
-def updateData(n,subList,oldData,streamId):
+              [State('keyValues','data'),State('dataID','data'),State('streamID','data')])
+def updateData(n,subList,oldData,streamID):
     data = {}
-    logger.debug('went into update data')
 
     if subList is None:
         return None
@@ -51,7 +50,7 @@ def updateData(n,subList,oldData,streamId):
     if oldData is None:
         #get the data
         timeWindow = 300
-        read = origin_reader.Reader(config,logger) 
+        read = reader.Reader(config,logger) 
         SUB_TIME = time.time()
             
         data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
@@ -64,7 +63,7 @@ def updateData(n,subList,oldData,streamId):
         #read the data from the sub file
         for stream in subList:
             #can store these values locally in a store probably
-            file = 'data'+streamId[stream]+'.csv'
+            file = 'data'+streamID[stream]+'.csv'
             data[stream] = pd.read_csv(file).to_dict('list')
             #clear the data in that file
             os.remove(file)

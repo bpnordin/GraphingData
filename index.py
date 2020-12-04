@@ -46,38 +46,49 @@ def subCallback(stream_id,data,state,log,crtl):
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     html.Div(id='page-content'),
-    dcc.Store(id='keyValues'),
-    dcc.Store(id='streamId',
-            data = None,storage_type = 'session'),
+    dcc.Store(id='subscribeBoolean',
+            data = False),
 
 ])
-
-@app.callback([Output('page-content', 'children'),Output('streamId','data')],
-              Input('url', 'pathname'),
-              State('keyValues','data'))
-def display_page(pathname,stream_list):
-    if pathname == '/apps/home':
-        return serve_layout_home(),None
-    elif pathname == '/apps/graph':
-        #check to see if they have selected things to sub to
-        #then sub here, make sure only once tho
-        streamId = None
-        try: 
-            streamId = {}
-            if stream_list is not None:
-                for stream in stream_list:
-                    subscriber.subscribe(stream,callback=subCallback)
-                    streamId[stream] = subscriber.get_stream_filter(stream)
-
+@app.callback(Output('subscribeBoolean','data'),Input('keyValues','modified_timestamp'),State('keyValues','data'),State('subscribeBoolean','data'))
+def start_sub(n,streamList,subscribed):
+    if streamList is None:
+        #too early
+        raise  dash.exceptions.PreventUpdate
+    if subscribed == False:
+        try:
+            for stream in streamList:
+                sub.subscribe(stream)
+                logger.debug('subbed to {}'.format(stream))
+            return True
         except Exception as e:
-            logger.debug(e)
+            logger.error(e)
+    return False
 
-        logger.debug(streamId)
-        return serve_layout_graph(),streamId
+@app.callback(Output('streamID','data'),
+        Input('interval-component',"n_intervals"),[State('keyValues','data'),State('streamID','data')])
+def get_streamID(n_intervals,subList,data):
+    if data is None or data == []:
+        data = []
+        for stream in subList:
+            data.append(sub.get_stream_filter(stream)) 
+        logger.debug(data)
+        return data
     else:
-        return '404',None
+        return data
+
+@app.callback(Output('page-content', 'children'),
+              Input('url', 'pathname'))
+def display_page(pathname):
+    if pathname == '/apps/home':
+        sub.unsubscribe_all()
+        return serve_layout_home()
+    elif pathname == '/apps/graph':
+        return serve_layout_graph()
+    else:
+        return '404'
 
 if __name__ == '__main__':
-    subscriber = subscriber.Subscriber(config,logger)
+    sub = subscriber.Subscriber(config,logger)
     app.run_server(debug=True)
-    subscriber.close()
+    sub.close()

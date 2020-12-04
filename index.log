@@ -24,3 +24,170 @@ KeyboardInterrupt
 2020-12-01 16:32:59,083 - __main__ - DEBUG - {}
 2020-12-01 16:34:30,766 - __main__ - DEBUG - {}
 2020-12-04 12:02:55,268 - __main__ - DEBUG - {}
+2020-12-04 13:39:03,245 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fa9591ddfd0>
+2020-12-04 13:39:13,157 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fa9591ddfd0>
+2020-12-04 13:39:51,711 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:39:56,718 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:40:06,652 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:40:16,645 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:40:26,642 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:40:36,641 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:40:46,649 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fda33290fd0>
+2020-12-04 13:41:03,312 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:41:13,266 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:41:23,248 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:41:33,246 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:41:43,244 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:41:53,243 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7fca9530dfd0>
+2020-12-04 13:42:08,796 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:42:18,679 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:42:28,682 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:42:38,679 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:42:48,683 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:42:58,684 - __main__ - DEBUG - <subscriber.Subscriber object at 0x7f7b97c43fd0>
+2020-12-04 13:44:15,533 - __main__ - INFO - 0038
+2020-12-04 13:44:15,533 - __main__ - DEBUG - ['0038']
+2020-12-04 13:44:25,481 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:44:35,460 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:44:45,465 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:44:55,477 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:05,497 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:15,531 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:25,481 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:35,465 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:45,462 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:45:55,547 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:05,467 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:15,466 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:25,480 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:35,531 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:45,480 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:46:55,462 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:05,480 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:15,480 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:25,466 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:35,465 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:45,480 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:47:55,498 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:00,923 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:08,948 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:18,893 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:28,893 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:38,885 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:48,886 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:53:58,883 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:15,933 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:18,981 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:28,918 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:38,918 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:48,917 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:54:58,923 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:55:08,919 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:55:20,700 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:55:30,699 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:55:40,699 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:55:50,699 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:56:00,699 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:56:36,284 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:56:46,254 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:56:56,251 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:57:06,257 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:57:16,537 - __main__ - INFO - 0038
+2020-12-04 13:57:16,537 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 13:57:16,538 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f5ee3cd1700>, 'kwargs': {}, 'id': 1}
+2020-12-04 13:57:16,538 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:57:16,540 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-04 13:57:29,934 - __main__ - INFO - 0038
+2020-12-04 13:57:29,934 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 13:57:29,934 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f5ee3cd1700>, 'kwargs': {}, 'id': 3}
+2020-12-04 13:57:29,935 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 13:57:29,935 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-04 14:08:05,561 - __main__ - INFO - 0038
+2020-12-04 14:08:05,562 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 14:08:05,562 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f016f7b4700>, 'kwargs': {}, 'id': 1}
+2020-12-04 14:08:05,562 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-04 14:08:05,563 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:08:18,428 - __main__ - INFO - 0038
+2020-12-04 14:08:18,428 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 14:08:18,429 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:08:18,429 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f016f7b4700>, 'kwargs': {}, 'id': 3}
+2020-12-04 14:08:18,430 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-04 14:08:28,339 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:08:38,353 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:08:48,359 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:08:58,357 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:09:07,754 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:09:16,949 - __main__ - INFO - 0038
+2020-12-04 14:09:16,949 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 14:09:16,950 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:09:16,950 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7efdc5a22700>, 'kwargs': {}, 'id': 1}
+2020-12-04 14:09:16,951 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-04 14:09:32,650 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:09:42,621 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:09:52,619 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:02,619 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:12,608 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:22,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:32,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:42,611 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:10:52,620 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:02,612 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:12,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:22,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:32,606 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:42,605 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:11:52,603 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:02,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:12,605 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:22,605 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:32,682 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:42,604 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:12:52,605 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:02,607 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:16,153 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:26,077 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:36,097 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:46,596 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:46,770 - __main__ - DEBUG - None
+2020-12-04 14:13:46,771 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:48,628 - __main__ - DEBUG - False
+2020-12-04 14:13:48,680 - __main__ - DEBUG - False
+2020-12-04 14:13:51,214 - __main__ - DEBUG - None
+2020-12-04 14:13:51,216 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:13:51,237 - __main__ - DEBUG - None
+2020-12-04 14:14:01,144 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:14:11,142 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:14:21,142 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:14:31,145 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:14:41,166 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:14:51,144 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:01,145 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:11,146 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:21,145 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:31,146 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:41,151 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:49,709 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:15:50,255 - __main__ - ERROR - 'NoneType' object is not iterable
+2020-12-04 14:15:50,364 - __main__ - ERROR - 'NoneType' object is not iterable
+2020-12-04 14:15:54,165 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:04,069 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:14,074 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:24,069 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:34,073 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:44,105 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:16:54,078 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:04,075 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:14,075 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:24,076 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:34,078 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:44,077 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:17:54,097 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:18:04,075 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:18:14,077 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:18:24,098 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:18:34,083 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:18:44,082 - __main__ - DEBUG - ran the else['0038']
+2020-12-04 14:19:40,140 - __main__ - INFO - 0038
+2020-12-04 14:19:40,140 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 14:19:40,140 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f6df6076790>, 'kwargs': {}, 'id': 1}
+2020-12-04 14:19:40,140 - __main__ - DEBUG - subbed to Hybrid_Mux

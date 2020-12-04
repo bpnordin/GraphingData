@@ -2,7 +2,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_daq as daq
 import configparser,logging
-import reader,subscriber
+import reader,subscriber,reciever
 
 configFile = "origin-server.cfg"
 config = configparser.ConfigParser(inline_comment_prefixes=';')
@@ -26,8 +26,10 @@ def serve_layout_graph():
     return html.Div(
         html.Div([
             dcc.Store(id='dataID',storage_type = 'memory',data=None),
-            dcc.Store(id='streamId',
+            dcc.Store(id='streamID',
                     data = None,storage_type = 'session'),
+            dcc.Store(id='keyValues'),
+            dcc.Store(id='subscribeBoolean'),
             html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -44,19 +46,17 @@ def serve_layout_graph():
 
 def get_sub_list():
     read = reader.Reader(config,logger)
-    sub_list =sorted(read.known_streams) 
+    sub_list = sorted(read.known_streams) 
     read.close()
     return sub_list
 
 def serve_layout_home():
     return html.Div([
         dcc.Store(id='keyValues',
-                data = None,storage_type = 'session'),
-        dcc.Store(id='streamId',
-                data = None,storage_type = 'session'),
+                data = None),
+        dcc.Store(id='subscribeBoolean',
+                data = False),
         dcc.Link(html.Button('Submit', id='submit_val', n_clicks=0),href = '/apps/graph'),
         dcc.Checklist(id = "subCheckList",
-        options=[{'label': i, 'value': i} for i in get_sub_list()],
-       # labelStyle={'display': 'inline-block'}
-        )
+        options=[{'label': i, 'value': i} for i in get_sub_list()])
     ])

@@ -102,6 +102,13 @@ def poller_loop(sub_addr, queue):
                 log.info(msg.format(cmd['stream_filter']))
                 sub_sock.setsockopt_string(zmq.UNSUBSCRIBE, stream_filter)
 
+            if (cmd['action'] == 'UNSUBSCRIBE_ALL'):
+                msg = 'Unsubscribing to all streams'
+                log.info(msg)
+                for stream_filter in subscriptions:
+                    sub_sock.setsockopt_string(zmq.UNSUBSCRIBE, stream_filter)
+                subscriptions = {}
+
             if cmd['action'] == 'REMOVE_ALL_CBS':
                 msg = 'Removing all callbacks for stream filter: [{}]'
                 log.info(msg.format(cmd['stream_filter']))
@@ -330,6 +337,17 @@ class Subscriber(reciever.Reciever):
         self.send_command({
             'action': 'UNSUBSCRIBE',
             'stream_filter': stream_filter,
+        })
+
+    def unsubscribe_all(self):
+        """Unsubscribe from stream at the publisher.
+        Calling this leaves the callbacks associated with the data stream.
+        Call remove_callbacks if you want to remove the callbacks.
+        @param stream A string holding the stream name
+        """
+        self.send_command({
+            'action': 'UNSUBSCRIBE_ALL',
+            'stream_filter': None,
         })
 
     def reset(self, stream, id):
