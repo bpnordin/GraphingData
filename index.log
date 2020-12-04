@@ -1,0 +1,26 @@
+2020-12-01 16:24:03,113 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/.pyenv/versions/2.7.18/lib/python2.7/site-packages/origin/client/origin_reciever.py", line 53, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 791, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 827, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+    PyErr_CheckSignals()
+KeyboardInterrupt
+2020-12-01 16:24:04,385 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/.pyenv/versions/2.7.18/lib/python2.7/site-packages/origin/client/origin_reciever.py", line 53, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 791, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 827, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+    PyErr_CheckSignals()
+KeyboardInterrupt
+2020-12-01 16:30:58,320 - __main__ - DEBUG - {}
+2020-12-01 16:31:43,865 - __main__ - DEBUG - {}
+2020-12-01 16:32:29,467 - __main__ - DEBUG - {}
+2020-12-01 16:32:59,083 - __main__ - DEBUG - {}
+2020-12-01 16:34:30,766 - __main__ - DEBUG - {}
+2020-12-04 12:02:55,268 - __main__ - DEBUG - {}

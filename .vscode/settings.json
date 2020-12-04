@@ -1,5 +1,4 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.pythonPath": "/Users/bradleynordin/.pyenv/versions/2.7.18/bin/python"
+    "python.linting.enabled": true
 }

@@ -1,11 +1,11 @@
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_daq as daq
-from origin.client import origin_reader
-import ConfigParser,logging
+import configparser,logging
+import reader,subscriber
 
 configFile = "origin-server.cfg"
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser(inline_comment_prefixes=';')
 config.read(configFile)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -26,7 +26,8 @@ def serve_layout_graph():
     return html.Div(
         html.Div([
             dcc.Store(id='dataID',storage_type = 'memory',data=None),
-            dcc.Store(id='keyValues', data = None,),
+            dcc.Store(id='streamId',
+                    data = None,storage_type = 'session'),
             html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
@@ -42,7 +43,7 @@ def serve_layout_graph():
     )
 
 def get_sub_list():
-    read = origin_reader.Reader(config,logger)
+    read = reader.Reader(config,logger)
     sub_list =sorted(read.known_streams) 
     read.close()
     return sub_list
@@ -50,6 +51,8 @@ def get_sub_list():
 def serve_layout_home():
     return html.Div([
         dcc.Store(id='keyValues',
+                data = None,storage_type = 'session'),
+        dcc.Store(id='streamId',
                 data = None,storage_type = 'session'),
         dcc.Link(html.Button('Submit', id='submit_val', n_clicks=0),href = '/apps/graph'),
         dcc.Checklist(id = "subCheckList",

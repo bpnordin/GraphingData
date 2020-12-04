@@ -1,16 +1,15 @@
-from origin.client import origin_reader,origin_subscriber
 from dash.dependencies import Input, Output,State
+import reader,subscriber
 import dash
 from app import app
 import time
-import HybridSubscriber as hybrid_sub
-import ConfigParser,logging
+import configparser,logging
 import pandas as pd
 import multiprocessing
 import os
 
 configFile = "origin-server.cfg"
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser(inline_comment_prefixes=';')
 config.read(configFile)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -26,31 +25,7 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
-def start():
-    global subscriber
-    subscriber = origin_subscriber.Subscriber(config,logger) 
-lengthFile = 'length.txt'
 
-def reset():
-    global subscriber
-    if isinstance(subscriber,origin_subscriber.Subscriber):
-        #make sure that everyhting is shut down properly
-        subscriber.close()
-    #make the subscriber object again
-    subscriber = origin_subscriber.Subscriber(config,logger)
-    logger.debug("started subscriber instance")
-
-def subCallback(stream_id,data,state,log,crtl):
-    #store data locally in some file
-    fileName = 'data'+str(stream_id)+'.csv'
-    df = pd.DataFrame([data])
-    if os.path.isfile(fileName):
-        #make the header
-        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=True,index=False)
-    else:
-        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=False,index=False)
-    log.debug('appended data to file')
-    return state
 
 @app.callback(
     Output("keyValues",'data'),
@@ -58,11 +33,6 @@ def subCallback(stream_id,data,state,log,crtl):
     State("subCheckList","value")
 )
 def storeKeys(n_clicks,subList):
-    global subscriber
-
-    #now subscribe
-    for sub in subList:
-        subscriber.subscribe(sub,callback=subCallback)
 
     return subList
    
@@ -70,15 +40,10 @@ def storeKeys(n_clicks,subList):
 
 @app.callback(Output('dataID','data'),
               [Input('interval-component', 'n_intervals')],
-              [State('keyValues','data'),State('dataID','data')])
-def updateData(n,subList,oldData):
-    global subscriber
+              [State('keyValues','data'),State('dataID','data'),State('streamId','data')])
+def updateData(n,subList,oldData,streamId):
     data = {}
     logger.debug('went into update data')
-
-
-    if not isinstance(subscriber,origin_subscriber.Subscriber):
-        return None
 
     if subList is None:
         return None
@@ -99,8 +64,7 @@ def updateData(n,subList,oldData):
         #read the data from the sub file
         for stream in subList:
             #can store these values locally in a store probably
-            streamId = subscriber.get_stream_filter(stream)
-            file = 'data'+streamId+'.csv'
+            file = 'data'+streamId[stream]+'.csv'
             data[stream] = pd.read_csv(file).to_dict('list')
             #clear the data in that file
             os.remove(file)

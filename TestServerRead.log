@@ -52,3 +52,39 @@
 2020-11-30 14:59:10,270 - __main__ - INFO - 0013
 2020-11-30 14:59:10,271 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
 2020-11-30 14:59:10,271 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': u'0013', 'kwargs': {}, 'id': 3, 'callback': <function subCallback at 0x110e519d0>}
+2020-12-04 11:38:16,997 - __main__ - INFO - 0038
+2020-12-04 11:38:16,997 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:38:16,997 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7ffb11fc9040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:38:18,186 - __main__ - INFO - 0013
+2020-12-04 11:38:18,186 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:38:18,186 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7ffb11fc9040>, 'kwargs': {}, 'id': 3}
+2020-12-04 11:44:28,918 - __main__ - INFO - 0038
+2020-12-04 11:44:28,918 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:44:28,918 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7fe72f293040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:44:29,489 - __main__ - INFO - 0013
+2020-12-04 11:44:29,489 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:44:29,489 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7fe72f293040>, 'kwargs': {}, 'id': 3}
+2020-12-04 11:45:30,018 - __main__ - INFO - 0038
+2020-12-04 11:45:30,018 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:45:30,018 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f0b1b721040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:45:30,579 - __main__ - INFO - 0013
+2020-12-04 11:45:30,579 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:45:30,579 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7f0b1b721040>, 'kwargs': {}, 'id': 3}
+2020-12-04 11:47:43,199 - __main__ - INFO - 0038
+2020-12-04 11:47:43,199 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:47:43,199 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f582e8a0040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:47:43,644 - __main__ - INFO - 0013
+2020-12-04 11:47:43,644 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:47:43,644 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7f582e8a0040>, 'kwargs': {}, 'id': 3}
+2020-12-04 11:49:28,321 - __main__ - INFO - 0038
+2020-12-04 11:49:28,321 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:49:28,322 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f894bb0e040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:49:28,801 - __main__ - INFO - 0013
+2020-12-04 11:49:28,801 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:49:28,801 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7f894bb0e040>, 'kwargs': {}, 'id': 3}
+2020-12-04 11:53:27,633 - __main__ - INFO - 0038
+2020-12-04 11:53:27,634 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-04 11:53:27,634 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7fc4a92fe040>, 'kwargs': {}, 'id': 1}
+2020-12-04 11:53:28,175 - __main__ - INFO - 0013
+2020-12-04 11:53:28,175 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-04 11:53:28,175 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function sub_print at 0x7fc4a92fe040>, 'kwargs': {}, 'id': 3}
