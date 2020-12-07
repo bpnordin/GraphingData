@@ -31,56 +31,80 @@ logger.addHandler(ch)
 
 import os
 import pandas as pd
+import re
+
+def reset():
+    try:
+        #unsubscribe
+        sub.unsubscribe_all()
+    except NameError:
+        logger.exception("tried unsubscribing with no sub function")
+
+    #delete all of the csv data
+    fileList = os.listdir()
+    r = re.compile('data\w*.csv')
+    csvList = list(filter(r.match, fileList))
+    map(os.remove,csvList)
+
+
 
 def subCallback(stream_id,data,state,log,crtl):
     #store data locally in some file
     fileName = 'data'+str(stream_id)+'.csv'
     df = pd.DataFrame([data])
     if os.path.isfile(fileName):
-        #make the header
-        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=True,index=False)
+        #the file exists, we dont have to make it
+        df.to_csv(fileName,mode = 'a',header=False,index=False)
     else:
-        df.to_csv('data'+str(stream_id)+'.csv',mode = 'a',header=False,index=False)
+        #make the file with headers
+        df.to_csv(fileName,mode = 'w',header=True,index=False)
     return state
 
 
-@app.callback(Output('subscribeBoolean','data'),Input('keyValues','modified_timestamp'),State('keyValues','data'),State('subscribeBoolean','data'))
+@app.callback(Output('subscribeBoolean','data'),
+            Input('keyValues','modified_timestamp'),
+            State('keyValues','data'),State('subscribeBoolean','data'))
 def start_sub(n,streamList,subscribed):
-
+    logger.debug("""starting subscriber with {} timestamp
+                {} stream List
+                {} subscription boolean""".format(n,streamList,subscribed))
     if streamList is None:
         #too early
         raise PreventUpdate 
     try:
         for stream in streamList:
-            sub.subscribe(stream)
+            sub.subscribe(stream ,callback = subCallback)
             logger.debug('subbed to {}'.format(stream))
         return True
     except Exception as e:
         logger.error(e)
-
-    raise PreventUpdate 
+    return False
 
 @app.callback(Output('streamID','data'),
-        Input('interval-component',"n_intervals"),[State('keyValues','data'),State('streamID','data')])
+        Input('interval-component',"n_intervals"),
+        [State('keyValues','data'),State('streamID','data')])
 def get_streamID(n_intervals,subList,data):
-    if data is None or data == []:
-        data = []
+    if data is None or data == {}:
+        data = {}
         for stream in subList:
-            data.append(sub.get_stream_filter(stream)) 
-        logger.debug(data)
+            logger.debug(stream)
+            data[stream] = sub.get_stream_filter(stream)
+        logger.debug("The dict with all of the streamID is {}".format(data))
         return data
     else:
+        logger.debug("")
         return data
 
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
 def display_page(pathname):
     if pathname == '/apps/home':
-        sub.unsubscribe_all()
+        reset()
         return serve_layout_home()
     elif pathname == '/apps/graph':
         return serve_layout_graph()
     else:
+        reset()
         return '404'
 
 if __name__ == '__main__':

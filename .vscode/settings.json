@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0"
 }

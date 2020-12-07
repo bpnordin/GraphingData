@@ -26,9 +26,9 @@ def sub_print(stream_id, data, state, log, ctrl):
 
 def poller_loop(sub_addr, queue):
     log = logging.getLogger('poller')
-    log.setLevel(logging.DEBUG)
+    log.setLevel(logging.INFO)
     ch = logging.StreamHandler()
-    ch.setLevel(logging.DEBUG)
+    ch.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
     log.addHandler(ch)
@@ -203,7 +203,6 @@ def poller_loop(sub_addr, queue):
                 #i think, maybe
                 log.exception('streamID does not need to be decoded anymore')
             try:
-                log.debug("new data")
                 for cb in subscriptions[streamID]:
                     if cb['control']['pause'] == False:
                         cb['state'] = cb['callback'](

@@ -55,7 +55,6 @@ def updateData(n,subList,oldData,streamID):
             
         data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
                 stop = SUB_TIME-timeWindow) for stream in subList}
-        logger.debug(data)
         #save to file
         read.close()
         return data
@@ -64,15 +63,20 @@ def updateData(n,subList,oldData,streamID):
         for stream in subList:
             #can store these values locally in a store probably
             file = 'data'+streamID[stream]+'.csv'
-            data[stream] = pd.read_csv(file).to_dict('list')
+            try:
+                data[stream] = pd.read_csv(file).to_dict('list')
+                os.remove(file)
+            except Exception as e:
+                logging.exception(e)
             #clear the data in that file
-            os.remove(file)
             logger.debug('read from subscriber file')
             #now add the data together
             '''
             data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=False, keys=None,
                     levels=None, names=None, verify_integrity=False, copy=True)
                     '''
+            
+        
         return data
 
 
