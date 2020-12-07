@@ -5,6 +5,7 @@ import multiprocessing
 import configparser
 import logging
 import reader,subscriber
+from dash.exceptions import PreventUpdate
 
 from app import app
 from layouts import serve_layout_graph,serve_layout_home
@@ -43,27 +44,21 @@ def subCallback(stream_id,data,state,log,crtl):
     return state
 
 
-app.layout = html.Div([
-    dcc.Location(id='url', refresh=False),
-    html.Div(id='page-content'),
-    dcc.Store(id='subscribeBoolean',
-            data = False),
-
-])
 @app.callback(Output('subscribeBoolean','data'),Input('keyValues','modified_timestamp'),State('keyValues','data'),State('subscribeBoolean','data'))
 def start_sub(n,streamList,subscribed):
+
     if streamList is None:
         #too early
-        raise  dash.exceptions.PreventUpdate
-    if subscribed == False:
-        try:
-            for stream in streamList:
-                sub.subscribe(stream)
-                logger.debug('subbed to {}'.format(stream))
-            return True
-        except Exception as e:
-            logger.error(e)
-    return False
+        raise PreventUpdate 
+    try:
+        for stream in streamList:
+            sub.subscribe(stream)
+            logger.debug('subbed to {}'.format(stream))
+        return True
+    except Exception as e:
+        logger.error(e)
+
+    raise PreventUpdate 
 
 @app.callback(Output('streamID','data'),
         Input('interval-component',"n_intervals"),[State('keyValues','data'),State('streamID','data')])
@@ -89,6 +84,14 @@ def display_page(pathname):
         return '404'
 
 if __name__ == '__main__':
+
+    app.layout = html.Div([
+        dcc.Location(id='url', refresh=False),
+        html.Div(id='page-content'),
+        dcc.Store(id='subscribeBoolean',
+            data = False),
+    ])
     sub = subscriber.Subscriber(config,logger)
+
     app.run_server(debug=True)
     sub.close()

@@ -191,3 +191,13 @@ KeyboardInterrupt
 2020-12-04 14:19:40,140 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
 2020-12-04 14:19:40,140 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7f6df6076790>, 'kwargs': {}, 'id': 1}
 2020-12-04 14:19:40,140 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-05 14:23:32,254 - __main__ - INFO - 0038
+2020-12-05 14:23:32,255 - __main__ - INFO - 0038
+2020-12-05 14:23:32,255 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-05 14:23:32,256 - __main__ - DEBUG - ['0038']
+2020-12-05 14:23:32,256 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7fb9316be820>, 'kwargs': {}, 'id': 1}
+2020-12-05 14:23:32,257 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-05 14:23:54,068 - __main__ - INFO - 0038
+2020-12-05 14:23:54,069 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-05 14:23:54,070 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function sub_print at 0x7fb9316be820>, 'kwargs': {}, 'id': 3}
+2020-12-05 14:23:54,070 - __main__ - DEBUG - subbed to Hybrid_Mux
