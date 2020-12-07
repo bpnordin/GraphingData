@@ -28,12 +28,12 @@ def serve_layout_graph():
             dcc.Store(id='dataID',storage_type = 'memory',data=None),
             dcc.Store(id='keyValues'),
             dcc.Store(id='streamID'),
-            dcc.Store(id='subscribeBoolean'),
+            dcc.Store(id='subTime'),
             html.Button('Graph', id='graph_val', n_clicks=0),
             dcc.Graph(id='live-update-graph'),
             dcc.Interval(
                 id='interval-component',
-                interval=10*1000, # in milliseconds
+                interval=2*1000, # in milliseconds
                 n_intervals=0,
                 disabled = False
                 ),
@@ -53,8 +53,8 @@ def serve_layout_home():
     return html.Div([
         dcc.Store(id='keyValues',
                 data = None),
-        dcc.Store(id='subscribeBoolean',
-                data = False),
+        dcc.Store(id='subTime',
+                data = None ),
         dcc.Link(html.Button('Submit', id='submit_val', n_clicks=0),href = '/apps/graph'),
         dcc.Checklist(id = "subCheckList",
         options=[{'label': i, 'value': i} for i in get_sub_list()])

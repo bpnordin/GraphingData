@@ -6,6 +6,7 @@ import configparser
 import logging
 import reader,subscriber
 from dash.exceptions import PreventUpdate
+import time
 
 from app import app
 from layouts import serve_layout_graph,serve_layout_home
@@ -61,9 +62,9 @@ def subCallback(stream_id,data,state,log,crtl):
     return state
 
 
-@app.callback(Output('subscribeBoolean','data'),
+@app.callback(Output('subTime','data'),
             Input('keyValues','modified_timestamp'),
-            State('keyValues','data'),State('subscribeBoolean','data'))
+            State('keyValues','data'),State('subTime','data'))
 def start_sub(n,streamList,subscribed):
     logger.debug("""starting subscriber with {} timestamp
                 {} stream List
@@ -75,7 +76,7 @@ def start_sub(n,streamList,subscribed):
         for stream in streamList:
             sub.subscribe(stream ,callback = subCallback)
             logger.debug('subbed to {}'.format(stream))
-        return True
+        return time.time()
     except Exception as e:
         logger.error(e)
     return False
@@ -87,12 +88,10 @@ def get_streamID(n_intervals,subList,data):
     if data is None or data == {}:
         data = {}
         for stream in subList:
-            logger.debug(stream)
             data[stream] = sub.get_stream_filter(stream)
         logger.debug("The dict with all of the streamID is {}".format(data))
         return data
     else:
-        logger.debug("")
         return data
 
 @app.callback(Output('page-content', 'children'),
@@ -112,7 +111,7 @@ if __name__ == '__main__':
     app.layout = html.Div([
         dcc.Location(id='url', refresh=False),
         html.Div(id='page-content'),
-        dcc.Store(id='subscribeBoolean',
+        dcc.Store(id='subTime',
             data = False),
     ])
     sub = subscriber.Subscriber(config,logger)
