@@ -45,6 +45,7 @@ def reset():
     fileList = os.listdir()
     r = re.compile('data\w*.csv')
     csvList = list(filter(r.match, fileList))
+    logger.debug("deleting the files {}".format(csvList))
     map(os.remove,csvList)
 
 
@@ -68,7 +69,7 @@ def subCallback(stream_id,data,state,log,crtl):
 def start_sub(n,streamList,subscribed):
     logger.debug("""starting subscriber with {} timestamp
                 {} stream List
-                {} subscription boolean""".format(n,streamList,subscribed))
+                {} subscription time""".format(n,streamList,subscribed))
     if streamList is None:
         #too early
         raise PreventUpdate 
@@ -95,7 +96,7 @@ def get_streamID(n_intervals,subList,data):
         return data
 
 @app.callback(Output('page-content', 'children'),
-              Input('url', 'pathname'))
+              Input('url', 'pathname'),)
 def display_page(pathname):
     if pathname == '/apps/home':
         reset()
@@ -111,11 +112,10 @@ if __name__ == '__main__':
     app.layout = html.Div([
         dcc.Location(id='url', refresh=False),
         html.Div(id='page-content'),
-        dcc.Store(id='subTime',
-            data = False),
+        dcc.Store(id='subTime'),
     ])
+    reset()
     sub = subscriber.Subscriber(config,logger)
 
     app.run_server(debug=True)
     sub.close()
-    reset()

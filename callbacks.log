@@ -151,3 +151,1348 @@
 2020-12-07 15:35:20,627 - callbacks - DEBUG - 1607376918.321632
 2020-12-07 15:36:22,754 - callbacks - DEBUG - None
 2020-12-07 15:36:24,517 - callbacks - DEBUG - 1607376982.668967
+2020-12-07 15:46:09,338 - callbacks - DEBUG - None
+2020-12-07 15:46:11,038 - callbacks - DEBUG - 1607377568.630461
+2020-12-07 16:02:03,834 - callbacks - DEBUG - None
+2020-12-07 16:02:05,659 - callbacks - DEBUG - 1607378523.385078
+2020-12-07 16:02:59,982 - callbacks - DEBUG - 1607378578.1455739
+2020-12-07 16:03:53,599 - callbacks - DEBUG - None
+2020-12-07 16:03:55,551 - callbacks - DEBUG - 1607378633.526082
+2020-12-07 16:06:40,340 - callbacks - DEBUG - 1607378798.333062
+2020-12-07 16:08:44,542 - callbacks - DEBUG - 1607378922.567607
+2020-12-07 16:09:33,436 - callbacks - DEBUG - 1607378971.6459122
+2020-12-07 16:10:35,205 - callbacks - DEBUG - 1607379033.2042391
+2020-12-07 16:11:51,025 - callbacks - DEBUG - 1607379109.2102149
+2020-12-07 16:13:44,432 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:44,962 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:44,963 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:45,107 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:45,107 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:46,449 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:46,996 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:46,997 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:47,138 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:47,138 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:48,456 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:48,973 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:48,974 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:49,157 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:49,157 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:50,488 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:51,005 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:51,005 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:51,196 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:51,196 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:52,442 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:52,990 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:52,990 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:53,175 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:53,175 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:54,441 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:54,990 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:54,990 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:55,125 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:55,125 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:56,446 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:13:57,005 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:57,005 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:13:57,152 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:13:57,152 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:21,064 - callbacks - DEBUG - 1607379222.484425
+2020-12-07 16:14:21,903 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:21,903 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:22,085 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:22,085 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:26,251 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:26,432 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:26,433 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:28,348 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:28,535 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:28,535 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:30,293 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:30,478 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:30,478 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:32,284 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:32,472 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:32,472 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:34,312 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:34,495 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:34,496 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:14:36,278 - callbacks - DEBUG - 1607379264.332601
+2020-12-07 16:14:36,469 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:14:36,469 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:19:54,255 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:19:54,439 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:19:54,439 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:19:56,262 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:19:56,421 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:19:56,421 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:19:58,265 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:19:58,446 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:19:58,446 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:20:00,260 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:20:00,446 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:20:00,446 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:20:02,281 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:20:02,500 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:20:02,500 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:20:04,307 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:20:04,497 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:20:04,498 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:23:10,839 - callbacks - DEBUG - 1607379592.3186822
+2020-12-07 16:23:11,052 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 16:23:11,052 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 16:24:05,770 - callbacks - DEBUG - 1607379843.403379
+2020-12-07 16:25:41,328 - callbacks - DEBUG - 1607379939.423929
+2020-12-07 17:02:43,274 - callbacks - DEBUG - 1607382161.1938848
+2020-12-07 17:04:10,551 - callbacks - DEBUG - 1607382248.40146
+2020-12-07 17:16:32,155 - callbacks - ERROR - [Errno 2] No such file or directory: 'data0038.csv'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 90, in updateData
+    df = pd.read_csv(file)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'data0038.csv'
+2020-12-07 17:16:33,346 - callbacks - ERROR - [Errno 2] No such file or directory: 'data0038.csv'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 90, in updateData
+    df = pd.read_csv(file)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'data0038.csv'
+2020-12-07 17:16:43,536 - callbacks - DEBUG - 1607383002.5793018
+2020-12-07 17:24:54,178 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:24:56,183 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:24:58,178 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:00,193 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:02,203 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:04,206 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:06,220 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:08,216 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:10,269 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:12,219 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:14,230 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:16,209 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:18,216 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:20,213 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:22,224 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:24,231 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:26,265 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:28,216 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:30,241 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:32,227 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:34,232 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:36,230 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:38,236 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:40,234 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:42,266 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:44,241 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:46,244 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:48,248 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:50,246 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    data[stream] = df
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:52,247 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:25:54,284 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:24,379 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:24,401 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:32,496 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:32,498 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:34,497 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:34,498 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:36,519 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:36,520 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:38,512 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:38,514 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:40,549 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:40,550 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:42,536 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:42,539 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:44,519 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:44,520 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:46,532 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:46,533 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:55,773 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:55,774 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:57,787 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:57,790 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:26:59,774 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:26:59,775 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:27:01,806 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:27:01,807 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:27:03,782 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:27:03,783 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:27:05,843 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:27:05,844 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:29,774 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:29,778 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:31,784 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:31,789 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:33,792 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:33,793 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:35,790 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:35,791 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:37,794 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:37,794 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:39,787 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:39,788 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:41,800 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:41,801 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:28:43,806 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 94, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 17:28:43,807 - callbacks - ERROR - The data csv got messed up
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 101, in updateData
+    length = len(data[stream].index)
+KeyError: 'Hybrid_Mux'
+2020-12-07 17:32:21,781 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/callbacks.py", line 95, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/bradleynordin/.local/share/virtualenvs/GraphingData-5SWGkA_0/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'

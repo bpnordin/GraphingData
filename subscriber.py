@@ -26,9 +26,9 @@ def sub_print(stream_id, data, state, log, ctrl):
 
 def poller_loop(sub_addr, queue):
     log = logging.getLogger('poller')
-    log.setLevel(logging.INFO)
+    log.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
-    ch.setLevel(logging.INFO)
+    ch.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
     log.addHandler(ch)

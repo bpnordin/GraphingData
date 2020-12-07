@@ -1,4 +1,7 @@
 from dash.dependencies import Input, Output,State
+import numpy as np
+import dash_html_components as html
+import dash_core_components as dcc
 import reader,subscriber
 import dash
 from app import app
@@ -10,6 +13,7 @@ import os
 import reciever
 import pickle
 from dash.exceptions import PreventUpdate
+import re
 
 configFile = "origin-server.cfg"
 config = configparser.ConfigParser(inline_comment_prefixes=';')
@@ -28,6 +32,13 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
+def reset():
+    #delete all of the csv data
+    fileList = os.listdir()
+    r = re.compile('data\w*.csv')
+    csvList = list(filter(r.match, fileList))
+    map(os.remove,csvList)
+
 
 
 @app.callback(
@@ -44,60 +55,70 @@ def storeKeys(n_clicks,subList):
               [Input('interval-component', 'n_intervals')],
               [State('keyValues','data'),State('dataID','data'),State('streamID','data'),
               State('subTime','data')])
-def updateData(n,subList,oldData,streamID,time):
+def updateData(n,subList,oldData,streamID,subTime):
     data = {}
 
-    if subList is None:
-        return None
+    if subList is None or subTime is None:
+        raise PreventUpdate
 
     if oldData is None:
         #get the data
         timeWindow = 300
         read = reader.Reader(config,logger) 
-#        SUB_TIME = time.time()
-        SUB_TIME = time
-        logger.debug(time)
+        SUB_TIME = time.time()
+#        SUB_TIME = subTime
         
         data = {stream : pd.DataFrame(read.get_stream_raw_data(stream,start = SUB_TIME,
                 stop = SUB_TIME-timeWindow)) for stream in subList}
         #save to file
         read.close()
+        
         for stream in data:
-            df = data[stream]
-            df['measurement_time'] = df['measurement_time']/(2**32)
-            data[stream] = df.to_json()
+            if not data[stream].empty:
+                df = data[stream]
+                df['measurement_time'] = df['measurement_time']/(2**32)
+                data[stream] = df.to_json()
         return data
 
     else:
         #read the data from the sub file
         for stream in subList:
-            #can store these values locally in a store probably
             file = 'data'+streamID[stream]+'.csv'
             try:
-                df = pd.read_csv(file)
-                #now convert to datetime object
-                df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
-                data[stream] = df
-                #clear the data in that file
-                os.remove(file)
-            except Exception as e:
-                logging.exception(e)
+                try:
+                    df = pd.read_csv(file)
+                    os.remove(file)
+                    #now convert to datetime object
+                    if not df.empty:
 
-            length = len(data[stream].index)
-            oldData[stream] = pd.read_json(oldData[stream]).iloc[length:]
-            #now add the data together
-            data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=True, keys=None,
-                    levels=None, names=None, verify_integrity=False, copy=True)
-            
-            data[stream] = data[stream].to_json()
+                        df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+                        data[stream] = df
+                    #clear the data in that file
+                    length = len(data[stream].index)
+                except Exception as e:
+                    logger.exception(e)
+
+                oldData[stream] = pd.read_json(oldData[stream]).iloc[length:]
+                #now add the data together
+                data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=True, keys=None,
+                        levels=None, names=None, verify_integrity=False, copy=True)
+                
+                data[stream] = data[stream].to_json()
+            except KeyError:
+                logger.exception("The data csv got messed up")
+                reset()
+
         return data
 
-@app.callback(Output('live-update-graph','figure'),
+
+
+@app.callback(Output('live-update-graph-container','children'),
                 Input('dataID','modified_timestamp'),
                 State('dataID','data'))
 def graph(n,data):
     if data is None:
         raise PreventUpdate
+    graphs = []
     for stream in data:
         #graph
         df = pd.read_json(data[stream])
@@ -105,11 +126,50 @@ def graph(n,data):
         xx = df[meas]
         #graph 
         figure = {
-            'data':[]
+            'data':[],
+            'layout':{'title':'Graph of {} '.format(stream)}
         }
         for var in df.columns:
             if var != meas:
                 figure['data'].append({'x':xx,'y':df[var],'type':'line','name':var})
-        return figure
+        graphs.append(dcc.Graph(
+            id='graph-{}'.format(stream),
+            figure = figure))
+        return html.Div(graphs)
+
+@app.callback(Output('24hr-graph-container','style'),
+            Input('24hr-switch','on'))
+def show_graph(onBoolean):
+    if onBoolean:
+        return {'display': 'block'}
+    else:
+        return {'display':'none'}
+
+@app.callback(Output('24hr-graph-container','children'),
+    Input('24hr-switch','on'),
+    State('keyValues','data'))
+def graph_average(onBoolean,subList):
+    if onBoolean:
+        #start averaging over 24hrs
+        start = time.time()
+        stop = time.time()-60*60*24 #24hrs 
+        window = 60*60
+        read = reader.Reader(config,logger)
+        data = {}
+        figure = {}
+        for stream in subList:
+            data[stream] = []
+            for count,t in enumerate(np.arange(start,stop,window)):
+                start = start - window
+                stop = stop - window
+                val = read.get_stream_stat_data(stream,start=start,stop=stop)
+                data[stream].append(val)
+
+        read.close()
+
+    else:
+        raise PreventUpdate
+
+
 
 

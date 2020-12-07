@@ -708,3 +708,597 @@
 2020-12-07 15:38:40,607 - __main__ - DEBUG - 
 2020-12-07 15:38:42,608 - __main__ - DEBUG - 
 2020-12-07 15:38:44,644 - __main__ - DEBUG - 
+2020-12-07 15:38:46,622 - __main__ - DEBUG - 
+2020-12-07 15:38:48,606 - __main__ - DEBUG - 
+2020-12-07 15:38:50,606 - __main__ - DEBUG - 
+2020-12-07 15:38:52,640 - __main__ - DEBUG - 
+2020-12-07 15:38:54,626 - __main__ - DEBUG - 
+2020-12-07 15:38:56,600 - __main__ - DEBUG - 
+2020-12-07 15:38:58,629 - __main__ - DEBUG - 
+2020-12-07 15:39:00,622 - __main__ - DEBUG - 
+2020-12-07 15:39:02,630 - __main__ - DEBUG - 
+2020-12-07 15:39:04,635 - __main__ - DEBUG - 
+2020-12-07 15:39:06,634 - __main__ - DEBUG - 
+2020-12-07 15:39:08,685 - __main__ - DEBUG - 
+2020-12-07 15:39:12,149 - __main__ - DEBUG - 
+2020-12-07 15:39:17,354 - __main__ - DEBUG - 
+2020-12-07 15:39:39,949 - __main__ - DEBUG - 
+2020-12-07 15:39:41,770 - __main__ - DEBUG - 
+2020-12-07 15:39:43,721 - __main__ - DEBUG - 
+2020-12-07 15:39:45,690 - __main__ - DEBUG - 
+2020-12-07 15:39:54,930 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:39:55,070 - __main__ - DEBUG - starting subscriber with 1607377195027 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:46:08,624 - __main__ - DEBUG - starting subscriber with 1607377568499 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 15:46:08,625 - __main__ - INFO - 0038
+2020-12-07 15:46:08,626 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 15:46:08,627 - __main__ - INFO - 0038
+2020-12-07 15:46:08,628 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7faa64ed7940>, 'kwargs': {}, 'id': 1}
+2020-12-07 15:46:08,628 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 15:46:08,630 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 15:47:53,583 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 15:47:53,833 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:47:53,962 - __main__ - DEBUG - starting subscriber with 1607377673921 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:48:11,169 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 15:48:11,767 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:48:11,868 - __main__ - DEBUG - starting subscriber with 1607377691823 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:48:26,473 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 15:48:26,751 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:48:26,885 - __main__ - DEBUG - starting subscriber with 1607377706815 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:50:24,453 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 15:50:26,251 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 15:51:56,631 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 15:51:56,752 - __main__ - DEBUG - starting subscriber with 1607377916681 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:01:57,911 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:01:58,018 - __main__ - DEBUG - starting subscriber with 1607378517960 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:02:03,371 - __main__ - INFO - 0038
+2020-12-07 16:02:03,372 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:02:03,382 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:02:03,383 - __main__ - INFO - 0038
+2020-12-07 16:02:03,383 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:02:03,383 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fea365e1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:02:03,384 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:02:47,779 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:02:51,489 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:02:51,611 - __main__ - DEBUG - starting subscriber with 1607378571548 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:02:57,945 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:02:58,143 - __main__ - DEBUG - starting subscriber with 1607378578052 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:02:58,144 - __main__ - INFO - 0038
+2020-12-07 16:02:58,144 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:02:58,144 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f96706e7940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:02:58,145 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:02:59,928 - __main__ - INFO - 0038
+2020-12-07 16:02:59,929 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:03:51,128 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:03:51,263 - __main__ - DEBUG - starting subscriber with 1607378631206 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:03:53,510 - __main__ - INFO - 0038
+2020-12-07 16:03:53,510 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:03:53,525 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:03:53,525 - __main__ - INFO - 0038
+2020-12-07 16:03:53,525 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:03:53,525 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe17c6dd940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:03:53,525 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:06:31,193 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:06:34,639 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:06:34,791 - __main__ - DEBUG - starting subscriber with 1607378794707 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:06:38,314 - __main__ - INFO - 0038
+2020-12-07 16:06:38,315 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:06:38,331 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:06:38,331 - __main__ - INFO - 0038
+2020-12-07 16:06:38,331 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:06:38,332 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fce00de1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:06:38,332 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:08:37,808 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:08:37,932 - __main__ - DEBUG - starting subscriber with 1607378917871 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:08:42,566 - __main__ - DEBUG - starting subscriber with 1607378922473 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:08:42,567 - __main__ - INFO - 0038
+2020-12-07 16:08:42,567 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:08:42,567 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fbcecde2940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:08:42,567 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:08:42,575 - __main__ - INFO - 0038
+2020-12-07 16:08:42,576 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:09:26,424 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:09:28,587 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:09:28,708 - __main__ - DEBUG - starting subscriber with 1607378968662 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:09:31,389 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:09:31,644 - __main__ - DEBUG - starting subscriber with 1607378971574 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:09:31,645 - __main__ - INFO - 0038
+2020-12-07 16:09:31,645 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:09:31,645 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f86796e4940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:09:31,645 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:09:33,370 - __main__ - INFO - 0038
+2020-12-07 16:09:33,371 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:10:25,631 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:10:30,491 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:10:30,597 - __main__ - DEBUG - starting subscriber with 1607379030535 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:10:33,203 - __main__ - DEBUG - starting subscriber with 1607379033153 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:10:33,203 - __main__ - INFO - 0038
+2020-12-07 16:10:33,203 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:10:33,203 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fc5b0ee4940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:10:33,204 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:10:33,210 - __main__ - INFO - 0038
+2020-12-07 16:10:33,210 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:11:34,081 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:11:35,916 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:11:36,735 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:11:39,660 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:11:39,782 - __main__ - DEBUG - starting subscriber with 1607379099711 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:11:49,006 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:11:49,208 - __main__ - DEBUG - starting subscriber with 1607379109078 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:11:49,209 - __main__ - INFO - 0038
+2020-12-07 16:11:49,209 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:11:49,209 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f807b6e4940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:11:49,210 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:11:50,955 - __main__ - INFO - 0038
+2020-12-07 16:11:50,955 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:13:17,381 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:13:19,642 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:13:21,271 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:13:21,396 - __main__ - DEBUG - starting subscriber with 1607379201341 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:13:42,469 - __main__ - DEBUG - starting subscriber with 1607379222387 timestamp
+                ['Hybrid_Mux', 'Hybrid_Power_Meter', 'Hybrid_Mag'] stream List
+                None subscription boolean
+2020-12-07 16:13:42,469 - __main__ - INFO - 0038
+2020-12-07 16:13:42,469 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:13:42,469 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fba27dd6940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:13:42,469 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:13:42,469 - __main__ - INFO - 0053
+2020-12-07 16:13:42,469 - __main__ - INFO - Subscribing to stream: Hybrid_Power_Meter [0053]
+2020-12-07 16:13:42,469 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0053', 'callback': <function subCallback at 0x7fba27dd6940>, 'kwargs': {}, 'id': 3}
+2020-12-07 16:13:42,470 - __main__ - DEBUG - subbed to Hybrid_Power_Meter
+2020-12-07 16:13:42,477 - __main__ - INFO - 0038
+2020-12-07 16:13:42,478 - __main__ - INFO - 0025
+2020-12-07 16:13:42,482 - __main__ - INFO - Subscribing to stream: Hybrid_Mag [0025]
+2020-12-07 16:13:42,482 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0025', 'callback': <function subCallback at 0x7fba27dd6940>, 'kwargs': {}, 'id': 5}
+2020-12-07 16:13:42,483 - __main__ - DEBUG - subbed to Hybrid_Mag
+2020-12-07 16:13:42,487 - __main__ - INFO - 0053
+2020-12-07 16:13:42,489 - __main__ - INFO - 0025
+2020-12-07 16:13:42,490 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Power_Meter': '0053', 'Hybrid_Mag': '0025'}
+2020-12-07 16:14:18,124 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:14:20,250 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:14:21,169 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:14:21,222 - __main__ - DEBUG - starting subscriber with 1607379261186 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:14:24,270 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:14:24,330 - __main__ - DEBUG - starting subscriber with 1607379264283 timestamp
+                ['Hybrid_Mag', 'Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:14:24,330 - __main__ - INFO - 0025
+2020-12-07 16:14:24,330 - __main__ - INFO - Subscribing to stream: Hybrid_Mag [0025]
+2020-12-07 16:14:24,331 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0025', 'callback': <function subCallback at 0x7f98306e6940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:14:24,331 - __main__ - DEBUG - subbed to Hybrid_Mag
+2020-12-07 16:14:24,331 - __main__ - INFO - 0038
+2020-12-07 16:14:24,331 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:14:24,332 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f98306e6940>, 'kwargs': {}, 'id': 3}
+2020-12-07 16:14:24,332 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:14:26,194 - __main__ - INFO - 0025
+2020-12-07 16:14:26,195 - __main__ - INFO - 0038
+2020-12-07 16:14:26,195 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mag': '0025', 'Hybrid_Mux': '0038'}
+2020-12-07 16:14:37,361 - __main__ - DEBUG - starting subscriber with 1607379277268 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:19:39,462 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:19:40,688 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:19:42,557 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:19:42,650 - __main__ - DEBUG - starting subscriber with 1607379582604 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:19:52,110 - __main__ - DEBUG - starting subscriber with 1607379592072 timestamp
+                ['Hybrid_Mag', 'Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:19:52,110 - __main__ - INFO - 0025
+2020-12-07 16:19:52,111 - __main__ - INFO - Subscribing to stream: Hybrid_Mag [0025]
+2020-12-07 16:19:52,111 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0025', 'callback': <function subCallback at 0x7fcb225e1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:19:52,111 - __main__ - DEBUG - subbed to Hybrid_Mag
+2020-12-07 16:19:52,111 - __main__ - INFO - 0038
+2020-12-07 16:19:52,112 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:19:52,112 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcb225e1940>, 'kwargs': {}, 'id': 3}
+2020-12-07 16:19:52,112 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:19:52,314 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mag', 'Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:19:52,315 - __main__ - INFO - 0025
+2020-12-07 16:19:52,315 - __main__ - INFO - Subscribing to stream: Hybrid_Mag [0025]
+2020-12-07 16:19:52,315 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0025', 'callback': <function subCallback at 0x7fcb225e1940>, 'kwargs': {}, 'id': 5}
+2020-12-07 16:19:52,317 - __main__ - DEBUG - subbed to Hybrid_Mag
+2020-12-07 16:19:52,318 - __main__ - INFO - 0038
+2020-12-07 16:19:52,318 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:19:52,318 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcb225e1940>, 'kwargs': {}, 'id': 7}
+2020-12-07 16:19:52,318 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:19:52,322 - __main__ - INFO - 0025
+2020-12-07 16:19:52,324 - __main__ - INFO - 0038
+2020-12-07 16:19:52,324 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mag': '0025', 'Hybrid_Mux': '0038'}
+2020-12-07 16:23:06,590 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:23:09,387 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 16:23:10,953 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:23:11,003 - __main__ - DEBUG - starting subscriber with 1607379790965 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:24:03,400 - __main__ - DEBUG - starting subscriber with 1607379843314 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:24:03,402 - __main__ - INFO - 0038
+2020-12-07 16:24:03,402 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:24:03,402 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcdea5dc940>, 'kwargs': {}, 'id': 1}
+2020-12-07 16:24:03,403 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:24:03,427 - __main__ - INFO - 0038
+2020-12-07 16:24:03,427 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 16:24:12,204 - __main__ - DEBUG - starting subscriber with 1607379852114 timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 16:25:39,422 - __main__ - DEBUG - starting subscriber with 1607379939350 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 16:25:39,422 - __main__ - INFO - 0038
+2020-12-07 16:25:39,423 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 16:25:39,423 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcdea5dc940>, 'kwargs': {}, 'id': 3}
+2020-12-07 16:25:39,423 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 16:25:39,430 - __main__ - INFO - 0038
+2020-12-07 16:25:39,430 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:02:32,158 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:02:33,698 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:02:38,629 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:02:38,741 - __main__ - DEBUG - starting subscriber with 1607382158693 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:02:41,190 - __main__ - DEBUG - starting subscriber with 1607382161117 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:02:41,192 - __main__ - INFO - 0038
+2020-12-07 17:02:41,193 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:02:41,193 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa6d45e18b0>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:02:41,193 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:02:41,199 - __main__ - INFO - 0038
+2020-12-07 17:02:41,200 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:03:24,459 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:03:27,582 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:03:30,131 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:03:30,415 - __main__ - DEBUG - starting subscriber with 1607382210356 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:03:35,496 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:03:35,626 - __main__ - DEBUG - starting subscriber with 1607382215577 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:04:03,187 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:04:04,848 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:04:06,454 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:04:06,573 - __main__ - DEBUG - starting subscriber with 1607382246506 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:04:08,397 - __main__ - DEBUG - starting subscriber with 1607382248319 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:04:08,397 - __main__ - INFO - 0038
+2020-12-07 17:04:08,399 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:04:08,399 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f9492de28b0>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:04:08,399 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:04:08,401 - __main__ - INFO - 0038
+2020-12-07 17:04:08,402 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:16:29,471 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:16:30,876 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:16:34,015 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:16:36,120 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:16:36,231 - __main__ - DEBUG - starting subscriber with 1607382996158 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:16:41,611 - __main__ - DEBUG - starting subscriber with 1607383001513 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:16:41,611 - __main__ - INFO - 0038
+2020-12-07 17:16:41,612 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:16:41,614 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fd17fe86820>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:16:41,614 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:16:41,623 - __main__ - INFO - 0038
+2020-12-07 17:16:41,626 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:16:42,570 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                1607383001.6147609 subscription time
+2020-12-07 17:16:42,573 - __main__ - INFO - 0038
+2020-12-07 17:16:42,575 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:16:42,578 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fd17fe86820>, 'kwargs': {}, 'id': 3}
+2020-12-07 17:16:42,579 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:26:23,088 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:26:24,181 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:26:25,201 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:26:28,140 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:26:28,273 - __main__ - DEBUG - starting subscriber with 1607383588216 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:26:30,337 - __main__ - DEBUG - starting subscriber with 1607383590293 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:26:30,337 - __main__ - INFO - 0038
+2020-12-07 17:26:30,338 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:26:30,338 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fce30ec1820>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:26:30,338 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:26:30,641 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                1607383590.338735 subscription time
+2020-12-07 17:26:30,642 - __main__ - INFO - 0038
+2020-12-07 17:26:30,642 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:26:30,642 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fce30ec1820>, 'kwargs': {}, 'id': 3}
+2020-12-07 17:26:30,643 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:26:30,646 - __main__ - INFO - 0038
+2020-12-07 17:26:30,647 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:26:49,299 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:26:49,413 - __main__ - DEBUG - starting subscriber with 1607383609373 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:26:51,797 - __main__ - INFO - 0038
+2020-12-07 17:26:51,798 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:26:51,810 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:26:51,810 - __main__ - INFO - 0038
+2020-12-07 17:26:51,810 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:26:51,810 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fce30ec1820>, 'kwargs': {}, 'id': 5}
+2020-12-07 17:26:51,810 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:27:10,125 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:27:10,274 - __main__ - DEBUG - starting subscriber with 1607383630215 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:28:11,189 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:28:11,190 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 17:28:13,257 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:28:13,258 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 17:28:14,938 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 17:28:15,157 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:28:15,261 - __main__ - DEBUG - starting subscriber with 1607383695200 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:28:25,815 - __main__ - INFO - 0038
+2020-12-07 17:28:25,815 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 17:28:25,830 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:28:25,831 - __main__ - INFO - 0038
+2020-12-07 17:28:25,831 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:28:25,831 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fc275e858b0>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:28:25,832 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:31:55,673 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:31:55,674 - __main__ - DEBUG - deleting the files []
+2020-12-07 17:31:56,765 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/Users/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 17:31:56,766 - __main__ - DEBUG - deleting the files []
+2020-12-07 17:32:04,820 - __main__ - DEBUG - deleting the files []
+2020-12-07 17:32:05,154 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:32:05,252 - __main__ - DEBUG - starting subscriber with 1607383925184 timestamp
+                None stream List
+                None subscription time
+2020-12-07 17:32:09,828 - __main__ - DEBUG - starting subscriber with 1607383929758 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 17:32:09,833 - __main__ - INFO - 0038
+2020-12-07 17:32:09,833 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 17:32:09,834 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f9a6f5578b0>, 'kwargs': {}, 'id': 1}
+2020-12-07 17:32:09,834 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 17:32:09,851 - __main__ - INFO - 0038
+2020-12-07 17:32:09,853 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}

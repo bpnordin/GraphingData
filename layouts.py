@@ -23,25 +23,25 @@ logger.addHandler(ch)
 
 def serve_layout_graph():
     
-    return html.Div(
-        html.Div([
+    layout =  [
             dcc.Store(id='dataID',storage_type = 'memory',data=None),
             dcc.Store(id='keyValues'),
             dcc.Store(id='streamID'),
             dcc.Store(id='subTime'),
             html.Button('Graph', id='graph_val', n_clicks=0),
-            dcc.Graph(id='live-update-graph'),
             dcc.Interval(
                 id='interval-component',
                 interval=2*1000, # in milliseconds
                 n_intervals=0,
                 disabled = False
                 ),
+            html.Div(id = 'live-update-graph-container',
+                children = []),
             daq.BooleanSwitch(id = '24hr-switch',on = False),
             html.Div(id = '24hr-graph-container',
-                children = [dcc.Graph(id='24hr-graph') ])
-        ])
-    )
+                children = [dcc.Graph(id='24hr-graph') ],style= {'display': 'block'}),
+        ]
+    return html.Div(layout)
 
 def get_sub_list():
     read = reader.Reader(config,logger)
