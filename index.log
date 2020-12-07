@@ -1,0 +1,347 @@
+2020-12-07 13:56:16,674 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:56:16,783 - __main__ - DEBUG - starting subscriber with 1607370976722 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:56:18,471 - __main__ - DEBUG - starting subscriber with 1607370978384 timestamp
+                ['Hybrid_Mux'] stream List
+                False subscription boolean
+2020-12-07 13:56:18,471 - __main__ - INFO - 0038
+2020-12-07 13:56:18,471 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 13:56:18,471 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa0cd6e4940>, 'kwargs': {}, 'id': 1}
+2020-12-07 13:56:18,472 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 13:56:18,823 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 13:57:12,069 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:12,204 - __main__ - DEBUG - starting subscriber with 1607371032135 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:15,214 - __main__ - DEBUG - starting subscriber with 1607371035137 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 13:57:15,215 - __main__ - INFO - 0038
+2020-12-07 13:57:15,216 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 13:57:15,216 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa0cd6e4940>, 'kwargs': {}, 'id': 3}
+2020-12-07 13:57:15,216 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 13:57:15,221 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 13:57:15,222 - __main__ - INFO - 0038
+2020-12-07 13:57:15,222 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 13:57:25,162 - __main__ - DEBUG - 
+2020-12-07 13:57:47,621 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:47,737 - __main__ - DEBUG - starting subscriber with 1607371067652 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:50,776 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:50,888 - __main__ - DEBUG - starting subscriber with 1607371070825 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:57:52,739 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 13:58:25,167 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:25,266 - __main__ - DEBUG - starting subscriber with 1607371105216 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:31,370 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 13:58:41,626 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:41,745 - __main__ - DEBUG - starting subscriber with 1607371121697 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:43,865 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:43,993 - __main__ - DEBUG - starting subscriber with 1607371123943 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:58:47,695 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 13:59:37,920 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:59:38,049 - __main__ - DEBUG - starting subscriber with 1607371178012 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 13:59:42,106 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 13:59:42,351 - __main__ - DEBUG - starting subscriber with 1607371182241 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 13:59:42,351 - __main__ - INFO - 0038
+2020-12-07 13:59:42,352 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 13:59:42,352 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f89deee6940>, 'kwargs': {}, 'id': 1}
+2020-12-07 13:59:42,352 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 13:59:52,051 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 13:59:52,051 - __main__ - INFO - 0038
+2020-12-07 13:59:52,051 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:05:13,541 - __main__ - DEBUG - 
+2020-12-07 14:05:14,031 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:05:14,602 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:05:14,762 - __main__ - DEBUG - starting subscriber with 1607371514681 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:05:17,613 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:05:18,055 - __main__ - DEBUG - starting subscriber with 1607371517967 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:05:18,055 - __main__ - INFO - 0038
+2020-12-07 14:05:18,055 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:05:18,056 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcb04ee7940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:05:18,056 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:05:27,529 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:05:27,529 - __main__ - INFO - 0038
+2020-12-07 14:05:27,529 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:05:37,517 - __main__ - DEBUG - 
+2020-12-07 14:05:47,593 - __main__ - DEBUG - 
+2020-12-07 14:05:57,605 - __main__ - DEBUG - 
+2020-12-07 14:17:33,141 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:17:33,894 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:17:34,237 - __main__ - DEBUG - starting subscriber with 1607372254150 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:17:37,065 - __main__ - DEBUG - starting subscriber with 1607372257001 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:17:37,065 - __main__ - INFO - 0038
+2020-12-07 14:17:37,065 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:17:37,066 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcd3a6e4940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:17:37,067 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:17:37,073 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:17:37,079 - __main__ - INFO - 0038
+2020-12-07 14:17:37,080 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:17:46,911 - __main__ - DEBUG - 
+2020-12-07 14:17:56,960 - __main__ - DEBUG - 
+2020-12-07 14:23:22,107 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:23:28,746 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:23:28,828 - __main__ - DEBUG - starting subscriber with 1607372608780 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:23:31,474 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:23:31,475 - __main__ - DEBUG - starting subscriber with 1607372611429 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:23:31,479 - __main__ - INFO - 0038
+2020-12-07 14:23:31,480 - __main__ - INFO - 0038
+2020-12-07 14:23:31,480 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:23:31,480 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:23:31,481 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fcada5e1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:23:31,483 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:23:42,550 - __main__ - DEBUG - 
+2020-12-07 14:24:02,717 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:24:11,070 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:11,194 - __main__ - DEBUG - starting subscriber with 1607372651107 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:13,676 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:24:26,397 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:26,478 - __main__ - DEBUG - starting subscriber with 1607372666427 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:29,709 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:29,796 - __main__ - DEBUG - starting subscriber with 1607372669739 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:24:33,949 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:25:31,415 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:25:36,132 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:25:36,349 - __main__ - DEBUG - starting subscriber with 1607372736281 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:25:39,596 - __main__ - DEBUG - starting subscriber with 1607372739542 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:25:39,597 - __main__ - INFO - 0038
+2020-12-07 14:25:39,597 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:25:39,597 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb05d5e1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:25:39,599 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:25:39,605 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:25:39,606 - __main__ - INFO - 0038
+2020-12-07 14:25:39,607 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:25:49,499 - __main__ - DEBUG - 
+2020-12-07 14:25:59,511 - __main__ - DEBUG - 
+2020-12-07 14:26:09,517 - __main__ - DEBUG - 
+2020-12-07 14:43:08,376 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:43:10,422 - __main__ - DEBUG - starting subscriber with 1607373788397 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:43:13,386 - __main__ - DEBUG - starting subscriber with 1607373793333 timestamp
+                ['Hybrid_Mux'] stream List
+                False subscription boolean
+2020-12-07 14:43:13,387 - __main__ - INFO - 0038
+2020-12-07 14:43:13,387 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:43:13,388 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7feccd5dd940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:43:13,388 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:43:13,686 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:43:51,143 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:43:51,410 - __main__ - DEBUG - starting subscriber with 1607373831372 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:43:54,003 - __main__ - DEBUG - starting subscriber with 1607373833923 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:43:54,004 - __main__ - INFO - 0038
+2020-12-07 14:43:54,004 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:43:54,005 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe7b65d7940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:43:54,005 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:43:54,009 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:43:54,011 - __main__ - INFO - 0038
+2020-12-07 14:43:54,011 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:44:03,869 - __main__ - DEBUG - 
+2020-12-07 14:44:13,873 - __main__ - DEBUG - 
+2020-12-07 14:45:13,892 - __main__ - DEBUG - 
+2020-12-07 14:45:15,123 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:45:15,254 - __main__ - DEBUG - starting subscriber with 1607373915223 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:45:18,953 - __main__ - DEBUG - starting subscriber with 1607373918892 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:45:18,953 - __main__ - INFO - 0038
+2020-12-07 14:45:18,954 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:45:18,954 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fbf835d7940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:45:18,956 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:45:18,960 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:45:18,961 - __main__ - INFO - 0038
+2020-12-07 14:45:18,963 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:45:28,827 - __main__ - DEBUG - 
+2020-12-07 14:45:38,832 - __main__ - DEBUG - 
+2020-12-07 14:50:11,118 - __main__ - DEBUG - 
+2020-12-07 14:50:15,356 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:50:25,612 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:25,766 - __main__ - DEBUG - starting subscriber with 1607374225695 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:29,434 - __main__ - DEBUG - starting subscriber with 1607374229358 timestamp
+                ['Hybrid_Mux'] stream List
+                False subscription boolean
+2020-12-07 14:50:29,434 - __main__ - INFO - 0038
+2020-12-07 14:50:29,434 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:50:29,434 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb433de2940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:50:29,435 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:50:29,602 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:50:33,464 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:33,612 - __main__ - DEBUG - starting subscriber with 1607374233558 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:36,058 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:36,199 - __main__ - DEBUG - starting subscriber with 1607374236137 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:50:46,197 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:51:05,149 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:51:05,293 - __main__ - DEBUG - starting subscriber with 1607374265261 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:51:15,116 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:51:15,605 - __main__ - DEBUG - starting subscriber with 1607374275390 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:51:15,606 - __main__ - INFO - 0038
+2020-12-07 14:51:15,606 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:51:15,606 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb433de2940>, 'kwargs': {}, 'id': 3}
+2020-12-07 14:51:15,607 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:51:25,037 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:51:25,040 - __main__ - INFO - 0038
+2020-12-07 14:51:25,040 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:51:35,018 - __main__ - DEBUG - 
+2020-12-07 14:51:45,033 - __main__ - DEBUG - 
+2020-12-07 14:51:55,039 - __main__ - DEBUG - 
+2020-12-07 14:52:05,027 - __main__ - DEBUG - 
+2020-12-07 14:54:32,310 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription boolean
+2020-12-07 14:54:33,870 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:54:34,001 - __main__ - DEBUG - starting subscriber with 1607374473925 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:54:39,306 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:54:39,409 - __main__ - DEBUG - starting subscriber with 1607374479367 timestamp
+                None stream List
+                False subscription boolean
+2020-12-07 14:54:48,147 - __main__ - DEBUG - starting subscriber with 1607374488033 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription boolean
+2020-12-07 14:54:48,148 - __main__ - INFO - 0038
+2020-12-07 14:54:48,148 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 14:54:48,148 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb2695e1940>, 'kwargs': {}, 'id': 1}
+2020-12-07 14:54:48,149 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 14:54:48,153 - __main__ - DEBUG - Hybrid_Mux
+2020-12-07 14:54:48,154 - __main__ - INFO - 0038
+2020-12-07 14:54:48,154 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 14:54:57,978 - __main__ - DEBUG - 
+2020-12-07 14:55:07,975 - __main__ - DEBUG - 
+2020-12-07 14:55:18,044 - __main__ - DEBUG - 
+2020-12-07 14:55:27,971 - __main__ - DEBUG - 

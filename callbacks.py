@@ -8,6 +8,7 @@ import pandas as pd
 import multiprocessing
 import os
 import reciever
+import pickle
 
 configFile = "origin-server.cfg"
 config = configparser.ConfigParser(inline_comment_prefixes=';')
@@ -52,76 +53,38 @@ def updateData(n,subList,oldData,streamID):
         timeWindow = 300
         read = reader.Reader(config,logger) 
         SUB_TIME = time.time()
-            
-        data = {stream : read.get_stream_raw_data(stream,start = SUB_TIME,
-                stop = SUB_TIME-timeWindow) for stream in subList}
+        
+        data = {stream : pd.DataFrame(read.get_stream_raw_data(stream,start = SUB_TIME,
+                stop = SUB_TIME-timeWindow)) for stream in subList}
         #save to file
         read.close()
+        for stream in data:
+            df = data[stream]
+            df['measurement_time'] = df['measurement_time']/(2**32)
+            data[stream] = df.to_json()
         return data
+
     else:
         #read the data from the sub file
         for stream in subList:
             #can store these values locally in a store probably
             file = 'data'+streamID[stream]+'.csv'
             try:
-                data[stream] = pd.read_csv(file).to_dict('list')
+                df = pd.read_csv(file)
+                #now convert to datetime object
+                df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+                data[stream] = df
+                #clear the data in that file
                 os.remove(file)
             except Exception as e:
                 logging.exception(e)
-            #clear the data in that file
-            logger.debug('read from subscriber file')
+
+            length = len(data[stream].index)
+            oldData[stream] = pd.read_json(oldData[stream]).iloc[length:]
             #now add the data together
-            '''
-            data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=False, keys=None,
+            data[stream] = pd.concat([data[stream],oldData[stream]], axis=0, join='outer', ignore_index=False, keys=None,
                     levels=None, names=None, verify_integrity=False, copy=True)
-                    '''
             
-        
+            data[stream] = data[stream].to_json()
         return data
 
-
-
-
-
-    # put the data through filters
-    # remove the old data    
-   
-        
-        '''
-        #now format the data
-        for key in data.keys():
-            if not data[key].empty:
-                data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time']/float(1**32),unit="s")
-                s = data[key]['measurement_time'].iloc[-2] - data[key]['measurement_time'].iloc[0]
-                data[key] = data[key].resample("{}S".format(int(s.seconds/99)),on='measurement_time').mean()
-                data[key].index.name = 'measurement_time'
-                data[key].reset_index(inplace=True)
-                data[key] = data[key].to_dict('series')
-            else:
-                data[key] = None
-                '''
-
-"""
-    for key in oldData.keys():
-        data[key] = pd.DataFrame(oldData[key])
-        data[key]['measurement_time'] = pd.to_datetime(data[key]['measurement_time'])
-
-    #get the data
-    while not data_queue.empty():
-        print data_queue.get()
-        '''
-        #get data and figure out which stream it is for
-        streamID,mesDict= data_queue.get()
-        mesDict['measurement_time'] = pd.to_datetime(mesDict['measurement_time']/float(2**32))
-        for key in mesDict.keys():
-            mesDict[key] = [mesDict[key]]
-        data[streamID] = data[streamID].append(pd.DataFrame(mesDict),ignore_index=True).drop([0])
-    for key in data.keys():
-        #do averaging
-        s = data[key]['measurement_time'].iloc[-1] - data[key]['measurement_time'].iloc[0]
-        data[key] = data[key].resample("{}S".format(int(s.seconds/100)),on='measurement_time').mean()
-        data[key].index.name = 'measurement_time'
-        data[key].reset_index(inplace=True)
-        data[key] = data[key].to_dict('series')
-        '''
-        """
