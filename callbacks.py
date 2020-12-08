@@ -58,7 +58,7 @@ def storeKeys(n_clicks,subList):
 def updateData(n,subList,oldData,streamID,subTime):
     data = {}
 
-    if subList is None or subTime is None:
+    if subList is None or subTime is None or len(subList) == 0:
         raise PreventUpdate
 
     if oldData is None:
@@ -83,32 +83,33 @@ def updateData(n,subList,oldData,streamID,subTime):
     else:
         #read the data from the sub file
         for stream in subList:
+            #this is the structure of the csv file system
+            #that the subscriber is writing to
             fileName = 'data'+streamID[stream]+'.csv'
+            #if the user is on this page without subbing
+            #there will be no new data
             try:
-                try:
-                    df = pd.read_csv(fileName)
-                    #now overwrite the old data
-                    open(fileName, 'w').close()
+                df = pd.read_csv(fileName)
+            except pd.errors.EmptyDataError:
+                logger.excpetion("No data to get, probably not subscribed to any stream")
+                raise PreventUpdate
+            #now overwrite the old data
+            open(fileName, 'w').close()
 
-                    #now convert to datetime object
-                    if not df.empty:
+            #now convert to datetime object
+            if not df.empty:
+                df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+                data[stream] = df
 
-                        df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
-                        data[stream] = df
-                    #clear the data in that file
-                    length = len(data[stream].index)
-                except Exception as e:
-                    logger.exception(e)
-
-                oldData[stream] = pd.read_json(oldData[stream]).iloc[length:]
-                #now add the data together
-                data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=True, keys=None,
-                        levels=None, names=None, verify_integrity=False, copy=True)
-                
-                data[stream] = data[stream].to_json()
-            except KeyError:
-                logger.exception("The data csv got messed up")
-                reset()
+            #get the amount of data we just got
+            length = len(data[stream].index)
+            #and delete that amount of old data
+            oldData[stream] = pd.read_json(oldData[stream]).iloc[length:]
+            #now add the data together
+            data[stream] = pd.concat([oldData[stream],data[stream]], axis=0, join='outer', ignore_index=True, keys=None,
+                    levels=None, names=None, verify_integrity=False, copy=True)
+            #and pickle the data 
+            data[stream] = data[stream].to_json()
 
         return data
 
@@ -147,10 +148,19 @@ def show_graph(onBoolean):
     else:
         return {'display':'none'}
 
-@app.callback(Output('24hr-graph-container','children'),
+@app.callback([Output('24hr-graph-container','children'),Output('24hr-graph-store','data')],
     Input('24hr-switch','on'),
-    State('keyValues','data'))
-def graph_average(onBoolean,subList):
+   [ State('keyValues','data'),State('24hr-graph-store','data'),State('refresh-24hr','value')])
+def graph_average(onBoolean,subList,graphData,refresh):
+    
+    if subList is None:
+        logger.debug("cant graph 24hr b/c there are no streams selected")
+        raise PreventUpdate
+
+    logger.debug(refresh)
+
+    if graphData is not None and refresh[0] == 'Refresh Data':
+        return graphData,graphData
     if onBoolean:
         logger.debug("graphing 24hr")
         graphs = []
@@ -190,7 +200,7 @@ def graph_average(onBoolean,subList):
                 id='graph-{}'.format(stream),
                 figure = figure))
         read.close()
-        return html.Div(graphs)
+        return html.Div(graphs),html.Div(graphs)
         
 
     else:

@@ -39,7 +39,7 @@ def reset():
         #unsubscribe
         sub.unsubscribe_all()
     except NameError:
-        logger.exception("tried unsubscribing with no sub function")
+        logger.error("tried unsubscribing with no sub function")
 
     #delete all of the csv data
     fileList = os.listdir()
@@ -56,7 +56,6 @@ def subCallback(stream_id,data,state,log,crtl):
     df = pd.DataFrame([data])
     with open(fileName,'a') as f:
         df.to_csv(f,mode='a',header=not f.tell(),index=False)
-        logger.debug('appended to csv file{}'.format(df))
     return state
 
 
@@ -71,16 +70,19 @@ def start_sub(n,streamList,subscribed):
     try:
         for stream in streamList:
             sub.subscribe(stream ,callback = subCallback)
-            logger.debug('subbed to {}'.format(stream))
         return time.time()
     except Exception as e:
-        logger.error(e)
+        logger.exception("Ran into error subscribing to streams in index.py")
     return False
 
 @app.callback(Output('streamID','data'),
         Input('interval-component',"n_intervals"),
         [State('keyValues','data'),State('streamID','data')])
 def get_streamID(n_intervals,subList,data):
+
+    if subList is None:
+        logger.debug("There are no streams selected to subscribe to")
+        raise PreventUpdate
     if data is None or data == {}:
         data = {}
         for stream in subList:
@@ -112,5 +114,5 @@ if __name__ == '__main__':
     reset()
     sub = subscriber.Subscriber(config,logger)
 
-    app.run_server(debug=True)
+    app.run_server(use_reloader=False,debug=True)
     sub.close()

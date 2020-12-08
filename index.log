@@ -459,3 +459,1034 @@ NameError: name 'sub' is not defined
 2020-12-07 19:56:26,188 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f4955e4ef70>, 'kwargs': {}, 'id': 1}
 2020-12-07 19:56:26,188 - __main__ - DEBUG - subbed to Hybrid_Mux
 2020-12-07 19:56:52,528 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:16:54,572 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:16:54,572 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:17:29,547 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/reciever.py", line 49, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 819, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+2020-12-07 23:17:29,959 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:17:29,960 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:17:45,123 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/reciever.py", line 49, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 819, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+2020-12-07 23:17:55,820 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:17:55,821 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:18:15,548 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/reciever.py", line 49, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 819, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+2020-12-07 23:18:15,963 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:18:15,963 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:18:17,084 - __main__ - ERROR - Error connecting to data server
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/reciever.py", line 49, in get_available_streams
+    err, known_streams = json.loads(self.read_sock.recv())
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 819, in zmq.backend.cython.socket.Socket.recv
+  File "zmq/backend/cython/socket.pyx", line 186, in zmq.backend.cython.socket._recv_copy
+  File "zmq/backend/cython/checkrc.pxd", line 13, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+2020-12-07 23:18:50,845 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:18:50,845 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:18:58,590 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:18:58,590 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:18:59,299 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:18:59,300 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:19:03,957 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:19:07,891 - __main__ - INFO - 0038
+2020-12-07 23:19:07,891 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:19:07,891 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f3792548f70>, 'kwargs': {}, 'id': 1}
+2020-12-07 23:19:07,891 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 23:19:08,663 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750811467917312  18.91997
+2020-12-07 23:19:08,920 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750812326910976  18.907433
+2020-12-07 23:19:09,114 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750813185904640  18.891762
+2020-12-07 23:19:09,264 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750814040602624  18.901165
+2020-12-07 23:19:09,534 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750814895301632  18.872957
+2020-12-07 23:19:09,738 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750815840194560  18.872957
+2020-12-07 23:19:09,810 - __main__ - INFO - 0038
+2020-12-07 23:19:09,811 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 23:19:09,859 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750816621878272  18.857286
+2020-12-07 23:19:10,060 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750817480871936  18.888628
+2020-12-07 23:19:10,354 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750818339865600  18.913702
+2020-12-07 23:19:10,558 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750819194563584  18.901165
+2020-12-07 23:19:10,763 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750820062147584  18.916836
+2020-12-07 23:19:10,878 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750820968385536  18.966982
+2020-12-07 23:19:11,060 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750821775839232  18.963848
+2020-12-07 23:19:11,274 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750822634832896  18.966982
+2020-12-07 23:19:11,460 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750823493825536  18.948177
+2020-12-07 23:19:11,671 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750824352819200  18.926239
+2020-12-07 23:19:11,861 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750825220403200  18.91997
+2020-12-07 23:19:12,073 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750826122345472  18.907433
+2020-12-07 23:19:12,302 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750826929800192  18.822811
+2020-12-07 23:19:12,503 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750827788792832  18.832214
+2020-12-07 23:19:12,708 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750828647786496  18.841616
+2020-12-07 23:19:12,860 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750829506780160  18.825945
+2020-12-07 23:19:13,117 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750830374363136  18.800873
+2020-12-07 23:19:13,292 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750831267717120  18.835348
+2020-12-07 23:19:13,528 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750832079465472  18.838482
+2020-12-07 23:19:13,731 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750832942753792  18.847885
+2020-12-07 23:19:13,858 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750833801747456  18.86669
+2020-12-07 23:19:14,058 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750834660741120  18.851019
+2020-12-07 23:19:14,346 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750835519734784  18.841616
+2020-12-07 23:19:14,552 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750836378727424  18.835348
+2020-12-07 23:19:14,658 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750837233426432  18.838482
+2020-12-07 23:19:14,857 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750838092420096  18.841616
+2020-12-07 23:19:15,166 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750838955708416  18.80714
+2020-12-07 23:19:15,260 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750839814702080  18.794603
+2020-12-07 23:19:15,472 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750840695170048  18.813408
+2020-12-07 23:19:15,678 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750841562753024  18.841616
+2020-12-07 23:19:15,882 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750842391682048  18.885494
+2020-12-07 23:19:16,087 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750843250675712  18.844749
+2020-12-07 23:19:16,292 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750844109669376  18.822811
+2020-12-07 23:19:16,497 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750844968662016  18.79147
+2020-12-07 23:19:16,702 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750845831951360  18.788336
+2020-12-07 23:19:16,907 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750846708124672  18.763262
+2020-12-07 23:19:17,111 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750847541348352  18.844749
+2020-12-07 23:19:17,279 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750848404636672  18.857286
+2020-12-07 23:19:17,462 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750849259334656  18.844749
+2020-12-07 23:19:17,725 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750850118328320  18.901165
+2020-12-07 23:19:17,931 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750850968731648  18.885494
+2020-12-07 23:19:18,138 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750851832019968  18.926239
+2020-12-07 23:19:18,340 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750852695308288  18.91997
+2020-12-07 23:19:18,544 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750853550007296  18.932507
+2020-12-07 23:19:18,749 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750854413295616  18.932507
+2020-12-07 23:19:18,955 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750855272289280  18.891762
+2020-12-07 23:19:19,100 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750856165642240  18.945044
+2020-12-07 23:19:19,353 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750857016045568  18.913702
+2020-12-07 23:19:19,458 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750857853563904  18.948177
+2020-12-07 23:19:19,671 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750858703968256  18.938774
+2020-12-07 23:19:19,875 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750859567256576  18.963848
+2020-12-07 23:19:20,082 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750860426250240  19.013994
+2020-12-07 23:19:20,286 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750861285242880  18.982653
+2020-12-07 23:19:20,490 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750862161416192  18.932507
+2020-12-07 23:19:20,695 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750862998935552  18.966982
+2020-12-07 23:19:20,900 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750863862223872  18.970116
+2020-12-07 23:19:21,105 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750864721217536  18.976385
+2020-12-07 23:19:21,310 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750865580210176  18.966982
+2020-12-07 23:19:21,515 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750866430614528  18.957581
+2020-12-07 23:19:21,718 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750867349737472  18.945044
+2020-12-07 23:19:21,926 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750868157191168  18.904299
+2020-12-07 23:19:22,128 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750869016184832  18.93564
+2020-12-07 23:19:22,334 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750869875177472  18.879227
+2020-12-07 23:19:22,494 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750870734171136  18.847885
+2020-12-07 23:19:22,661 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750871597459456  18.86669
+2020-12-07 23:19:22,948 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750872499402752  18.923103
+2020-12-07 23:19:23,056 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750873311152128  18.93564
+2020-12-07 23:19:23,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750874170144768  18.923103
+2020-12-07 23:19:23,456 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750875029138432  18.948177
+2020-12-07 23:19:23,665 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750875888132096  18.954445
+2020-12-07 23:19:23,871 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750876751420416  18.932507
+2020-12-07 23:19:24,176 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750877670543360  18.916836
+2020-12-07 23:19:24,259 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750878465112064  18.869823
+2020-12-07 23:19:24,484 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750879324105728  18.913702
+2020-12-07 23:19:24,689 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750880183099392  18.838482
+2020-12-07 23:19:24,894 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750881037797376  18.872957
+2020-12-07 23:19:25,099 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750881905381376  18.869823
+2020-12-07 23:19:25,304 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750882828798976  18.891762
+2020-12-07 23:19:25,510 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750883619073024  18.841616
+2020-12-07 23:19:25,713 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750884473772032  18.794603
+2020-12-07 23:19:25,919 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750885337060352  18.73192
+2020-12-07 23:19:26,123 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750886191758336  18.716249
+2020-12-07 23:19:26,326 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750887055046656  18.666103
+2020-12-07 23:19:26,646 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750887905451008  18.706848
+2020-12-07 23:19:26,659 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750888768739328  18.778933
+2020-12-07 23:19:26,942 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750889632027648  18.782066
+2020-12-07 23:19:27,147 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750890491021312  18.854153
+2020-12-07 23:19:27,352 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750891350013952  18.844749
+2020-12-07 23:19:27,560 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750892260547584  18.80714
+2020-12-07 23:19:27,867 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750893115245568  18.800873
+2020-12-07 23:19:27,872 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750893931289600  18.810274
+2020-12-07 23:19:28,063 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750894790283264  18.782066
+2020-12-07 23:19:28,273 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750895649276928  18.778933
+2020-12-07 23:19:28,477 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750896503974912  18.876091
+2020-12-07 23:19:28,682 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750897358673920  18.888628
+2020-12-07 23:19:28,865 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750898256321536  18.857286
+2020-12-07 23:19:29,100 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750899080955904  18.86669
+2020-12-07 23:19:29,310 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750899944244224  18.888628
+2020-12-07 23:19:29,501 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750900803236864  18.932507
+2020-12-07 23:19:29,660 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750901662230528  18.863556
+2020-12-07 23:19:29,918 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750902525518848  18.857286
+2020-12-07 23:19:30,104 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750903405987840  18.888628
+2020-12-07 23:19:30,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750904239211520  18.863556
+2020-12-07 23:19:30,526 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750905098204160  18.854153
+2020-12-07 23:19:30,730 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750905957197824  18.872957
+2020-12-07 23:19:30,935 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750906811896832  18.916836
+2020-12-07 23:19:31,140 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750907679479808  18.923103
+2020-12-07 23:19:31,345 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750908555653120  18.835348
+2020-12-07 23:19:31,550 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750909388876800  18.813408
+2020-12-07 23:19:31,754 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750910247870464  18.822811
+2020-12-07 23:19:31,960 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750911111158784  18.869823
+2020-12-07 23:19:32,058 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750911970152448  18.872957
+2020-12-07 23:19:32,266 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750912833440768  18.854153
+2020-12-07 23:19:32,472 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750913683844096  18.825945
+2020-12-07 23:19:32,676 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750914547132416  18.835348
+2020-12-07 23:19:32,881 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750915406126080  18.829079
+2020-12-07 23:19:33,086 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750916260825088  18.782066
+2020-12-07 23:19:33,291 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750917124113408  18.79147
+2020-12-07 23:19:33,598 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750918129135616  18.797737
+2020-12-07 23:19:33,659 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750918842099712  18.73819
+2020-12-07 23:19:33,910 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750919696798720  18.706848
+2020-12-07 23:19:34,058 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750920560087040  18.73192
+2020-12-07 23:19:34,314 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750921419080704  18.735054
+2020-12-07 23:19:34,520 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750922273778688  18.766396
+2020-12-07 23:19:34,723 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750923175721984  18.829079
+2020-12-07 23:19:34,929 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750923987470336  18.872957
+2020-12-07 23:19:35,133 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750924855054336  18.844749
+2020-12-07 23:19:35,339 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750925714048000  18.869823
+2020-12-07 23:19:35,544 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750926573040640  18.960714
+2020-12-07 23:19:35,753 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750927432034304  18.985786
+2020-12-07 23:19:35,953 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750928316797952  18.960714
+2020-12-07 23:19:36,158 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750929145726976  18.916836
+2020-12-07 23:19:36,258 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750930009015296  18.970116
+2020-12-07 23:19:36,465 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750930868007936  18.970116
+2020-12-07 23:19:36,669 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750931727001600  18.94191
+2020-12-07 23:19:36,874 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750932585995264  18.898031
+2020-12-07 23:19:37,079 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750933475053568  18.948177
+2020-12-07 23:19:37,284 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750934299686912  18.954445
+2020-12-07 23:19:37,488 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750935162975232  18.976385
+2020-12-07 23:19:37,694 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750936017674240  19.001457
+2020-12-07 23:19:37,899 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750936880962560  18.960714
+2020-12-07 23:19:38,058 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750937739956224  18.976385
+2020-12-07 23:19:38,264 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750938629014528  18.916836
+2020-12-07 23:19:38,514 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750939457942528  18.838482
+2020-12-07 23:19:38,657 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750940312641536  18.772665
+2020-12-07 23:19:38,925 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750941175929856  18.788336
+2020-12-07 23:19:39,134 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750942034923520  18.822811
+2020-12-07 23:19:39,335 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750942889621504  18.816544
+2020-12-07 23:19:39,536 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750943757205504  18.829079
+2020-12-07 23:19:39,747 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750944611903488  18.775799
+2020-12-07 23:19:39,858 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750945466602496  18.800873
+2020-12-07 23:19:40,152 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750946329890816  18.794603
+2020-12-07 23:19:40,356 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750947184588800  18.804007
+2020-12-07 23:19:40,456 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750948043582464  18.800873
+2020-12-07 23:19:40,767 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750948906870784  18.775799
+2020-12-07 23:19:40,859 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750949765864448  18.810274
+2020-12-07 23:19:41,077 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750950624858112  18.816544
+2020-12-07 23:19:41,278 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750951483851776  18.829079
+2020-12-07 23:19:41,482 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750952342844416  18.86042
+2020-12-07 23:19:41,687 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750953201838080  18.838482
+2020-12-07 23:19:41,892 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750954073716736  18.913702
+2020-12-07 23:19:42,097 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750954919825408  18.963848
+2020-12-07 23:19:42,301 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750955778819072  18.998323
+2020-12-07 23:19:42,507 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750956633517056  18.966982
+2020-12-07 23:19:42,711 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750957496805376  18.932507
+2020-12-07 23:19:42,917 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750958355799040  18.904299
+2020-12-07 23:19:43,121 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750959214792704  18.885494
+2020-12-07 23:19:43,325 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750960073786368  18.844749
+2020-12-07 23:19:43,532 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750960932779008  18.844749
+2020-12-07 23:19:43,736 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750961791772672  18.851019
+2020-12-07 23:19:43,928 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750962646471680  18.891762
+2020-12-07 23:19:44,056 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750963509760000  18.879227
+2020-12-07 23:19:44,351 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750964368753664  18.857286
+2020-12-07 23:19:44,556 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750965227746304  18.841616
+2020-12-07 23:19:44,656 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750966086739968  18.838482
+2020-12-07 23:19:44,965 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750966945733632  18.804007
+2020-12-07 23:19:45,057 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750967804727296  18.876091
+2020-12-07 23:19:45,274 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750968663720960  18.863556
+2020-12-07 23:19:45,476 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750969552779264  18.851019
+2020-12-07 23:19:45,682 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750970381707264  18.86669
+2020-12-07 23:19:45,887 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750971240700928  18.891762
+2020-12-07 23:19:46,091 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750972099694592  18.891762
+2020-12-07 23:19:46,299 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750972954392576  18.938774
+2020-12-07 23:19:46,502 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750973813386240  18.93564
+2020-12-07 23:19:46,704 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750974698149888  18.923103
+2020-12-07 23:19:46,858 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750975531373568  18.960714
+2020-12-07 23:19:47,115 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750976390367232  18.945044
+2020-12-07 23:19:47,319 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750977249359872  18.970116
+2020-12-07 23:19:47,456 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750978104058880  18.998323
+2020-12-07 23:19:47,729 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750978967347200  18.976385
+2020-12-07 23:19:47,934 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750979864994816  18.91997
+2020-12-07 23:19:48,140 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750980685334528  18.91997
+2020-12-07 23:19:48,352 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750981544327168  18.904299
+2020-12-07 23:19:48,548 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750982403320832  18.910568
+2020-12-07 23:19:48,753 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750983262314496  18.901165
+2020-12-07 23:19:48,957 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750984121308160  18.913702
+2020-12-07 23:19:49,163 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750984997481472  18.91997
+2020-12-07 23:19:49,257 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750985839294464  18.99519
+2020-12-07 23:19:49,470 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750986698288128  18.973251
+2020-12-07 23:19:49,675 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750987552987136  18.938774
+2020-12-07 23:19:49,880 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750988411979776  18.94191
+2020-12-07 23:19:50,074 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750989275269120  18.932507
+2020-12-07 23:19:50,293 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750990142852096  18.957581
+2020-12-07 23:19:50,493 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750990988960768  18.951311
+2020-12-07 23:19:50,698 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750991847954432  18.976385
+2020-12-07 23:19:50,904 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750992706947072  18.948177
+2020-12-07 23:19:51,110 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903750993561646080  18.93564
+2020-12-07 23:19:51,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750994424934400  18.898031
+2020-12-07 23:19:51,458 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750995288222720  18.841616
+2020-12-07 23:19:51,892 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750996142921728  18.838482
+2020-12-07 23:19:51,896 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750997006210048  18.829079
+2020-12-07 23:19:52,133 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750997865203712  18.847885
+2020-12-07 23:19:52,337 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750998724196352  18.844749
+2020-12-07 23:19:52,458 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903750999583190016  18.825945
+2020-12-07 23:19:52,663 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751000472248320  18.869823
+2020-12-07 23:19:52,856 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751001301177344  18.901165
+2020-12-07 23:19:53,122 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751002160171008  18.916836
+2020-12-07 23:19:53,258 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751003019163648  18.885494
+2020-12-07 23:19:53,458 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751003878157312  18.847885
+2020-12-07 23:19:53,669 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751004737150976  18.747591
+2020-12-07 23:19:53,873 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751005626209280  18.747591
+2020-12-07 23:19:54,083 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751006455138304  18.766396
+2020-12-07 23:19:54,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751007314130944  18.769531
+2020-12-07 23:19:54,488 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751008168829952  18.766396
+2020-12-07 23:19:54,692 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751009032118272  18.769531
+2020-12-07 23:19:54,898 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751009891111936  18.763262
+2020-12-07 23:19:55,102 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751010750105600  18.785202
+2020-12-07 23:19:55,307 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751011609098240  18.778933
+2020-12-07 23:19:55,511 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751012468091904  18.785202
+2020-12-07 23:19:55,716 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751013327085568  18.851019
+2020-12-07 23:19:55,921 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751014186079232  18.948177
+2020-12-07 23:19:56,126 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751015045072896  18.945044
+2020-12-07 23:19:56,331 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751015947015168  18.91997
+2020-12-07 23:19:56,537 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751016763059200  18.894897
+2020-12-07 23:19:56,740 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751017622052864  18.888628
+2020-12-07 23:19:56,947 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751018481046528  18.885494
+2020-12-07 23:19:57,061 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751019344334848  18.926239
+2020-12-07 23:19:57,258 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751020203328512  18.91997
+2020-12-07 23:19:57,768 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751021079501824  18.954445
+2020-12-07 23:19:57,772 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751021921314816  18.926239
+2020-12-07 23:19:57,857 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751022776013824  18.916836
+2020-12-07 23:19:58,073 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751023635007488  18.854153
+2020-12-07 23:19:58,276 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751024498295808  18.844749
+2020-12-07 23:19:58,585 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751025357288448  18.838482
+2020-12-07 23:19:58,658 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751026211987456  18.800873
+2020-12-07 23:19:58,860 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751027070981120  18.825945
+2020-12-07 23:19:59,115 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751027934269440  18.86669
+2020-12-07 23:19:59,338 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751028788967424  18.926239
+2020-12-07 23:19:59,505 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751029647961088  18.923103
+2020-12-07 23:19:59,814 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751030511249408  18.913702
+2020-12-07 23:19:59,860 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751031370243072  18.854153
+2020-12-07 23:20:00,120 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751032229236736  18.894897
+2020-12-07 23:20:00,312 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751033088230400  18.879227
+2020-12-07 23:20:00,459 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751033947223040  18.838482
+2020-12-07 23:20:00,736 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751034801922048  18.898031
+2020-12-07 23:20:00,942 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751035665210368  18.825945
+2020-12-07 23:20:01,250 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751036524204032  18.879227
+2020-12-07 23:20:01,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751037383197696  18.963848
+2020-12-07 23:20:01,554 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751038242190336  18.926239
+2020-12-07 23:20:01,758 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751039096889344  18.926239
+2020-12-07 23:20:01,857 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751039960177664  18.898031
+2020-12-07 23:20:02,065 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751040819171328  18.841616
+2020-12-07 23:20:02,270 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751041678164992  18.822811
+2020-12-07 23:20:02,475 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751042537157632  18.838482
+2020-12-07 23:20:02,680 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751043396151296  18.825945
+2020-12-07 23:20:02,859 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751044250850304  18.851019
+2020-12-07 23:20:03,089 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751045114138624  18.847885
+2020-12-07 23:20:03,294 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751045968836608  18.894897
+2020-12-07 23:20:03,499 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751046870779904  18.948177
+2020-12-07 23:20:03,705 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751047691118592  18.800873
+2020-12-07 23:20:03,909 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751048550112256  18.769531
+2020-12-07 23:20:04,112 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751049409105920  18.80714
+2020-12-07 23:20:04,319 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751050268099584  18.756994
+2020-12-07 23:20:04,462 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751051127092224  18.79147
+2020-12-07 23:20:04,729 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751052016150528  18.766396
+2020-12-07 23:20:04,862 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751052840784896  18.750725
+2020-12-07 23:20:05,137 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751053699778560  18.79147
+2020-12-07 23:20:05,342 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751054563066880  18.854153
+2020-12-07 23:20:05,547 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751055422059520  18.863556
+2020-12-07 23:20:05,752 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751056276758528  18.825945
+2020-12-07 23:20:05,956 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751057165816832  18.79147
+2020-12-07 23:20:06,162 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751057999040512  18.75386
+2020-12-07 23:20:06,258 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751058858034176  18.75386
+2020-12-07 23:20:06,468 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751059712732160  18.788336
+2020-12-07 23:20:06,674 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751060576020480  18.778933
+2020-12-07 23:20:06,888 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751061430719488  18.741323
+2020-12-07 23:20:07,082 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751062332662784  18.73192
+2020-12-07 23:20:07,288 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751063153001472  18.741323
+2020-12-07 23:20:07,493 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751064011994112  18.782066
+2020-12-07 23:20:07,697 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751064870987776  18.775799
+2020-12-07 23:20:08,005 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751065729981440  18.80714
+2020-12-07 23:20:08,057 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751066588975104  18.847885
+2020-12-07 23:20:08,264 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751067478033408  18.835348
+2020-12-07 23:20:08,459 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751068306961408  18.775799
+2020-12-07 23:20:08,657 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751069161660416  18.756994
+2020-12-07 23:20:08,926 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751070020654080  18.769531
+2020-12-07 23:20:09,131 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751070883942400  18.769531
+2020-12-07 23:20:09,337 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751071742936064  18.772665
+2020-12-07 23:20:09,540 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751072640583680  18.819677
+2020-12-07 23:20:09,850 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751073460922368  18.857286
+2020-12-07 23:20:09,857 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751074319916032  18.91997
+2020-12-07 23:20:10,157 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751075174615040  18.879227
+2020-12-07 23:20:10,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751076037903360  18.885494
+2020-12-07 23:20:10,553 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751076896896000  18.93564
+2020-12-07 23:20:10,666 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751077790249984  18.929373
+2020-12-07 23:20:10,857 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751078614883328  18.851019
+2020-12-07 23:20:11,077 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751079469582336  18.885494
+2020-12-07 23:20:11,289 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751080332870656  18.872957
+2020-12-07 23:20:11,486 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751081191863296  18.829079
+2020-12-07 23:20:11,664 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751082050856960  18.813408
+2020-12-07 23:20:11,861 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751082909850624  18.794603
+2020-12-07 23:20:12,101 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751083768844288  18.841616
+2020-12-07 23:20:12,305 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751084623542272  18.879227
+2020-12-07 23:20:12,509 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751085486830592  18.86669
+2020-12-07 23:20:12,715 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751086345824256  18.901165
+2020-12-07 23:20:12,858 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751087200523264  18.88236
+2020-12-07 23:20:13,125 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751088063811584  18.794603
+2020-12-07 23:20:13,330 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751088922805248  18.822811
+2020-12-07 23:20:13,534 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751089781797888  18.86042
+2020-12-07 23:20:13,739 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751090640791552  18.869823
+2020-12-07 23:20:13,946 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751091499785216  18.929373
+2020-12-07 23:20:14,148 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751092358778880  18.929373
+2020-12-07 23:20:14,355 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751093217772544  18.885494
+2020-12-07 23:20:14,558 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751094076765184  18.854153
+2020-12-07 23:20:14,657 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751094935758848  18.797737
+2020-12-07 23:20:14,865 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751095794752512  18.835348
+2020-12-07 23:20:15,070 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751096653746176  18.816544
+2020-12-07 23:20:15,275 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751097512739840  18.825945
+2020-12-07 23:20:15,480 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751098406092800  18.876091
+2020-12-07 23:20:15,685 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751099226431488  18.88236
+2020-12-07 23:20:15,889 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751100081129472  18.822811
+2020-12-07 23:20:16,095 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751100944418816  18.788336
+2020-12-07 23:20:16,299 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751101799116800  18.797737
+2020-12-07 23:20:16,504 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751102662405120  18.832214
+2020-12-07 23:20:16,666 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751103555758080  18.841616
+2020-12-07 23:20:16,858 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751104376096768  18.86042
+2020-12-07 23:20:17,120 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751105235090432  18.885494
+2020-12-07 23:20:17,323 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751106098378752  18.869823
+2020-12-07 23:20:17,527 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751106957372416  18.894897
+2020-12-07 23:20:17,733 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751107816366080  18.948177
+2020-12-07 23:20:17,937 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751108701129728  18.966982
+2020-12-07 23:20:18,145 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751109534353408  18.957581
+2020-12-07 23:20:18,348 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751110393346048  18.907433
+2020-12-07 23:20:18,555 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751111252339712  18.929373
+2020-12-07 23:20:18,658 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751112107038720  18.894897
+2020-12-07 23:20:18,961 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751112966031360  18.926239
+2020-12-07 23:20:19,166 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751113863680000  18.929373
+2020-12-07 23:20:19,257 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751114688313344  18.929373
+2020-12-07 23:20:19,475 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751115547307008  18.932507
+2020-12-07 23:20:19,677 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751116402006016  18.93564
+2020-12-07 23:20:19,884 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751117265294336  18.916836
+2020-12-07 23:20:20,097 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751118119992320  18.926239
+2020-12-07 23:20:20,292 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751119017640960  18.945044
+2020-12-07 23:20:20,498 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751119837979648  18.916836
+2020-12-07 23:20:20,702 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751120696973312  18.926239
+2020-12-07 23:20:20,860 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751121560261632  18.926239
+2020-12-07 23:20:21,112 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751122414959616  18.932507
+2020-12-07 23:20:21,316 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751123282543616  18.879227
+2020-12-07 23:20:21,521 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751124171601920  18.885494
+2020-12-07 23:20:21,726 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751124996235264  18.88236
+2020-12-07 23:20:21,930 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751125855228928  18.841616
+2020-12-07 23:20:22,136 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751126714222592  18.838482
+2020-12-07 23:20:22,342 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751127573215232  18.857286
+2020-12-07 23:20:22,546 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751128427914240  18.879227
+2020-12-07 23:20:22,664 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751129321267200  18.898031
+2020-12-07 23:20:22,955 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751130150196224  18.891762
+2020-12-07 23:20:23,160 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751131004894208  18.910568
+2020-12-07 23:20:23,261 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751131868182528  18.945044
+2020-12-07 23:20:23,457 - __main__ - DEBUG - appended to csv file      measurement_time      FORT
+0  6903751132727176192  18.94191
+2020-12-07 23:20:23,657 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751133586169856  18.929373
+2020-12-07 23:20:23,863 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751134470933504  18.966982
+2020-12-07 23:20:24,082 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751135304157184  18.960714
+2020-12-07 23:20:24,287 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751136163149824  18.979519
+2020-12-07 23:20:24,492 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751137017848832  18.904299
+2020-12-07 23:20:24,696 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751137881137152  18.863556
+2020-12-07 23:20:24,888 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751138740130816  18.841616
+2020-12-07 23:20:25,106 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751139637778432  18.898031
+2020-12-07 23:20:25,310 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751140458117120  18.945044
+2020-12-07 23:20:25,515 - __main__ - DEBUG - appended to csv file      measurement_time       FORT
+0  6903751141321405440  18.910568
+2020-12-07 23:20:44,290 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:20:44,290 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:20:45,009 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:20:45,009 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:21:02,014 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 23:21:02,014 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:21:18,187 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:21:25,652 - __main__ - INFO - 0038
+2020-12-07 23:21:25,652 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:21:25,652 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f58bb5b2f70>, 'kwargs': {}, 'id': 1}
+2020-12-07 23:21:25,652 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 23:21:27,619 - __main__ - INFO - 0038
+2020-12-07 23:21:27,620 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 23:25:52,641 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:26:16,129 - __main__ - INFO - 0038
+2020-12-07 23:26:16,129 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:26:16,129 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f58bb5b2f70>, 'kwargs': {}, 'id': 3}
+2020-12-07 23:26:16,129 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 23:26:16,129 - __main__ - INFO - 0025
+2020-12-07 23:26:16,129 - __main__ - INFO - Subscribing to stream: Hybrid_Mag [0025]
+2020-12-07 23:26:16,129 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0025', 'callback': <function subCallback at 0x7f58bb5b2f70>, 'kwargs': {}, 'id': 5}
+2020-12-07 23:26:16,129 - __main__ - DEBUG - subbed to Hybrid_Mag
+2020-12-07 23:26:18,093 - __main__ - INFO - 0038
+2020-12-07 23:26:18,094 - __main__ - INFO - 0025
+2020-12-07 23:26:18,094 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Mag': '0025'}
+2020-12-07 23:26:26,436 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:26:29,797 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:26:38,427 - __main__ - INFO - 0038
+2020-12-07 23:26:38,427 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:26:38,427 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f58bb5b2f70>, 'kwargs': {}, 'id': 7}
+2020-12-07 23:26:38,427 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 23:26:40,388 - __main__ - INFO - 0038
+2020-12-07 23:26:40,388 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 23:35:42,496 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:35:42,497 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:35:51,596 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:42:32,194 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:42:32,194 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:43:19,653 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:43:19,653 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:44:57,205 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:44:57,206 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:45:25,669 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:45:25,669 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:46:51,875 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:46:51,875 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:46:53,952 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:46:54,873 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:46:56,861 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:46:58,870 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:47:00,861 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:47:02,882 - __main__ - DEBUG - not subscribed to anything
+2020-12-07 23:48:09,158 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:48:09,158 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:48:09,912 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:11,871 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:13,877 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:15,870 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:17,870 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:19,871 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:21,869 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:23,872 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:25,870 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:27,887 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:29,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:31,894 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:33,878 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:35,875 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:37,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:39,876 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:41,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:43,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:45,875 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:47,872 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:49,872 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:51,872 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:53,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:55,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:57,871 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:48:59,874 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:01,871 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:03,877 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:05,876 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:07,872 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:09,875 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:11,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:13,878 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:15,875 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:17,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:19,873 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:21,876 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:23,876 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:25,876 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:27,892 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:29,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:31,881 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:33,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:35,880 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:37,881 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:39,877 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:41,877 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:43,878 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:45,879 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:47,693 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:49:47,694 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:49:48,880 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:50,835 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:52,844 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:54,835 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:56,869 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:49:58,840 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:50:00,848 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:50:01,744 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:50:07,594 - __main__ - INFO - 0038
+2020-12-07 23:50:07,595 - __main__ - INFO - 0038
+2020-12-07 23:50:07,595 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:50:07,596 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 23:50:07,596 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb372210ee0>, 'kwargs': {}, 'id': 1}
+2020-12-07 23:52:32,048 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:34,028 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:36,027 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:38,029 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:40,069 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:42,033 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:44,047 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:52:45,293 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:52:50,564 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:52:50,564 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:52:54,666 - __main__ - INFO - 0038
+2020-12-07 23:52:54,668 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 23:52:54,668 - __main__ - INFO - 0038
+2020-12-07 23:52:54,669 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:52:54,669 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f033cab5ee0>, 'kwargs': {}, 'id': 1}
+2020-12-07 23:52:57,633 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:59:50,206 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-07 23:59:50,206 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:59:52,616 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 23:59:57,639 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-07 23:59:57,748 - __main__ - INFO - 0038
+2020-12-07 23:59:57,748 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 23:59:57,748 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f285df73ee0>, 'kwargs': {}, 'id': 1}
+2020-12-07 23:59:59,618 - __main__ - INFO - 0038
+2020-12-07 23:59:59,618 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 00:00:14,088 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:00:16,068 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:00:18,067 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:00:20,067 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:00:22,074 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:00:22,536 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 00:00:24,984 - __main__ - INFO - 0038
+2020-12-08 00:00:24,985 - __main__ - INFO - 0038
+2020-12-08 00:00:24,985 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 00:00:24,985 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 00:00:24,985 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f285df73ee0>, 'kwargs': {}, 'id': 3}
+2020-12-08 00:07:32,011 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 00:07:32,012 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 00:07:34,310 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:07:36,020 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 00:07:36,293 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:07:38,133 - __main__ - INFO - 0038
+2020-12-08 00:07:38,133 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 00:07:38,133 - __main__ - INFO - 0038
+2020-12-08 00:07:38,133 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f6a8fbc1ee0>, 'kwargs': {}, 'id': 1}
+2020-12-08 00:07:38,133 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}

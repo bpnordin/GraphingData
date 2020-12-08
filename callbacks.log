@@ -2608,3 +2608,343 @@ pandas.errors.EmptyDataError: No columns to parse from file
 2020-12-07 19:56:48,717 - callbacks - INFO - Updating stream definitions from server.
 2020-12-07 19:56:50,769 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
 2020-12-07 19:56:50,769 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 23:21:45,790 - callbacks - DEBUG - graphing 24hr
+2020-12-07 23:21:46,071 - callbacks - DEBUG - starting reads
+2020-12-07 23:21:47,826 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903720575443614720, 'stop': 6903720576306903040}, 'FORT': {'standard_deviation': 0.08202526672627472, 'average': 19.350320603601602, 'min': 19.0171, 'max': 19.6346}}
+2020-12-07 23:21:49,890 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903705113282176000, 'stop': 6903705114175528960}, 'FORT': {'standard_deviation': 0.1796638557445035, 'average': 19.446610882614497, 'min': 19.0109, 'max': 20.0577}}
+2020-12-07 23:21:51,324 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903689651262471168, 'stop': 6903689652121464832}, 'FORT': {'standard_deviation': 8.668612162787557, 'average': 8.55133499593146, 'min': -0.323743, 'max': 20.0765}}
+2020-12-07 23:21:53,319 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903674189169752064, 'stop': 6903674190020156416}, 'FORT': {'standard_deviation': 5.613655152448415, 'average': 5.700808171676204, 'min': -0.295536, 'max': 11.1598}}
+2020-12-07 23:21:55,362 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903658727914552320, 'stop': 6903658728773545984}, 'FORT': {'standard_deviation': 4.864272455994688, 'average': 2.5388448831775707, 'min': -0.295536, 'max': 11.0877}}
+2020-12-07 23:21:57,314 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903643265297847296, 'stop': 6903643266156840960}, 'FORT': {'standard_deviation': 5.158694620584028, 'average': 7.517136453736654, 'min': -0.355085, 'max': 11.3447}}
+2020-12-07 23:21:59,144 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903627804042646528, 'stop': 6903627804905934848}, 'FORT': {'standard_deviation': 8.35292162511693, 'average': 4.632289087120792, 'min': -0.301804, 'max': 19.061}}
+2020-12-07 23:22:01,155 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903612341906977792, 'stop': 6903612342761676800}, 'FORT': {'standard_deviation': 0.06684575667082376, 'average': 18.855961395710636, 'min': 18.5721, 'max': 19.0829}}
+2020-12-07 23:22:03,351 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903596880265230336, 'stop': 6903596881128518656}, 'FORT': {'standard_deviation': 0.31516721964928907, 'average': 19.244976382021225, 'min': 18.594, 'max': 19.9166}}
+2020-12-07 23:22:05,968 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903581418477454336, 'stop': 6903581419336448000}, 'FORT': {'standard_deviation': 0.09013588054658384, 'average': 19.20678856412536, 'min': 18.873, 'max': 19.528}}
+2020-12-07 23:22:08,390 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903565955938059264, 'stop': 6903565956801347584}, 'FORT': {'standard_deviation': 0.0888725742186112, 'average': 18.987283288844402, 'min': 18.6692, 'max': 19.2867}}
+2020-12-07 23:22:11,292 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903550494773052416, 'stop': 6903550495632046080}, 'FORT': {'standard_deviation': 0.062013351651579326, 'average': 18.91329133188865, 'min': 18.6661, 'max': 19.1394}}
+2020-12-07 23:22:14,161 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903535032280901632, 'stop': 6903535033187139584}, 'FORT': {'standard_deviation': 0.06308235826286995, 'average': 18.940795196797865, 'min': 18.6316, 'max': 19.1989}}
+2020-12-07 23:22:17,155 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903519570656333824, 'stop': 6903519571511032832}, 'FORT': {'standard_deviation': 0.06512757530807797, 'average': 18.985922075251487, 'min': 18.7131, 'max': 19.2114}}
+2020-12-07 23:22:20,305 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903504108997406720, 'stop': 6903504109860695040}, 'FORT': {'standard_deviation': 0.06381203551453918, 'average': 19.015513218135347, 'min': 18.7413, 'max': 19.2585}}
+2020-12-07 23:22:23,069 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903488646896098304, 'stop': 6903488647750796288}, 'FORT': {'standard_deviation': 0.06293230555281053, 'average': 19.03373048190762, 'min': 18.7821, 'max': 19.3588}}
+2020-12-07 23:22:25,761 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903473185207105536, 'stop': 6903473186070393856}, 'FORT': {'standard_deviation': 0.0632439296552387, 'average': 19.023296016002668, 'min': 18.7413, 'max': 19.3211}}
+2020-12-07 23:22:27,483 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903457722899638272, 'stop': 6903457723805876224}, 'FORT': {'standard_deviation': 0.06537908087936035, 'average': 19.058041946268656, 'min': 18.8009, 'max': 19.3149}}
+2020-12-07 23:22:30,341 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903442261309430784, 'stop': 6903442262121179136}, 'FORT': {'standard_deviation': 0.06224494498293877, 'average': 19.072526682224815, 'min': 18.8385, 'max': 19.3525}}
+2020-12-07 23:22:33,195 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903426799135107072, 'stop': 6903426799998395392}, 'FORT': {'standard_deviation': 0.09178042654921294, 'average': 19.145795032505415, 'min': 18.8573, 'max': 19.4496}}
+2020-12-07 23:22:35,972 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903411337497655296, 'stop': 6903411338356647936}, 'FORT': {'standard_deviation': 0.104525212665906, 'average': 19.40874285396755, 'min': 19.0391, 'max': 19.7913}}
+2020-12-07 23:22:39,147 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903395875435000832, 'stop': 6903395876298289152}, 'FORT': {'standard_deviation': 0.17281522312917152, 'average': 19.751715401711305, 'min': 19.2679, 'max': 20.2144}}
+2020-12-07 23:22:42,172 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903380413380936704, 'stop': 6903380414239929344}, 'FORT': {'standard_deviation': 0.47216594541448775, 'average': 20.87372607680765, 'min': 19.9041, 'max': 21.9444}}
+2020-12-07 23:22:45,160 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903364952164390912, 'stop': 6903364953023384576}, 'FORT': {'standard_deviation': 0.10664278876018005, 'average': 21.863950036113113, 'min': 21.4806, 'max': 22.2578}}
+2020-12-07 23:23:20,144 - callbacks - DEBUG - graphing 24hr
+2020-12-07 23:23:20,429 - callbacks - DEBUG - starting reads
+2020-12-07 23:23:22,768 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903720983482687488, 'stop': 6903720984388925440}, 'FORT': {'standard_deviation': 0.08417252557613311, 'average': 19.34893637727879, 'min': 18.9576, 'max': 19.6346}}
+2020-12-07 23:23:24,792 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903705521325544448, 'stop': 6903705522184537088}, 'FORT': {'standard_deviation': 0.16751988911098759, 'average': 19.430405252334374, 'min': 19.0109, 'max': 20.0577}}
+2020-12-07 23:23:26,148 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903690059292954624, 'stop': 6903690060151948288}, 'FORT': {'standard_deviation': 8.743936669973476, 'average': 9.300087557859323, 'min': -0.323743, 'max': 20.0765}}
+2020-12-07 23:23:28,094 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903674597187350528, 'stop': 6903674598046344192}, 'FORT': {'standard_deviation': 5.613641288210873, 'average': 5.700821231290627, 'min': -0.295536, 'max': 11.1598}}
+2020-12-07 23:23:29,937 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903659135949330432, 'stop': 6903659136812618752}, 'FORT': {'standard_deviation': 4.680985276658957, 'average': 2.24224373976413, 'min': -0.295536, 'max': 11.0877}}
+2020-12-07 23:23:31,764 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903643673319740416, 'stop': 6903643674178734080}, 'FORT': {'standard_deviation': 5.023026137302998, 'average': 7.813756226089857, 'min': -0.355085, 'max': 11.3447}}
+2020-12-07 23:23:33,726 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903628212064539648, 'stop': 6903628212927827968}, 'FORT': {'standard_deviation': 8.048891371350845, 'average': 4.126335720857873, 'min': -0.301804, 'max': 19.061}}
+2020-12-07 23:23:35,671 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903612749937461248, 'stop': 6903612750796454912}, 'FORT': {'standard_deviation': 0.06703009617556534, 'average': 18.856225319479943, 'min': 18.5721, 'max': 19.0829}}
+2020-12-07 23:23:37,533 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903597288295713792, 'stop': 6903597289159002112}, 'FORT': {'standard_deviation': 0.31968928175464534, 'average': 19.23209778321018, 'min': 18.594, 'max': 19.9166}}
+2020-12-07 23:23:39,392 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903581826069851136, 'stop': 6903581826933139456}, 'FORT': {'standard_deviation': 0.09112225821706371, 'average': 19.21457616825026, 'min': 18.8886, 'max': 19.5343}}
+2020-12-07 23:23:41,348 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903566363977132032, 'stop': 6903566364853305344}, 'FORT': {'standard_deviation': 0.08917450180725428, 'average': 18.991552472053836, 'min': 18.6692, 'max': 19.2867}}
+2020-12-07 23:23:43,556 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903550902803535872, 'stop': 6903550903709773824}, 'FORT': {'standard_deviation': 0.06178993707398717, 'average': 18.91279884425182, 'min': 18.6661, 'max': 19.1394}}
+2020-12-07 23:23:45,571 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903535440835371008, 'stop': 6903535441599875072}, 'FORT': {'standard_deviation': 0.0632596085057055, 'average': 18.940221925728263, 'min': 18.6316, 'max': 19.1989}}
+2020-12-07 23:23:47,754 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903519978678226944, 'stop': 6903519979532925952}, 'FORT': {'standard_deviation': 0.06397332849324427, 'average': 18.982795626076808, 'min': 18.7131, 'max': 19.202}}
+2020-12-07 23:23:49,590 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903504517027890176, 'stop': 6903504517882588160}, 'FORT': {'standard_deviation': 0.06439874764363053, 'average': 19.016872691410157, 'min': 18.7413, 'max': 19.2585}}
+2020-12-07 23:23:51,571 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903489054922286080, 'stop': 6903489055781279744}, 'FORT': {'standard_deviation': 0.06273676933461647, 'average': 19.033722244455564, 'min': 18.7821, 'max': 19.3588}}
+2020-12-07 23:23:53,694 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903473592808092672, 'stop': 6903473593667085312}, 'FORT': {'standard_deviation': 0.06350310738534642, 'average': 19.023115479497722, 'min': 18.7413, 'max': 19.3211}}
+2020-12-07 23:23:54,741 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903458130934416384, 'stop': 6903458131793410048}, 'FORT': {'standard_deviation': 0.06460715468329363, 'average': 19.05435495581562, 'min': 18.8009, 'max': 19.3149}}
+2020-12-07 23:23:56,562 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903442669335618560, 'stop': 6903442670259037184}, 'FORT': {'standard_deviation': 0.062370370237104476, 'average': 19.072882797132852, 'min': 18.8385, 'max': 19.3525}}
+2020-12-07 23:23:58,550 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903427207599382528, 'stop': 6903427208462670848}, 'FORT': {'standard_deviation': 0.09002260372972075, 'average': 19.1408272934378, 'min': 18.8573, 'max': 19.4496}}
+2020-12-07 23:24:00,556 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903411745528137728, 'stop': 6903411746382836736}, 'FORT': {'standard_deviation': 0.1059638698437539, 'average': 19.40260890197822, 'min': 19.0391, 'max': 19.7913}}
+2020-12-07 23:24:02,608 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903396283465483264, 'stop': 6903396284320182272}, 'FORT': {'standard_deviation': 0.1704498781382871, 'average': 19.73735651739082, 'min': 19.2679, 'max': 20.2018}}
+2020-12-07 23:24:04,754 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903380821411419136, 'stop': 6903380822317657088}, 'FORT': {'standard_deviation': 0.47150015235758314, 'average': 20.830668860112265, 'min': 19.8477, 'max': 21.9444}}
+2020-12-07 23:24:06,975 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903365360181988352, 'stop': 6903365361053867008}, 'FORT': {'standard_deviation': 0.11042426013306354, 'average': 21.860400150008335, 'min': 21.4806, 'max': 22.2578}}
+2020-12-07 23:26:19,889 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 23:26:19,889 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 23:26:22,073 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 23:26:22,073 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 23:26:23,160 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 23:26:23,160 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 23:26:25,191 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 23:26:25,191 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 23:33:32,798 - callbacks - DEBUG - graphing 24hr
+2020-12-07 23:33:33,139 - callbacks - DEBUG - starting reads
+2020-12-07 23:33:35,128 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903723611233873920, 'stop': 6903723612097162240}, 'FORT': {'standard_deviation': 0.11009187739886821, 'average': 19.32265158134623, 'min': 18.8636, 'max': 19.6346}}
+2020-12-07 23:33:37,057 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903708149656550400, 'stop': 6903708150403874816}, 'FORT': {'standard_deviation': 0.10443466606027861, 'average': 19.362663702056697, 'min': 19.0109, 'max': 19.7693}}
+2020-12-07 23:33:38,485 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903692687838709760, 'stop': 6903692688697703424}, 'FORT': {'standard_deviation': 7.586663680056286, 'average': 14.08641025088035, 'min': -0.323743, 'max': 20.0765}}
+2020-12-07 23:33:40,216 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903677225745990656, 'stop': 6903677226660818944}, 'FORT': {'standard_deviation': 5.614644334128335, 'average': 5.699880936274236, 'min': -0.320609, 'max': 11.1598}}
+2020-12-07 23:33:42,194 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903661764099948544, 'stop': 6903661764954646528}, 'FORT': {'standard_deviation': 2.6794582223708545, 'average': 0.40518219708840364, 'min': -0.295536, 'max': 11.0877}}
+2020-12-07 23:33:43,935 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903646301917034496, 'stop': 6903646302818977792}, 'FORT': {'standard_deviation': 3.5647887789506423, 'average': 9.65487666336358, 'min': -0.351951, 'max': 11.0814}}
+2020-12-07 23:33:45,789 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903630840627474432, 'stop': 6903630841525123072}, 'FORT': {'standard_deviation': 4.536973318310329, 'average': 0.8778120894543837, 'min': -0.355085, 'max': 19.0516}}
+2020-12-07 23:33:47,724 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903615378496101376, 'stop': 6903615379449583616}, 'FORT': {'standard_deviation': 0.06692055908216671, 'average': 18.854620002222468, 'min': 18.5721, 'max': 19.0829}}
+2020-12-07 23:33:49,453 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903599916841468928, 'stop': 6903599917842196480}, 'FORT': {'standard_deviation': 0.2939109958880442, 'average': 19.11213036279793, 'min': 18.594, 'max': 19.9166}}
+2020-12-07 23:33:50,086 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 96, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 23:33:51,308 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903584454624195584, 'stop': 6903584455483189248}, 'FORT': {'standard_deviation': 0.1587274218475792, 'average': 19.293954197455413, 'min': 18.9356, 'max': 19.9166}}
+2020-12-07 23:33:53,355 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903568992965268480, 'stop': 6903568993824262144}, 'FORT': {'standard_deviation': 0.09225592849825216, 'average': 19.02591354357862, 'min': 18.688, 'max': 19.3682}}
+2020-12-07 23:33:55,301 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903553530490297344, 'stop': 6903553531353585664}, 'FORT': {'standard_deviation': 0.06221873301612291, 'average': 18.912586326258474, 'min': 18.6692, 'max': 19.1832}}
+2020-12-07 23:33:57,145 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903538069303816192, 'stop': 6903538070158515200}, 'FORT': {'standard_deviation': 0.06256926353943182, 'average': 18.932428156958647, 'min': 18.6316, 'max': 19.1456}}
+2020-12-07 23:33:58,973 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903522607228276736, 'stop': 6903522608087270400}, 'FORT': {'standard_deviation': 0.06360705364467366, 'average': 18.97557729041583, 'min': 18.7131, 'max': 19.1989}}
+2020-12-07 23:34:00,995 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903507145586530304, 'stop': 6903507146445522944}, 'FORT': {'standard_deviation': 0.06456120182286178, 'average': 19.01470154461607, 'min': 18.7162, 'max': 19.2585}}
+2020-12-07 23:34:03,124 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903491683476630528, 'stop': 6903491684498833408}, 'FORT': {'standard_deviation': 0.06291136172307842, 'average': 19.033046478794954, 'min': 18.7789, 'max': 19.3588}}
+2020-12-07 23:34:05,371 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903476221508465664, 'stop': 6903476222238610432}, 'FORT': {'standard_deviation': 0.0633500825295481, 'average': 19.023116306461468, 'min': 18.7413, 'max': 19.3211}}
+2020-12-07 23:34:06,771 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903468032685164544, 'stop': 6903468121526562816}, 'FORT': {'standard_deviation': 0.06405258180395416, 'average': 19.038644793880152, 'min': 18.7915, 'max': 19.3149}}
+2020-12-07 23:34:09,603 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903445297842718720, 'stop': 6903445298697417728}, 'FORT': {'standard_deviation': 0.0625289846273295, 'average': 19.073785110272436, 'min': 18.8479, 'max': 19.3525}}
+2020-12-07 23:34:12,504 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903429836179496960, 'stop': 6903429837094325248}, 'FORT': {'standard_deviation': 0.07617207224967942, 'average': 19.10963583375007, 'min': 18.8385, 'max': 19.412}}
+2020-12-07 23:34:15,270 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903414373648691200, 'stop': 6903414374507684864}, 'FORT': {'standard_deviation': 0.10402831993162365, 'average': 19.358111090737346, 'min': 19.0328, 'max': 19.7066}}
+2020-12-07 23:34:18,189 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903398912019828736, 'stop': 6903398912883117056}, 'FORT': {'standard_deviation': 0.14596826428879336, 'average': 19.65930470052228, 'min': 19.2208, 'max': 20.089}}
+2020-12-07 23:34:21,114 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903383450408145920, 'stop': 6903383451254254592}, 'FORT': {'standard_deviation': 0.44329850952064753, 'average': 20.56837464013783, 'min': 19.7035, 'max': 21.4962}}
+2020-12-07 23:34:24,179 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903367988732039168, 'stop': 6903367989595327488}, 'FORT': {'standard_deviation': 0.17435265238930345, 'average': 21.810488815423938, 'min': 21.2016, 'max': 22.2578}}
+2020-12-07 23:35:47,566 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 23:35:48,572 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 23:35:50,554 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 23:44:58,167 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:00,097 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:02,097 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:04,095 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:06,095 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:08,096 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:10,097 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:12,098 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:14,097 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:16,103 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:26,100 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:26,100 - callbacks - DEBUG - no update
+2020-12-07 23:45:27,999 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:27,999 - callbacks - DEBUG - no update
+2020-12-07 23:45:29,961 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:29,961 - callbacks - DEBUG - no update
+2020-12-07 23:45:31,936 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:31,936 - callbacks - DEBUG - no update
+2020-12-07 23:45:33,935 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:33,935 - callbacks - DEBUG - no update
+2020-12-07 23:45:35,934 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:35,935 - callbacks - DEBUG - no update
+2020-12-07 23:45:37,935 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:37,935 - callbacks - DEBUG - no update
+2020-12-07 23:45:39,935 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:39,935 - callbacks - DEBUG - no update
+2020-12-07 23:45:41,935 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:41,935 - callbacks - DEBUG - no update
+2020-12-07 23:45:43,936 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:43,937 - callbacks - DEBUG - no update
+2020-12-07 23:45:45,955 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:45,955 - callbacks - DEBUG - no update
+2020-12-07 23:45:47,945 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:47,945 - callbacks - DEBUG - no update
+2020-12-07 23:45:49,962 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:49,962 - callbacks - DEBUG - no update
+2020-12-07 23:45:51,948 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:51,948 - callbacks - DEBUG - no update
+2020-12-07 23:45:53,961 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:53,962 - callbacks - DEBUG - no update
+2020-12-07 23:45:55,947 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:55,948 - callbacks - DEBUG - no update
+2020-12-07 23:45:57,946 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:57,946 - callbacks - DEBUG - no update
+2020-12-07 23:45:59,944 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:45:59,945 - callbacks - DEBUG - no update
+2020-12-07 23:46:01,958 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:01,959 - callbacks - DEBUG - no update
+2020-12-07 23:46:03,975 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:03,975 - callbacks - DEBUG - no update
+2020-12-07 23:46:05,974 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:05,974 - callbacks - DEBUG - no update
+2020-12-07 23:46:07,942 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:07,942 - callbacks - DEBUG - no update
+2020-12-07 23:46:09,943 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:09,944 - callbacks - DEBUG - no update
+2020-12-07 23:46:11,945 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:11,945 - callbacks - DEBUG - no update
+2020-12-07 23:46:13,945 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:13,945 - callbacks - DEBUG - no update
+2020-12-07 23:46:15,965 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:15,966 - callbacks - DEBUG - no update
+2020-12-07 23:46:17,951 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:17,951 - callbacks - DEBUG - no update
+2020-12-07 23:46:19,951 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:19,951 - callbacks - DEBUG - no update
+2020-12-07 23:46:21,951 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:21,951 - callbacks - DEBUG - no update
+2020-12-07 23:46:23,948 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:23,948 - callbacks - DEBUG - no update
+2020-12-07 23:46:25,947 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:25,947 - callbacks - DEBUG - no update
+2020-12-07 23:46:27,946 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:27,947 - callbacks - DEBUG - no update
+2020-12-07 23:46:29,946 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:29,946 - callbacks - DEBUG - no update
+2020-12-07 23:46:31,946 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:31,946 - callbacks - DEBUG - no update
+2020-12-07 23:46:33,947 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:33,948 - callbacks - DEBUG - no update
+2020-12-07 23:46:35,949 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:35,949 - callbacks - DEBUG - no update
+2020-12-07 23:46:37,948 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:37,948 - callbacks - DEBUG - no update
+2020-12-07 23:46:39,949 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:39,950 - callbacks - DEBUG - no update
+2020-12-07 23:46:41,949 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:41,949 - callbacks - DEBUG - no update
+2020-12-07 23:46:43,948 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:43,948 - callbacks - DEBUG - no update
+2020-12-07 23:46:45,947 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:45,948 - callbacks - DEBUG - no update
+2020-12-07 23:46:47,947 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:47,947 - callbacks - DEBUG - no update
+2020-12-07 23:46:53,952 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:53,953 - callbacks - DEBUG - no update
+2020-12-07 23:46:54,875 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:54,875 - callbacks - DEBUG - no update
+2020-12-07 23:46:56,862 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:56,862 - callbacks - DEBUG - no update
+2020-12-07 23:46:58,871 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:46:58,871 - callbacks - DEBUG - no update
+2020-12-07 23:47:00,862 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:47:00,862 - callbacks - DEBUG - no update
+2020-12-07 23:47:02,883 - callbacks - DEBUG - <class 'NoneType'>
+2020-12-07 23:47:02,883 - callbacks - DEBUG - no update
+2020-12-07 23:48:16,147 - callbacks - DEBUG - graphing 24hr
+2020-12-07 23:49:48,876 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-07 23:49:53,460 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-07 23:50:16,749 - callbacks - DEBUG - graphing 24hr
+2020-12-07 23:50:17,109 - callbacks - DEBUG - starting reads
+2020-12-07 23:50:20,114 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903727923531362304, 'stop': 6903727924390355968}, 'FORT': {'standard_deviation': 0.15987164771248805, 'average': 19.252100822633537, 'min': 18.7883, 'max': 19.6346}}
+2020-12-07 23:50:22,948 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903712461507362816, 'stop': 6903712462366356480}, 'FORT': {'standard_deviation': 0.0706109850798644, 'average': 19.319397432192087, 'min': 19.0109, 'max': 19.5907}}
+2020-12-07 23:50:25,280 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903701362813654016, 'stop': 6903701363685532672}, 'FORT': {'standard_deviation': 0.7181411239786926, 'average': 19.368931627438837, 'min': 15.7263, 'max': 20.0765}}
+2020-12-07 23:50:28,305 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903681538528811008, 'stop': 6903681539258955776}, 'FORT': {'standard_deviation': 5.6087160112923105, 'average': 4.377011784770437, 'min': -0.323743, 'max': 14.4914}}
+2020-12-07 23:50:31,092 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903666075882041344, 'stop': 6903666076741035008}, 'FORT': {'standard_deviation': 4.952980737504089, 'average': 2.6918631151666665, 'min': -0.295536, 'max': 11.1473}}
+2020-12-07 23:50:33,530 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903650614605366272, 'stop': 6903650615455769600}, 'FORT': {'standard_deviation': 4.673469014446602, 'average': 8.421827563696038, 'min': -0.351951, 'max': 11.0877}}
+2020-12-07 23:50:35,478 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903635152912078848, 'stop': 6903635153719532544}, 'FORT': {'standard_deviation': 4.221270582175479, 'average': 1.6366768615281948, 'min': -0.355085, 'max': 12.9024}}
+2020-12-07 23:50:37,584 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903619690291079168, 'stop': 6903619691145777152}, 'FORT': {'standard_deviation': 7.905699408456048, 'average': 14.664567776043114, 'min': -0.292402, 'max': 19.0704}}
+2020-12-07 23:50:39,318 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903604228623561728, 'stop': 6903604229486850048}, 'FORT': {'standard_deviation': 0.14008409369769514, 'average': 18.928204316906495, 'min': 18.5815, 'max': 19.4716}}
+2020-12-07 23:50:41,171 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903588766406288384, 'stop': 6903588767269576704}, 'FORT': {'standard_deviation': 0.18152804943368644, 'average': 19.385110411689535, 'min': 18.9356, 'max': 19.9166}}
+2020-12-07 23:50:43,111 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903573304760246272, 'stop': 6903573305670778880}, 'FORT': {'standard_deviation': 0.09575304453530016, 'average': 19.09567734222964, 'min': 18.7789, 'max': 19.4246}}
+2020-12-07 23:50:45,304 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903557842663232512, 'stop': 6903557843526520832}, 'FORT': {'standard_deviation': 0.06545754848497427, 'average': 18.91999111827479, 'min': 18.6692, 'max': 19.1832}}
+2020-12-07 23:50:47,081 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903542381064434688, 'stop': 6903542381906247680}, 'FORT': {'standard_deviation': 0.0632337065051378, 'average': 18.92575920306769, 'min': 18.6316, 'max': 19.1394}}
+2020-12-07 23:50:48,888 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903526918988895232, 'stop': 6903526919908018176}, 'FORT': {'standard_deviation': 0.06412046717104503, 'average': 18.961171144223286, 'min': 18.6943, 'max': 19.1989}}
+2020-12-07 23:50:50,936 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903511457785234432, 'stop': 6903511458644228096}, 'FORT': {'standard_deviation': 0.06478007827545554, 'average': 19.010250638959885, 'min': 18.7162, 'max': 19.2585}}
+2020-12-07 23:50:52,770 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903495995284493312, 'stop': 6903495996143486976}, 'FORT': {'standard_deviation': 0.06478462816024094, 'average': 19.022882982270886, 'min': 18.7413, 'max': 19.271}}
+2020-12-07 23:50:54,781 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903480534016408576, 'stop': 6903480534871106560}, 'FORT': {'standard_deviation': 0.0636234655611947, 'average': 19.02908339631029, 'min': 18.7789, 'max': 19.3588}}
+2020-12-07 23:50:56,261 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903468032685164544, 'stop': 6903468121526562816}, 'FORT': {'standard_deviation': 0.06411099947727154, 'average': 19.03208382760532, 'min': 18.7413, 'max': 19.3149}}
+2020-12-07 23:50:57,695 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903449609616222208, 'stop': 6903449610475215872}, 'FORT': {'standard_deviation': 0.06272482377412937, 'average': 19.076974646117765, 'min': 18.8479, 'max': 19.3525}}
+2020-12-07 23:50:59,700 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903434148391086080, 'stop': 6903434149250079744}, 'FORT': {'standard_deviation': 0.06452174132777146, 'average': 19.080573374819423, 'min': 18.8385, 'max': 19.3337}}
+2020-12-07 23:51:01,689 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903418685834511360, 'stop': 6903418686689209344}, 'FORT': {'standard_deviation': 0.10592476325513697, 'average': 19.277148944209824, 'min': 18.9262, 'max': 19.6189}}
+2020-12-07 23:51:04,146 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903403224205648896, 'stop': 6903403225103296512}, 'FORT': {'standard_deviation': 0.10970788751156006, 'average': 19.554851369672722, 'min': 19.2208, 'max': 19.9323}}
+2020-12-07 23:51:06,358 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903387762151583744, 'stop': 6903387763014873088}, 'FORT': {'standard_deviation': 0.35832800409186993, 'average': 20.210177149208114, 'min': 19.5593, 'max': 21.0951}}
+2020-12-07 23:51:08,856 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903372300076045312, 'stop': 6903372300935038976}, 'FORT': {'standard_deviation': 0.3649973404846899, 'average': 21.620913824526312, 'min': 20.7503, 'max': 22.2578}}
+2020-12-07 23:52:32,044 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-07 23:59:57,637 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:00:14,086 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:00:31,988 - callbacks - DEBUG - graphing 24hr
+2020-12-08 00:00:32,291 - callbacks - DEBUG - starting reads
+2020-12-08 00:00:34,168 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903730565043623936, 'stop': 6903730565906912256}, 'FORT': {'standard_deviation': 0.18185582665883582, 'average': 19.17201307102367, 'min': 18.6912, 'max': 19.6346}}
+2020-12-08 00:00:36,164 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903715102976674816, 'stop': 6903715103831372800}, 'FORT': {'standard_deviation': 0.07675734091360277, 'average': 19.328192734852696, 'min': 19.0109, 'max': 19.622}}
+2020-12-08 00:00:37,733 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903701362813654016, 'stop': 6903701363685532672}, 'FORT': {'standard_deviation': 0.6461896972135169, 'average': 19.364962011382826, 'min': 15.7263, 'max': 20.0765}}
+2020-12-08 00:00:39,339 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903684179830619136, 'stop': 6903684180702496768}, 'FORT': {'standard_deviation': 5.20169462858625, 'average': 3.0044315573892466, 'min': -0.323743, 'max': 14.4914}}
+2020-12-08 00:00:41,160 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903668717312698368, 'stop': 6903668718334900224}, 'FORT': {'standard_deviation': 5.573123158975172, 'average': 4.613957170444444, 'min': -0.292402, 'max': 11.1473}}
+2020-12-08 00:00:43,162 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903653256139102208, 'stop': 6903653256895015936}, 'FORT': {'standard_deviation': 5.4804765757716245, 'average': 6.506736061470851, 'min': -0.295536, 'max': 11.0877}}
+2020-12-08 00:00:45,216 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903637794291195904, 'stop': 6903637795274743808}, 'FORT': {'standard_deviation': 5.317513653178513, 'average': 3.549530242951677, 'min': -0.355085, 'max': 11.3447}}
+2020-12-08 00:00:46,973 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903622331726030848, 'stop': 6903622332580728832}, 'FORT': {'standard_deviation': 9.325504395591107, 'average': 11.401304490221134, 'min': -0.29867, 'max': 19.0704}}
+2020-12-08 00:00:48,758 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903606870183067648, 'stop': 6903606870917507072}, 'FORT': {'standard_deviation': 0.07628102585419398, 'average': 18.869625990332796, 'min': 18.5815, 'max': 19.1707}}
+2020-12-08 00:00:50,602 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903591407845535744, 'stop': 6903591408721709056}, 'FORT': {'standard_deviation': 0.18896349321831418, 'average': 19.379722967942662, 'min': 18.8824, 'max': 19.9166}}
+2020-12-08 00:00:52,398 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903575946182312960, 'stop': 6903575947084256256}, 'FORT': {'standard_deviation': 0.09342755772616404, 'average': 19.131372415518005, 'min': 18.7883, 'max': 19.4402}}
+2020-12-08 00:00:54,493 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903560484115363840, 'stop': 6903560484974357504}, 'FORT': {'standard_deviation': 0.07350601911300167, 'average': 18.936010052821796, 'min': 18.6692, 'max': 19.2428}}
+2020-12-08 00:00:56,415 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903545022490796032, 'stop': 6903545023345495040}, 'FORT': {'standard_deviation': 0.062226852789547836, 'average': 18.91927535426507, 'min': 18.6316, 'max': 19.1394}}
+2020-12-08 00:00:58,139 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903529560857638912, 'stop': 6903529561716632576}, 'FORT': {'standard_deviation': 0.06411456833696752, 'average': 18.956165614054598, 'min': 18.6943, 'max': 19.1989}}
+2020-12-08 00:00:59,831 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903514098429912064, 'stop': 6903514099336150016}, 'FORT': {'standard_deviation': 0.0664123573954586, 'average': 19.00400061676946, 'min': 18.7162, 'max': 19.2585}}
+2020-12-08 00:01:01,662 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903498636697970688, 'stop': 6903498637556964352}, 'FORT': {'standard_deviation': 0.06417858876273802, 'average': 19.018393725337635, 'min': 18.7413, 'max': 19.2585}}
+2020-12-08 00:01:03,710 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903483175451360256, 'stop': 6903483176310353920}, 'FORT': {'standard_deviation': 0.0634764168107735, 'average': 19.029778527368716, 'min': 18.7821, 'max': 19.3588}}
+2020-12-08 00:01:05,758 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903468032685164544, 'stop': 6903468121526562816}, 'FORT': {'standard_deviation': 0.06373897428130128, 'average': 19.032713154738104, 'min': 18.7413, 'max': 19.3149}}
+2020-12-08 00:01:07,089 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903452251055468544, 'stop': 6903452251918756864}, 'FORT': {'standard_deviation': 0.06365934607548426, 'average': 19.073093682310468, 'min': 18.8479, 'max': 19.3525}}
+2020-12-08 00:01:09,958 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903436788971339776, 'stop': 6903436789834628096}, 'FORT': {'standard_deviation': 0.06270427302813679, 'average': 19.077250930607256, 'min': 18.8385, 'max': 19.3337}}
+2020-12-08 00:01:12,756 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903421327256578048, 'stop': 6903421328115571712}, 'FORT': {'standard_deviation': 0.10098111453725479, 'average': 19.22519609357635, 'min': 18.8667, 'max': 19.575}}
+2020-12-08 00:01:15,895 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903405865705024512, 'stop': 6903405866508183552}, 'FORT': {'standard_deviation': 0.09672287502823786, 'average': 19.505240312274267, 'min': 19.1112, 'max': 19.8445}}
+2020-12-08 00:01:18,864 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903390403577946112, 'stop': 6903390404432644096}, 'FORT': {'standard_deviation': 0.2865666869614582, 'average': 20.025815274768014, 'min': 19.4653, 'max': 20.8005}}
+2020-12-08 00:01:21,758 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903374941515291648, 'stop': 6903374942374285312}, 'FORT': {'standard_deviation': 0.4532067030098813, 'average': 21.431165690469573, 'min': 20.5372, 'max': 22.2578}}
+2020-12-08 00:07:34,308 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:07:38,132 - callbacks - DEBUG - None
+2020-12-08 00:07:43,687 - callbacks - DEBUG - None
+2020-12-08 00:07:43,688 - callbacks - DEBUG - graphing 24hr
+2020-12-08 00:07:43,965 - callbacks - DEBUG - starting reads
+2020-12-08 00:07:45,794 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903732420512445440, 'stop': 6903732421384324096}, 'FORT': {'standard_deviation': 0.18028619397432086, 'average': 19.10653744581527, 'min': 18.6504, 'max': 19.5593}}
+2020-12-08 00:07:47,641 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903716958484151296, 'stop': 6903716959343143936}, 'FORT': {'standard_deviation': 0.08197350234567273, 'average': 19.3408941856587, 'min': 19.0109, 'max': 19.6346}}
+2020-12-08 00:07:49,422 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903701496808043520, 'stop': 6903701497671331840}, 'FORT': {'standard_deviation': 0.5268321870659396, 'average': 19.386851042071914, 'min': 16.3124, 'max': 20.0765}}
+2020-12-08 00:07:50,960 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903686034852763648, 'stop': 6903686035716051968}, 'FORT': {'standard_deviation': 4.865549887880704, 'average': 2.1878681819746517, 'min': -0.323743, 'max': 16.3938}}
+2020-12-08 00:07:53,050 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903670572764339200, 'stop': 6903670573627628544}, 'FORT': {'standard_deviation': 5.614014302307572, 'average': 5.700470180176677, 'min': -0.292402, 'max': 11.1598}}
+2020-12-08 00:07:53,348 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:07:55,160 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903655111483369472, 'stop': 6903655112342363136}, 'FORT': {'standard_deviation': 5.6061513243995815, 'average': 5.163641010792167, 'min': -0.295536, 'max': 11.0877}}
+2020-12-08 00:07:57,003 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903639648879549440, 'stop': 6903639649742837760}, 'FORT': {'standard_deviation': 5.58672185105983, 'average': 4.8924241506338975, 'min': -0.355085, 'max': 11.3447}}
+2020-12-08 00:07:58,839 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903624187005874176, 'stop': 6903624187632939008}, 'FORT': {'standard_deviation': 9.560648635361549, 'average': 9.106844002055785, 'min': -0.301804, 'max': 19.0704}}
+2020-12-08 00:08:00,689 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903608725497270272, 'stop': 6903608726356263936}, 'FORT': {'standard_deviation': 0.06661225991009517, 'average': 18.85577038004223, 'min': 18.5815, 'max': 19.0829}}
+2020-12-08 00:08:02,766 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903593263301472256, 'stop': 6903593264156170240}, 'FORT': {'standard_deviation': 0.23068449685418063, 'average': 19.345954314128562, 'min': 18.7319, 'max': 19.9166}}
+2020-12-08 00:08:05,085 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903577801638249472, 'stop': 6903577802492948480}, 'FORT': {'standard_deviation': 0.09470306565138195, 'average': 19.155289001278273, 'min': 18.7883, 'max': 19.4496}}
+2020-12-08 00:08:07,652 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903562339532645376, 'stop': 6903562340395934720}, 'FORT': {'standard_deviation': 0.08038842413664748, 'average': 18.953696296708184, 'min': 18.6692, 'max': 19.2867}}
+2020-12-08 00:08:10,383 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903546878354754560, 'stop': 6903546879273877504}, 'FORT': {'standard_deviation': 0.06245591256568108, 'average': 18.917538223037173, 'min': 18.6661, 'max': 19.1394}}
+2020-12-08 00:08:13,222 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903531416304985088, 'stop': 6903531417168274432}, 'FORT': {'standard_deviation': 0.06477447654134752, 'average': 18.94845135390603, 'min': 18.6316, 'max': 19.1989}}
+2020-12-08 00:08:16,356 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903515953817129984, 'stop': 6903515954676122624}, 'FORT': {'standard_deviation': 0.06573371186538132, 'average': 18.997835750402846, 'min': 18.7162, 'max': 19.2585}}
+2020-12-08 00:08:19,186 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903500492591993856, 'stop': 6903500493450987520}, 'FORT': {'standard_deviation': 0.06404406908958653, 'average': 19.018957966987163, 'min': 18.7413, 'max': 19.2585}}
