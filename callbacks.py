@@ -1,4 +1,5 @@
 from dash.dependencies import Input, Output,State
+from pytz import timezone
 import numpy as np
 import dash_html_components as html
 import dash_core_components as dcc
@@ -101,7 +102,8 @@ def updateData(n,subList,oldData,streamID,subTime):
 
             #now convert to datetime object
             if not df.empty:
-                df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+                df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),
+                    unit='s',utc=True).tz_convert("US/Central")
                 data[stream] = df
 
             #get the amount of data we just got
@@ -133,7 +135,7 @@ def graph(n,data):
         #graph 
         figure = {
             'data':[],
-            'layout':{'title':'Graph of {} '.format(stream)}
+            'layout':{'title':'Graph of {} '.format(stream),'uirevision':stream},
         }
         for var in df.columns:
             if var != meas:
@@ -177,7 +179,8 @@ def graph_average(onBoolean,subList,graphData,refresh,days):
         for stream in subList:
             figure = {
                 'data':[],
-                'layout':{'title':'Graph of {} averaged over 24hrs'.format(stream)}
+                'layout':{'title':'Graph of {} averaged over 24hrs'.format(stream),'uirevision':stream},
+                
             }
             #get the averages
             data = []
@@ -192,7 +195,8 @@ def graph_average(onBoolean,subList,graphData,refresh,days):
             xx = []
             yy = {}
             for val in data:
-                xx.append(pd.to_datetime(val['measurement_time']['start']/(2**32),unit='s'))
+                xx.append(pd.to_datetime(val['measurement_time']['start']/(2**32),
+                    unit='s',utc=True).tz_convert("US/Central"))
                 for keys in val:
                     if keys != 'measurement_time':
                         if keys not in yy.keys():

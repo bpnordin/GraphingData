@@ -4033,3 +4033,251 @@ NameError: name 'sub' is not defined
 2020-12-08 12:32:10,457 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0048', 'callback': <function subCallback at 0x7fe251e85dc0>, 'kwargs': {}, 'id': 5}
 2020-12-08 12:32:12,268 - __main__ - INFO - 0048
 2020-12-08 12:32:12,269 - __main__ - DEBUG - The dict with all of the streamID is {'AQUA_MONITORS': '0048'}
+2020-12-08 12:36:59,246 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:36:59,246 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:37:21,796 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:37:21,796 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:37:28,100 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:37:31,673 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:37:36,305 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:38:57,118 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:39:06,318 - __main__ - INFO - 0013
+2020-12-08 12:39:06,318 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:39:06,318 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fb5f3f59dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:39:06,319 - __main__ - INFO - 0038
+2020-12-08 12:39:06,319 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:39:06,319 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb5f3f59dc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:39:06,437 - __main__ - INFO - 0013
+2020-12-08 12:39:06,438 - __main__ - INFO - 0038
+2020-12-08 12:39:06,439 - __main__ - INFO - 0013
+2020-12-08 12:39:06,439 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Beam_Balances': '0013', 'Hybrid_Mux': '0038'}
+2020-12-08 12:39:06,440 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:39:06,441 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fb5f3f59dc0>, 'kwargs': {}, 'id': 5}
+2020-12-08 12:39:06,445 - __main__ - INFO - 0038
+2020-12-08 12:39:06,447 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:39:06,448 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb5f3f59dc0>, 'kwargs': {}, 'id': 7}
+2020-12-08 12:40:32,516 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:40:32,516 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:40:39,580 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:40:49,256 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:40:53,291 - __main__ - INFO - 0038
+2020-12-08 12:40:53,291 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:40:53,291 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa808e85dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:40:53,291 - __main__ - INFO - 0013
+2020-12-08 12:40:53,292 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:40:53,292 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fa808e85dc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:40:53,396 - __main__ - INFO - 0038
+2020-12-08 12:40:53,396 - __main__ - INFO - 0013
+2020-12-08 12:40:53,397 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Beam_Balances': '0013'}
+2020-12-08 12:40:53,398 - __main__ - INFO - 0038
+2020-12-08 12:40:53,399 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:40:53,401 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa808e85dc0>, 'kwargs': {}, 'id': 5}
+2020-12-08 12:40:53,403 - __main__ - INFO - 0013
+2020-12-08 12:40:53,406 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:40:53,406 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fa808e85dc0>, 'kwargs': {}, 'id': 7}
+2020-12-08 12:41:21,620 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:42:04,171 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:42:04,171 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:42:10,448 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:42:18,096 - __main__ - INFO - 0038
+2020-12-08 12:42:18,096 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:42:18,096 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f854ce59dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:42:18,210 - __main__ - INFO - 0038
+2020-12-08 12:42:18,212 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 12:42:18,213 - __main__ - INFO - 0038
+2020-12-08 12:42:18,214 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:42:18,214 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f854ce59dc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:43:01,653 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:43:50,335 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:43:50,336 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:44:03,481 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:44:06,398 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:44:06,652 - __main__ - INFO - 0038
+2020-12-08 12:44:06,652 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:44:06,652 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f82d7e59dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:44:08,371 - __main__ - INFO - 0038
+2020-12-08 12:44:08,372 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 12:44:52,262 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:44:52,263 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:44:53,477 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:44:56,035 - __main__ - INFO - 0038
+2020-12-08 12:44:56,036 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:44:56,037 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f8b60585dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:44:56,039 - __main__ - INFO - 0038
+2020-12-08 12:44:56,044 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 12:46:33,583 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:46:33,583 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:46:36,461 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:46:42,067 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:46:44,085 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:46:45,945 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:46:47,140 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:46:49,557 - __main__ - INFO - 0038
+2020-12-08 12:46:49,557 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:46:49,557 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7ff84e67adc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:46:49,662 - __main__ - INFO - 0038
+2020-12-08 12:46:49,662 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:46:49,662 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7ff84e67adc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:46:49,673 - __main__ - INFO - 0038
+2020-12-08 12:46:49,673 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 12:48:29,884 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:48:29,885 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:48:30,443 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:48:32,933 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:48:34,419 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:48:45,077 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:48:48,865 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:48:56,162 - __main__ - INFO - 0038
+2020-12-08 12:48:56,162 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:48:56,162 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fad80e59dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:48:56,163 - __main__ - INFO - 0013
+2020-12-08 12:48:56,163 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:48:56,164 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fad80e59dc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:48:56,168 - __main__ - INFO - 0038
+2020-12-08 12:48:56,169 - __main__ - INFO - 0013
+2020-12-08 12:48:56,169 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Beam_Balances': '0013'}
+2020-12-08 12:49:49,853 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:49:49,854 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:49:55,094 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 12:49:55,719 - __main__ - DEBUG - deleting the files []
+2020-12-08 12:50:09,423 - __main__ - INFO - 0038
+2020-12-08 12:50:09,424 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 12:50:09,428 - __main__ - INFO - 0038
+2020-12-08 12:50:09,429 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:50:09,429 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7ffaa8685dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:50:20,706 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 12:57:36,747 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 12:57:36,748 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 12:57:43,029 - __main__ - INFO - 0013
+2020-12-08 12:57:43,029 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:57:43,029 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 12:57:43,030 - __main__ - INFO - 0038
+2020-12-08 12:57:43,030 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:57:43,030 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 3}
+2020-12-08 12:57:53,170 - __main__ - DEBUG - deleting the files ['data0038.csv', 'data0013.csv']
+2020-12-08 12:58:04,895 - __main__ - INFO - 0038
+2020-12-08 12:58:04,895 - __main__ - INFO - 0013
+2020-12-08 12:58:04,895 - __main__ - INFO - 0027
+2020-12-08 12:58:04,896 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Beam_Balances': '0013', '480lock': '0027'}
+2020-12-08 12:58:04,909 - __main__ - INFO - 0038
+2020-12-08 12:58:04,910 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:58:04,910 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 5}
+2020-12-08 12:58:04,910 - __main__ - INFO - 0013
+2020-12-08 12:58:04,911 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:58:04,911 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 7}
+2020-12-08 12:58:04,911 - __main__ - INFO - 0027
+2020-12-08 12:58:04,911 - __main__ - INFO - Subscribing to stream: 480lock [0027]
+2020-12-08 12:58:04,911 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0027', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 9}
+2020-12-08 12:58:06,204 - __main__ - DEBUG - deleting the files ['data0038.csv', 'data0013.csv']
+2020-12-08 12:58:15,891 - __main__ - INFO - 0038
+2020-12-08 12:58:15,891 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:58:15,891 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 11}
+2020-12-08 12:58:15,891 - __main__ - INFO - 0013
+2020-12-08 12:58:15,892 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:58:15,892 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 13}
+2020-12-08 12:58:15,957 - __main__ - INFO - 0038
+2020-12-08 12:58:15,957 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:58:15,957 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 15}
+2020-12-08 12:58:15,958 - __main__ - INFO - 0013
+2020-12-08 12:58:15,958 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:58:15,959 - __main__ - INFO - 0038
+2020-12-08 12:58:15,960 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 17}
+2020-12-08 12:58:15,964 - __main__ - INFO - 0013
+2020-12-08 12:58:15,966 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038', 'Hybrid_Beam_Balances': '0013'}
+2020-12-08 12:58:33,213 - __main__ - DEBUG - deleting the files ['data0038.csv', 'data0013.csv']
+2020-12-08 12:58:40,219 - __main__ - INFO - 0048
+2020-12-08 12:58:40,219 - __main__ - INFO - Subscribing to stream: AQUA_MONITORS [0048]
+2020-12-08 12:58:40,219 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0048', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 19}
+2020-12-08 12:58:40,220 - __main__ - INFO - 0013
+2020-12-08 12:58:40,220 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:58:40,220 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 21}
+2020-12-08 12:58:40,220 - __main__ - INFO - 0038
+2020-12-08 12:58:40,221 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:58:40,222 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 23}
+2020-12-08 12:58:40,282 - __main__ - INFO - 0048
+2020-12-08 12:58:40,283 - __main__ - INFO - Subscribing to stream: AQUA_MONITORS [0048]
+2020-12-08 12:58:40,283 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0048', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 25}
+2020-12-08 12:58:40,284 - __main__ - INFO - 0048
+2020-12-08 12:58:40,284 - __main__ - INFO - 0013
+2020-12-08 12:58:40,284 - __main__ - INFO - 0013
+2020-12-08 12:58:40,286 - __main__ - INFO - Subscribing to stream: Hybrid_Beam_Balances [0013]
+2020-12-08 12:58:40,287 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0013', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 27}
+2020-12-08 12:58:40,287 - __main__ - INFO - 0038
+2020-12-08 12:58:40,288 - __main__ - INFO - 0038
+2020-12-08 12:58:40,289 - __main__ - DEBUG - The dict with all of the streamID is {'AQUA_MONITORS': '0048', 'Hybrid_Beam_Balances': '0013', 'Hybrid_Mux': '0038'}
+2020-12-08 12:58:40,289 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 12:58:40,290 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fdbff682dc0>, 'kwargs': {}, 'id': 29}
+2020-12-08 13:01:22,142 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 13:01:22,143 - __main__ - DEBUG - deleting the files ['data0038.csv', 'data0013.csv']
+2020-12-08 16:31:43,520 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:31:43,521 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:31:56,453 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:32:04,471 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 16:32:04,507 - __main__ - INFO - 0038
+2020-12-08 16:32:04,508 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:32:04,508 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe794e86e50>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:32:06,407 - __main__ - INFO - 0038
+2020-12-08 16:32:06,408 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:34:18,040 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:34:18,041 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:34:24,242 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:34:28,567 - __main__ - INFO - 0038
+2020-12-08 16:34:28,568 - __main__ - INFO - 0038
+2020-12-08 16:34:28,569 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:34:28,570 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:34:28,572 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f8d57e83dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:35:52,643 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:35:52,643 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:35:53,168 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:35:56,231 - __main__ - INFO - 0038
+2020-12-08 16:35:56,239 - __main__ - INFO - 0038
+2020-12-08 16:35:56,241 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:35:56,246 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:35:56,246 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fa6de683dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:36:36,738 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:36:36,739 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:36:46,001 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:36:51,008 - __main__ - INFO - 0038
+2020-12-08 16:36:51,008 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:36:51,010 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f93c7682e50>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:36:51,025 - __main__ - INFO - 0038
+2020-12-08 16:36:51,026 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:36:51,027 - __main__ - INFO - 0038
+2020-12-08 16:36:51,028 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f93c7682e50>, 'kwargs': {}, 'id': 3}
+2020-12-08 16:36:51,028 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:38:21,998 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:38:21,999 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:38:23,015 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:38:26,082 - __main__ - INFO - 0038
+2020-12-08 16:38:26,083 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:38:26,083 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7ff2c1d85e50>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:38:26,148 - __main__ - INFO - 0038
+2020-12-08 16:38:26,151 - __main__ - INFO - 0038
+2020-12-08 16:38:26,152 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:38:26,158 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:38:26,159 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7ff2c1d85e50>, 'kwargs': {}, 'id': 3}
+2020-12-08 16:39:39,211 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:39:39,212 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:39:39,972 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:39:42,318 - __main__ - INFO - 0038
+2020-12-08 16:39:42,319 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:39:42,327 - __main__ - INFO - 0038
+2020-12-08 16:39:42,327 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:39:42,328 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fbfafd59e50>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:42:14,536 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:42:14,537 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:42:20,594 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:42:23,602 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 16:42:23,610 - __main__ - INFO - 0038
+2020-12-08 16:42:23,611 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:42:23,611 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fc772786dc0>, 'kwargs': {}, 'id': 1}
+2020-12-08 16:42:27,396 - __main__ - INFO - 0038
+2020-12-08 16:42:27,397 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:44:37,060 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 16:44:37,061 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 16:44:40,332 - __main__ - DEBUG - deleting the files []
+2020-12-08 16:44:43,065 - __main__ - INFO - 0038
+2020-12-08 16:44:43,072 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 16:44:43,075 - __main__ - INFO - 0038
+2020-12-08 16:44:43,076 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 16:44:43,076 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb6cfd55e50>, 'kwargs': {}, 'id': 1}

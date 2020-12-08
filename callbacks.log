@@ -9913,3 +9913,147 @@ Traceback (most recent call last):
   File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
 pandas.errors.EmptyDataError: No columns to parse from file
 2020-12-08 12:32:10,325 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 12:39:06,440 - callbacks - DEBUG - None
+2020-12-08 12:39:09,417 - callbacks - DEBUG - None
+2020-12-08 12:39:09,828 - callbacks - DEBUG - starting read for stream Hybrid_Beam_Balances
+2020-12-08 12:39:14,629 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:18,518 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:23,015 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:27,342 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:31,633 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:35,361 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:39,824 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:43,656 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:47,880 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:52,182 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:39:56,275 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:00,707 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:04,770 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:08,613 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:13,331 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:17,200 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Beam_Balances
+2020-12-08 12:40:53,400 - callbacks - DEBUG - None
+2020-12-08 12:42:18,217 - callbacks - DEBUG - None
+2020-12-08 12:44:06,390 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 12:44:08,923 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:08,924 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:10,613 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:10,613 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:13,293 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:13,293 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:15,336 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:15,336 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:18,453 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:18,453 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:21,276 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:21,276 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:23,207 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:23,208 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:25,160 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:25,160 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:27,178 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:27,178 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:29,170 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:29,170 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:32,676 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:32,676 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:53,232 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:53,232 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:44:56,031 - callbacks - DEBUG - None
+2020-12-08 12:44:58,183 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:44:58,183 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:45:00,193 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:45:00,193 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:45:02,272 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:45:02,273 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:46:36,450 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 12:46:49,648 - callbacks - DEBUG - None
+2020-12-08 12:46:51,827 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:46:51,827 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:46:53,804 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:46:53,804 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:46:55,827 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:46:55,827 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:48:30,312 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:48:30,313 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:48:30,436 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 12:48:56,157 - callbacks - DEBUG - None
+2020-12-08 12:48:58,303 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:48:58,303 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:48:58,421 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:48:58,421 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:00,250 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:00,251 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:00,415 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:00,415 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:02,483 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:02,483 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:02,873 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:02,874 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:04,673 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:04,673 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:05,548 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:05,548 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:06,560 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:06,561 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:07,559 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:07,560 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:08,539 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:08,539 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:09,443 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:49:09,444 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:49:55,088 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 12:50:09,420 - callbacks - DEBUG - None
+2020-12-08 12:58:04,889 - callbacks - DEBUG - None
+2020-12-08 12:58:15,953 - callbacks - DEBUG - None
+2020-12-08 12:58:40,279 - callbacks - DEBUG - None
+2020-12-08 12:58:42,426 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:42,426 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:44,425 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:44,425 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:47,439 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:47,439 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:48,608 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:48,608 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:50,449 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:50,449 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:52,472 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:52,472 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:54,441 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:54,441 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:56,501 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:56,501 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:57,248 - callbacks - DEBUG - None
+2020-12-08 12:58:57,278 - callbacks - DEBUG - starting read for stream AQUA_MONITORS
+2020-12-08 12:58:57,457 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:57,457 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:58:57,458 - callbacks - DEBUG - done with read 1/24 for stream AQUA_MONITORS
+2020-12-08 12:58:58,478 - callbacks - DEBUG - done with read 2/24 for stream AQUA_MONITORS
+2020-12-08 12:58:59,329 - callbacks - DEBUG - done with read 3/24 for stream AQUA_MONITORS
+2020-12-08 12:58:59,493 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:58:59,494 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:59:00,862 - callbacks - DEBUG - done with read 4/24 for stream AQUA_MONITORS
+2020-12-08 12:59:02,850 - callbacks - DEBUG - done with read 5/24 for stream AQUA_MONITORS
+2020-12-08 12:59:03,051 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:59:03,051 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:59:04,697 - callbacks - DEBUG - done with read 6/24 for stream AQUA_MONITORS
+2020-12-08 12:59:07,019 - callbacks - DEBUG - done with read 7/24 for stream AQUA_MONITORS
+2020-12-08 12:59:07,196 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:59:07,196 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:59:07,360 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:59:07,360 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:59:09,937 - callbacks - DEBUG - done with read 8/24 for stream AQUA_MONITORS
+2020-12-08 12:59:10,112 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:59:10,112 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 12:59:12,368 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 12:59:12,368 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 13:01:24,248 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-08 13:01:24,248 - callbacks - INFO - Updating stream definitions from server.
+2020-12-08 16:32:04,460 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 16:34:28,564 - callbacks - DEBUG - None
+2020-12-08 16:35:56,228 - callbacks - DEBUG - None
+2020-12-08 16:36:51,021 - callbacks - DEBUG - None
+2020-12-08 16:38:26,145 - callbacks - DEBUG - None
+2020-12-08 16:39:42,314 - callbacks - DEBUG - None
+2020-12-08 16:42:23,591 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 16:44:43,059 - callbacks - DEBUG - None
