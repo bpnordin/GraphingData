@@ -32,12 +32,26 @@ def serve_layout_graph():
             dcc.Link(html.Button('Home', id='home_val', n_clicks=0),href = '/apps/home'),
             dcc.Interval(
                 id='interval-component',
-                interval=4*1000, # in milliseconds
+                interval=2*1000, # in milliseconds
                 n_intervals=0,
                 disabled = False
                 ),
             html.Div(id = 'live-update-graph-container',
                 children = []),
+            dcc.Slider(
+                id='day-slider',
+                min=0,
+                max=30,
+                step=1,
+                value=0,
+                marks = {
+                    0: '0 days',
+                    5: '5 days', 
+                    10: '10 days',
+                    30: '30 days',
+                }
+            ),
+            html.Div(id='slider-output-container'),
             daq.BooleanSwitch(id = '24hr-switch',
                 color="#9B51E0",
                 label="24hr Graph Toggle",

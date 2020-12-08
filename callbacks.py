@@ -62,10 +62,9 @@ def updateData(n,subList,oldData,streamID,subTime):
     if subList is None or subTime is None or len(subList) == 0:
         raise PreventUpdate
 
-    if oldData is None or n == 1:
+    if oldData is None:
         #get the data
         timeWindow = 300
-        logger.debug("reading the streams") 
         read = reader.Reader(config,logger) 
         SUB_TIME = time.time()
 #        SUB_TIME = subTime
@@ -154,8 +153,10 @@ def show_graph(onBoolean):
 
 @app.callback([Output('24hr-loading','children'),Output('24hr-graph-store','data')],
     Input('24hr-switch','on'),
-   [ State('keyValues','data'),State('24hr-graph-store','data'),State('refresh-24hr','value')])
-def graph_average(onBoolean,subList,graphData,refresh):
+   [ State('keyValues','data'),State('24hr-graph-store','data'),
+   State('refresh-24hr','value'),
+   State('day-slider','value')])
+def graph_average(onBoolean,subList,graphData,refresh,days):
     
     if subList is None:
         logger.debug("cant graph 24hr b/c there are no streams selected")
@@ -169,8 +170,9 @@ def graph_average(onBoolean,subList,graphData,refresh):
         graphs = []
         #start averaging over 24hrs
         window = 60*60
-        start = time.time()
-        stop = time.time()-window 
+        hours = 24
+        start = time.time()-24*60*60*days
+        stop = time.time()-window - 24*60*60*days 
         read = reader.Reader(config,logger)
         for stream in subList:
             figure = {
@@ -180,10 +182,11 @@ def graph_average(onBoolean,subList,graphData,refresh):
             #get the averages
             data = []
             logger.debug("starting read for stream {}".format(stream))
-            for i in range(24):
+            for i in range(hours):
                 start = start - window
                 stop = stop - window
-                data.append(read.get_stream_stat_data(stream,start=start,stop=stop))
+                r = read.get_stream_stat_data(stream,start=start,stop=stop)
+                data.append(r)
                 logger.debug("done with read {}/{} for stream {}".format(i+1,24,stream))
             #now format the data
             xx = []
@@ -208,6 +211,12 @@ def graph_average(onBoolean,subList,graphData,refresh):
 
     else:
         raise PreventUpdate
+
+@app.callback(
+    Output('slider-output-container', 'children'),
+    Input('day-slider', 'value'))
+def update_output(value):
+    return 'You have selected "{} days ago"'.format(value)
 
 
 

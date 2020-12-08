@@ -1,4 +1,4 @@
 .vscode/settings.json
 .python-version
-.csv
-.log
+*.csv
+*.log
