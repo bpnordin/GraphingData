@@ -4,8 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+rope = "*"
 
 [packages]
+dash = "*"
+pandas = "*"
+zmq = "*"
+pylint = "*"
+configparser = "*"
+requests = "*"
+dash-daq = "*"
 
 [requires]
 python_version = "3.8"
