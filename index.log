@@ -349,3 +349,34 @@ NameError: name 'sub' is not defined
 2020-12-07 19:29:39,198 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
 2020-12-07 19:29:39,198 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f8db6acaee0>, 'kwargs': {}, 'id': 1}
 2020-12-07 19:29:39,198 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 19:38:31,402 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:38:31,403 - __main__ - DEBUG - deleting the files []
+2020-12-07 19:38:32,120 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:38:32,120 - __main__ - DEBUG - deleting the files []
+2020-12-07 19:38:35,010 - __main__ - DEBUG - starting subscriber with None timestamp
+                None stream List
+                None subscription time
+2020-12-07 19:38:37,216 - __main__ - DEBUG - deleting the files []
+2020-12-07 19:38:37,571 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 19:38:37,661 - __main__ - DEBUG - starting subscriber with 1607391517609 timestamp
+                None stream List
+                None subscription time
+2020-12-07 19:38:40,130 - __main__ - DEBUG - starting subscriber with 1607391520100 timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 19:38:40,130 - __main__ - INFO - 0038
+2020-12-07 19:38:40,130 - __main__ - INFO - 0038
+2020-12-07 19:38:40,131 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 19:38:40,133 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 19:38:40,133 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7efecd1cdf70>, 'kwargs': {}, 'id': 1}
+2020-12-07 19:38:40,133 - __main__ - DEBUG - subbed to Hybrid_Mux

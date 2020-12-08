@@ -54,12 +54,8 @@ def subCallback(stream_id,data,state,log,crtl):
     #store data locally in some file
     fileName = 'data'+str(stream_id)+'.csv'
     df = pd.DataFrame([data])
-    if os.path.isfile(fileName):
-        #the file exists, we dont have to make it
-        df.to_csv(fileName,mode = 'a',header=False,index=False)
-    else:
-        #make the file with headers
-        df.to_csv(fileName,mode = 'w',header=True,index=False)
+    with open(fileName,'a') as f:
+        df.to_csv(f,mode='a',header=not f.tell(),index=False)
     return state
 
 

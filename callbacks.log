@@ -447,3 +447,46 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data0038.csv'
 
 2020-12-07 19:29:51,166 - callbacks - DEBUG - measurement_time,FORT6903691727505497088,-0.26419433951377876903691735210668032,-0.270462632179260256903691744659596288,-0.267328500747680666903691753249530880,-0.27359679341316223
 
+2020-12-07 19:38:34,724 - callbacks - ERROR - [Errno 2] No such file or directory: 'data0038.csv'
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: 'data0038.csv'
+2020-12-07 19:38:56,115 - callbacks - DEBUG - graphing 24hr
+2020-12-07 19:38:56,412 - callbacks - DEBUG - starting reads
+2020-12-07 19:38:58,390 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903663155252740096, 'stop': 6903663156167568384}, 'FORT': {'standard_deviation': 2.956286658540307, 'average': 0.5672454716666666, 'min': -0.295536, 'max': 11.072}}
+2020-12-07 19:39:00,227 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903647693520798720, 'stop': 6903647694379792384}, 'FORT': {'standard_deviation': 2.5243819037017294, 'average': 10.336979211080179, 'min': -0.351951, 'max': 11.0877}}
+2020-12-07 19:39:01,987 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903632232364382208, 'stop': 6903632233090232320}, 'FORT': {'standard_deviation': 0.27585023640385326, 'average': -0.2640176453494833, 'min': -0.355085, 'max': 12.9024}}
+2020-12-07 19:39:04,165 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903616770104159232, 'stop': 6903616770958858240}, 'FORT': {'standard_deviation': 3.2772076000047026, 'average': 18.273437162073563, 'min': -0.292402, 'max': 19.0829}}
+2020-12-07 19:39:06,493 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903601308488181760, 'stop': 6903601309304225792}, 'FORT': {'standard_deviation': 0.23528423786130742, 'average': 19.038081643424636, 'min': 18.5815, 'max': 19.7537}}
+2020-12-07 19:39:08,708 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903585846270909440, 'stop': 6903585847220097024}, 'FORT': {'standard_deviation': 0.19006503099960206, 'average': 19.34123813545197, 'min': 18.9356, 'max': 19.9166}}
+2020-12-07 19:39:11,652 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903570384139535360, 'stop': 6903570384994233344}, 'FORT': {'standard_deviation': 0.09414594570357666, 'average': 19.048572287414494, 'min': 18.7006, 'max': 19.3713}}
+2020-12-07 19:39:14,540 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903554922068291584, 'stop': 6903554922927284224}, 'FORT': {'standard_deviation': 0.06218009547440402, 'average': 18.91435921871527, 'min': 18.6692, 'max': 19.1832}}
+2020-12-07 19:39:17,342 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903539460538212352, 'stop': 6903539461307012096}, 'FORT': {'standard_deviation': 0.06330539012071876, 'average': 18.928047023842606, 'min': 18.6316, 'max': 19.1394}}
+2020-12-07 19:39:20,125 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903523998479853568, 'stop': 6903523999244357632}, 'FORT': {'standard_deviation': 0.06401059097254402, 'average': 18.971607416055146, 'min': 18.7131, 'max': 19.1989}}
+2020-12-07 19:39:23,031 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903508537284783104, 'stop': 6903508538040696832}, 'FORT': {'standard_deviation': 0.06413764892303678, 'average': 19.01219052619881, 'min': 18.7162, 'max': 19.2585}}
+2020-12-07 19:39:26,095 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903493074659487744, 'stop': 6903493075514186752}, 'FORT': {'standard_deviation': 0.06323752956480932, 'average': 19.032346501417216, 'min': 18.7413, 'max': 19.271}}
+2020-12-07 19:39:29,107 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903477612957611008, 'stop': 6903477613872439296}, 'FORT': {'standard_deviation': 0.06330730710689705, 'average': 19.023930760682337, 'min': 18.7413, 'max': 19.3588}}
+2020-12-07 19:39:31,111 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903468032685164544, 'stop': 6903468121526562816}, 'FORT': {'standard_deviation': 0.06438977237283676, 'average': 19.035549537708484, 'min': 18.7789, 'max': 19.3149}}
+2020-12-07 19:39:33,747 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903446688995511296, 'stop': 6903446689858799616}, 'FORT': {'standard_deviation': 0.062358129774657704, 'average': 19.074969496055804, 'min': 18.8479, 'max': 19.3525}}
+2020-12-07 19:39:36,458 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903431227856274432, 'stop': 6903431228625074176}, 'FORT': {'standard_deviation': 0.07205735952163461, 'average': 19.097762951439048, 'min': 18.8385, 'max': 19.365}}
+2020-12-07 19:39:39,511 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903415765230980096, 'stop': 6903415766218822656}, 'FORT': {'standard_deviation': 0.10552668651799908, 'average': 19.3320875854404, 'min': 18.9983, 'max': 19.7066}}
+2020-12-07 19:39:42,336 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903400303593527296, 'stop': 6903400304495470592}, 'FORT': {'standard_deviation': 0.13104422099883725, 'average': 19.621431892432494, 'min': 19.2208, 'max': 20.0545}}
+2020-12-07 19:39:45,078 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903384841556642816, 'stop': 6903384842454291456}, 'FORT': {'standard_deviation': 0.4162260992708043, 'average': 20.443422363009894, 'min': 19.622, 'max': 21.4022}}
+2020-12-07 19:39:47,503 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903369380322917376, 'stop': 6903369381177616384}, 'FORT': {'standard_deviation': 0.22923055410786114, 'average': 21.765853114407957, 'min': 21.0324, 'max': 22.2578}}
+2020-12-07 19:39:50,364 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903353917856536576, 'stop': 6903353918711234560}, 'FORT': {'standard_deviation': 0.07923935399085553, 'average': 21.75639397222222, 'min': 21.4179, 'max': 22.0416}}
+2020-12-07 19:39:52,841 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903338455763817472, 'stop': 6903338456678645760}, 'FORT': {'standard_deviation': 0.11161936633580577, 'average': 21.59934553283698, 'min': 21.1672, 'max': 21.9319}}
+2020-12-07 19:39:55,991 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903322994074825728, 'stop': 6903322994920933376}, 'FORT': {'standard_deviation': 0.18723280562307285, 'average': 21.133247699744416, 'min': 20.6626, 'max': 21.6686}}
+2020-12-07 19:39:59,153 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903307532012171264, 'stop': 6903307532875459584}, 'FORT': {'standard_deviation': 0.15912924524387997, 'average': 20.608602428182472, 'min': 20.1423, 'max': 21.0982}}

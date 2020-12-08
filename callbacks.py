@@ -88,10 +88,7 @@ def updateData(n,subList,oldData,streamID,subTime):
                 try:
                     df = pd.read_csv(fileName)
                     #now overwrite the old data
-                    with open(fileName,'w') as f:
-                        header = ','.join(df.columns.format())
-                        logger.debug(header+'\n')
-                        f.write(header)
+                    open(fileName, 'w').close()
 
                     #now convert to datetime object
                     if not df.empty:
