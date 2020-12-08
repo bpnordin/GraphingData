@@ -159,7 +159,7 @@ def graph_average(onBoolean,subList,graphData,refresh):
 
     logger.debug(refresh)
 
-    if graphData is not None and refresh is not None:
+    if graphData is not None and refresh is None:
         return graphData,graphData
     if onBoolean:
         graphs = []

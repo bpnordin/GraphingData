@@ -42,11 +42,13 @@ def reset():
         logger.error("tried unsubscribing with no sub function")
 
     #delete all of the csv data
-    fileList = os.listdir()
     r = re.compile('data\w*.csv')
+    fileList = os.listdir()
     csvList = list(filter(r.match, fileList))
     logger.debug("deleting the files {}".format(csvList))
-    map(os.remove,csvList)
+    for f in csvList:
+        os.remove(f)
+    
 
 
 

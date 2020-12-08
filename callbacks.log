@@ -3248,3 +3248,377 @@ pandas.errors.EmptyDataError: No columns to parse from file
 2020-12-08 00:52:41,477 - callbacks - DEBUG - None
 2020-12-08 00:52:57,216 - callbacks - DEBUG - None
 2020-12-08 00:52:58,588 - callbacks - DEBUG - None
+2020-12-08 00:53:51,719 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:53:57,855 - callbacks - DEBUG - None
+2020-12-08 00:54:10,979 - callbacks - DEBUG - []
+2020-12-08 00:54:11,530 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:54:14,550 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 00:54:17,514 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 00:54:20,555 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 00:54:22,518 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 00:54:25,437 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 00:54:27,795 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 00:54:30,708 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 00:54:33,598 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 00:54:36,277 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 00:54:39,268 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 00:54:42,139 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 00:54:45,228 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 00:54:47,567 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 00:54:49,728 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 00:54:51,625 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 00:54:53,413 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 00:54:55,280 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 00:54:57,089 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 00:54:58,950 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 00:55:00,306 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 00:55:02,115 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 00:55:04,412 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 00:55:06,794 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 00:55:09,296 - callbacks - DEBUG - done with read 24/24 for stream Hybrid_Mux
+2020-12-08 00:55:54,680 - callbacks - DEBUG - []
+2020-12-08 00:55:55,313 - callbacks - DEBUG - []
+2020-12-08 00:55:55,822 - callbacks - DEBUG - []
+2020-12-08 00:55:56,256 - callbacks - DEBUG - []
+2020-12-08 00:55:57,942 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:56:00,943 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:56:07,750 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:56:08,179 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:56:33,153 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:56:36,942 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:56:43,998 - callbacks - DEBUG - None
+2020-12-08 00:56:44,335 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:56:46,149 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 00:56:47,865 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 00:56:49,964 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 00:56:51,392 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 00:56:53,220 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 00:56:55,443 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 00:56:57,534 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 00:56:59,600 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 00:57:01,377 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 00:57:03,389 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 00:57:05,537 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 00:57:05,969 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:57:07,852 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 00:57:10,660 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 00:57:11,027 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:11,292 - callbacks - DEBUG - None
+2020-12-08 00:57:13,601 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 00:57:16,526 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 00:57:19,703 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 00:57:23,312 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 00:57:27,145 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 00:57:30,886 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 00:57:34,314 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 00:57:38,533 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 00:57:42,048 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 00:57:45,991 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 00:57:49,025 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:49,746 - callbacks - DEBUG - done with read 24/24 for stream Hybrid_Mux
+2020-12-08 00:57:51,044 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:53,052 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:55,035 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:57,064 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:57:59,044 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:01,071 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:03,036 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:05,047 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:05,299 - callbacks - DEBUG - None
+2020-12-08 00:58:17,048 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:19,036 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:21,033 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:23,035 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:33,048 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:58:34,030 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:58:45,035 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:58:48,883 - callbacks - DEBUG - None
+2020-12-08 00:58:49,227 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:58:51,260 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 00:58:53,025 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 00:58:55,089 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 00:58:56,746 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 00:58:58,241 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 00:59:00,088 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 00:59:01,932 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 00:59:04,079 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 00:59:06,555 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 00:59:08,995 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 00:59:11,908 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 00:59:14,720 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 00:59:17,673 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 00:59:20,601 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 00:59:23,637 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 00:59:26,543 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 00:59:29,410 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 00:59:32,354 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 00:59:35,209 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 00:59:37,201 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 00:59:40,113 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 00:59:43,197 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 00:59:46,442 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 00:59:48,859 - callbacks - DEBUG - done with read 24/24 for stream Hybrid_Mux
+2020-12-08 00:59:53,103 - callbacks - DEBUG - None
+2020-12-08 00:59:53,648 - callbacks - DEBUG - None
+2020-12-08 00:59:55,865 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:59:56,352 - callbacks - DEBUG - ['Refresh Data']
+2020-12-08 00:59:56,681 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:59:58,762 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 01:00:00,809 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 01:00:02,859 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 01:00:05,008 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 01:00:07,159 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 01:00:10,435 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 01:00:13,223 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 01:00:16,128 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 01:00:19,076 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 01:00:22,007 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 01:00:24,976 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 01:00:27,852 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 01:00:30,607 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 01:00:33,373 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 01:00:36,239 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 01:00:39,027 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 01:00:41,977 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 01:00:44,843 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 01:00:47,167 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 01:00:49,245 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 01:00:51,659 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 01:00:54,569 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 01:00:57,437 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 01:01:00,304 - callbacks - DEBUG - done with read 24/24 for stream Hybrid_Mux
+2020-12-08 01:01:06,496 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 01:07:33,806 - callbacks - DEBUG - None
+2020-12-08 01:08:18,796 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 01:08:21,951 - callbacks - DEBUG - None
+2020-12-08 01:11:58,646 - callbacks - DEBUG - None
+2020-12-08 01:14:13,861 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 01:14:17,280 - callbacks - DEBUG - None
+2020-12-08 01:15:40,057 - callbacks - DEBUG - None
+2020-12-08 01:19:43,013 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 01:19:46,231 - callbacks - DEBUG - None
