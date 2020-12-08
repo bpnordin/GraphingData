@@ -28,7 +28,8 @@ def serve_layout_graph():
             dcc.Store(id='keyValues'),
             dcc.Store(id='streamID'),
             dcc.Store(id='subTime'),
-            html.Button('Graph', id='graph_val', n_clicks=0),
+            html.Button('Graph',
+                id='graph_val', n_clicks=0),
             dcc.Interval(
                 id='interval-component',
                 interval=2*1000, # in milliseconds
@@ -37,9 +38,14 @@ def serve_layout_graph():
                 ),
             html.Div(id = 'live-update-graph-container',
                 children = []),
-            daq.BooleanSwitch(id = '24hr-switch',on = False),
-            html.Div(id = '24hr-graph-container',
-                children = [dcc.Graph(id='24hr-graph') ],style= {'display': 'block'}),
+            daq.BooleanSwitch(id = '24hr-switch',
+                on = False),
+            html.Div(id='hidden-container',
+                style= {'display': 'block'},
+                children =[
+                    html.Div(id = '24hr-graph-container', children = [] )
+                    ]
+                )
         ]
     return html.Div(layout)
 

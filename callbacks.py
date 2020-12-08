@@ -83,11 +83,16 @@ def updateData(n,subList,oldData,streamID,subTime):
     else:
         #read the data from the sub file
         for stream in subList:
-            file = 'data'+streamID[stream]+'.csv'
+            fileName = 'data'+streamID[stream]+'.csv'
             try:
                 try:
-                    df = pd.read_csv(file)
-                    os.remove(file)
+                    df = pd.read_csv(fileName)
+                    #now overwrite the old data
+                    with open(fileName,'w') as f:
+                        header = ','.join(df.columns.format())
+                        logger.debug(header+'\n')
+                        f.write(header)
+
                     #now convert to datetime object
                     if not df.empty:
 
@@ -137,7 +142,7 @@ def graph(n,data):
             figure = figure))
         return html.Div(graphs)
 
-@app.callback(Output('24hr-graph-container','style'),
+@app.callback(Output('hidden-container','style'),
             Input('24hr-switch','on'))
 def show_graph(onBoolean):
     if onBoolean:
@@ -150,22 +155,46 @@ def show_graph(onBoolean):
     State('keyValues','data'))
 def graph_average(onBoolean,subList):
     if onBoolean:
+        logger.debug("graphing 24hr")
+        graphs = []
         #start averaging over 24hrs
-        start = time.time()
-        stop = time.time()-60*60*24 #24hrs 
         window = 60*60
+        start = time.time()
+        stop = time.time()-window 
         read = reader.Reader(config,logger)
-        data = {}
-        figure = {}
         for stream in subList:
-            data[stream] = []
-            for count,t in enumerate(np.arange(start,stop,window)):
+            figure = {
+                'data':[],
+                'layout':{'title':'Graph of {} averaged over 24hrs'.format(stream)}
+            }
+            #get the averages
+            data = []
+            logger.debug("starting reads")
+            for i in range(24):
                 start = start - window
                 stop = stop - window
-                val = read.get_stream_stat_data(stream,start=start,stop=stop)
-                data[stream].append(val)
+                data.append(read.get_stream_stat_data(stream,start=start,stop=stop))
+                logger.debug("done with read {}".format(data[i]))
+            #now format the data
+            xx = []
+            yy = {}
+            for val in data:
+                xx.append(pd.to_datetime(val['measurement_time']['start']/(2**32),unit='s'))
+                for keys in val:
+                    if keys != 'measurement_time':
+                        if keys not in yy.keys():
+                            yy[keys] = []
+                        yy[keys].append(val[keys]['average'])
 
+            for key in yy:
+                figure['data'].append({'x':xx,'y':yy[key],'type':'scatter','name':key})
+
+            graphs.append(dcc.Graph(
+                id='graph-{}'.format(stream),
+                figure = figure))
         read.close()
+        return html.Div(graphs)
+        
 
     else:
         raise PreventUpdate
