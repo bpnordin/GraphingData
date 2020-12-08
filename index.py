@@ -56,6 +56,7 @@ def subCallback(stream_id,data,state,log,crtl):
     df = pd.DataFrame([data])
     with open(fileName,'a') as f:
         df.to_csv(f,mode='a',header=not f.tell(),index=False)
+        logger.debug('appended to csv file{}'.format(df))
     return state
 
 
@@ -63,9 +64,7 @@ def subCallback(stream_id,data,state,log,crtl):
             Input('keyValues','modified_timestamp'),
             State('keyValues','data'),State('subTime','data'))
 def start_sub(n,streamList,subscribed):
-    logger.debug("""starting subscriber with {} timestamp
-                {} stream List
-                {} subscription time""".format(n,streamList,subscribed))
+
     if streamList is None:
         #too early
         raise PreventUpdate 

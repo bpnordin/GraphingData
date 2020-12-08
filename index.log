@@ -380,3 +380,82 @@ NameError: name 'sub' is not defined
 2020-12-07 19:38:40,133 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
 2020-12-07 19:38:40,133 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7efecd1cdf70>, 'kwargs': {}, 'id': 1}
 2020-12-07 19:38:40,133 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 19:43:23,695 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:43:23,696 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:43:40,128 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:43:40,129 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:43:40,836 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:43:40,837 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:43:43,393 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:43:43,719 - __main__ - DEBUG - starting subscriber with -1 timestamp
+                None stream List
+                None subscription time
+2020-12-07 19:43:43,750 - __main__ - DEBUG - starting subscriber with 1607391823736 timestamp
+                None stream List
+                None subscription time
+2020-12-07 19:43:53,114 - __main__ - INFO - 0038
+2020-12-07 19:43:53,114 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 19:43:53,116 - __main__ - DEBUG - starting subscriber with None timestamp
+                ['Hybrid_Mux'] stream List
+                None subscription time
+2020-12-07 19:43:53,116 - __main__ - INFO - 0038
+2020-12-07 19:43:53,116 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 19:43:53,116 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe296ee0f70>, 'kwargs': {}, 'id': 1}
+2020-12-07 19:43:53,117 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 19:54:44,077 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:54:44,077 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:54:56,295 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:54:56,295 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:54:57,003 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:54:57,004 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:54:58,737 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:56:15,946 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:56:15,946 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:56:20,316 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:56:20,316 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:56:21,638 - __main__ - ERROR - tried unsubscribing with no sub function
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/index.py", line 40, in reset
+    sub.unsubscribe_all()
+NameError: name 'sub' is not defined
+2020-12-07 19:56:21,638 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:56:22,756 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-07 19:56:26,186 - __main__ - INFO - 0038
+2020-12-07 19:56:26,187 - __main__ - INFO - 0038
+2020-12-07 19:56:26,187 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-07 19:56:26,188 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-07 19:56:26,188 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f4955e4ef70>, 'kwargs': {}, 'id': 1}
+2020-12-07 19:56:26,188 - __main__ - DEBUG - subbed to Hybrid_Mux
+2020-12-07 19:56:52,528 - __main__ - DEBUG - deleting the files ['data0038.csv']

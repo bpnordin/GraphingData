@@ -490,3 +490,2121 @@ FileNotFoundError: [Errno 2] No such file or directory: 'data0038.csv'
 2020-12-07 19:39:52,841 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903338455763817472, 'stop': 6903338456678645760}, 'FORT': {'standard_deviation': 0.11161936633580577, 'average': 21.59934553283698, 'min': 21.1672, 'max': 21.9319}}
 2020-12-07 19:39:55,991 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903322994074825728, 'stop': 6903322994920933376}, 'FORT': {'standard_deviation': 0.18723280562307285, 'average': 21.133247699744416, 'min': 20.6626, 'max': 21.6686}}
 2020-12-07 19:39:59,153 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903307532012171264, 'stop': 6903307532875459584}, 'FORT': {'standard_deviation': 0.15912924524387997, 'average': 20.608602428182472, 'min': 20.1423, 'max': 21.0982}}
+2020-12-07 19:44:14,243 - callbacks - DEBUG - graphing 24hr
+2020-12-07 19:44:14,724 - callbacks - DEBUG - starting reads
+2020-12-07 19:44:16,894 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903664521073815552, 'stop': 6903664521932808192}, 'FORT': {'standard_deviation': 4.152479544045785, 'average': 1.5604502763333332, 'min': -0.295536, 'max': 11.0908}}
+2020-12-07 19:44:19,369 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903649059801435136, 'stop': 6903649060716263424}, 'FORT': {'standard_deviation': 3.6855477809194332, 'average': 9.551840959279037, 'min': -0.351951, 'max': 11.0877}}
+2020-12-07 19:44:22,332 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903633598043723776, 'stop': 6903633598902716416}, 'FORT': {'standard_deviation': 2.8616935059584825, 'average': 0.5090002677121566, 'min': -0.355085, 'max': 12.9024}}
+2020-12-07 19:44:25,219 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903618135920940032, 'stop': 6903618136779932672}, 'FORT': {'standard_deviation': 6.178212867120514, 'average': 16.58508165968441, 'min': -0.292402, 'max': 19.0829}}
+2020-12-07 19:44:28,188 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903602673828220928, 'stop': 6903602674691509248}, 'FORT': {'standard_deviation': 0.18762259326101258, 'average': 18.98093553888889, 'min': 18.5815, 'max': 19.5781}}
+2020-12-07 19:44:30,815 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903587212031854592, 'stop': 6903587212895142912}, 'FORT': {'standard_deviation': 0.18950990198027776, 'average': 19.36927324702745, 'min': 18.9356, 'max': 19.9166}}
+2020-12-07 19:44:33,989 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903571750050804736, 'stop': 6903571750815308800}, 'FORT': {'standard_deviation': 0.09466159967345152, 'average': 19.07140727950172, 'min': 18.71, 'max': 19.4246}}
+2020-12-07 19:44:37,003 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903556288366107648, 'stop': 6903556289169266688}, 'FORT': {'standard_deviation': 0.0631541908169566, 'average': 18.91553711586552, 'min': 18.6692, 'max': 19.1832}}
+2020-12-07 19:44:39,412 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903540826715769856, 'stop': 6903540827643483136}, 'FORT': {'standard_deviation': 0.06300737696556927, 'average': 18.927325037514592, 'min': 18.6316, 'max': 19.1394}}
+2020-12-07 19:44:41,438 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903525364202144768, 'stop': 6903525365116972032}, 'FORT': {'standard_deviation': 0.06463138231569719, 'average': 18.965938603513454, 'min': 18.6943, 'max': 19.1989}}
+2020-12-07 19:44:43,344 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903509902998483968, 'stop': 6903509903853181952}, 'FORT': {'standard_deviation': 0.06429855160436253, 'average': 19.011201661388007, 'min': 18.7162, 'max': 19.2585}}
+2020-12-07 19:44:45,197 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903494440476267520, 'stop': 6903494441339555840}, 'FORT': {'standard_deviation': 0.06390356472242906, 'average': 19.028280670260656, 'min': 18.7413, 'max': 19.271}}
+2020-12-07 19:44:47,082 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903478978774390784, 'stop': 6903478979629089792}, 'FORT': {'standard_deviation': 0.06380313115570582, 'average': 19.025770972939934, 'min': 18.7413, 'max': 19.3588}}
+2020-12-07 19:44:48,385 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903468032685164544, 'stop': 6903468121526562816}, 'FORT': {'standard_deviation': 0.06388656001174794, 'average': 19.03463000316907, 'min': 18.7789, 'max': 19.3149}}
+2020-12-07 19:44:49,840 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903448054820881408, 'stop': 6903448055675579392}, 'FORT': {'standard_deviation': 0.0623442157658013, 'average': 19.07621724489054, 'min': 18.8479, 'max': 19.3525}}
+2020-12-07 19:44:51,742 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903432593587155968, 'stop': 6903432594450444288}, 'FORT': {'standard_deviation': 0.06857096538844529, 'average': 19.08875800088899, 'min': 18.8385, 'max': 19.3462}}
+2020-12-07 19:44:53,790 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903417131043465216, 'stop': 6903417131902458880}, 'FORT': {'standard_deviation': 0.10696636999111832, 'average': 19.3060572492359, 'min': 18.9544, 'max': 19.6189}}
+2020-12-07 19:44:55,789 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903401669444667392, 'stop': 6903401670269300736}, 'FORT': {'standard_deviation': 0.12053540025796503, 'average': 19.588571991332373, 'min': 19.2208, 'max': 19.995}}
+2020-12-07 19:44:57,519 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903386207364833280, 'stop': 6903386208228121600}, 'FORT': {'standard_deviation': 0.38992034572637185, 'average': 20.329403662331888, 'min': 19.622, 'max': 21.1922}}
+2020-12-07 19:44:59,524 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903370745276408832, 'stop': 6903370746131107840}, 'FORT': {'standard_deviation': 0.29290679760698, 'average': 21.70705707300811, 'min': 20.8914, 'max': 22.2578}}
+2020-12-07 19:45:01,216 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903355283669021696, 'stop': 6903355284528014336}, 'FORT': {'standard_deviation': 0.07900528132135415, 'average': 21.761866620367798, 'min': 21.4179, 'max': 22.0416}}
+2020-12-07 19:45:03,416 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903339821584891904, 'stop': 6903339822435296256}, 'FORT': {'standard_deviation': 0.11246503312884985, 'average': 21.619553817090786, 'min': 21.1672, 'max': 21.9319}}
+2020-12-07 19:45:05,772 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903324359887309824, 'stop': 6903324360797843456}, 'FORT': {'standard_deviation': 0.19862174177419709, 'average': 21.185549249916658, 'min': 20.6908, 'max': 21.7094}}
+2020-12-07 19:45:08,228 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903308897833245696, 'stop': 6903308898679354368}, 'FORT': {'standard_deviation': 0.16692653013615777, 'average': 20.65210333388898, 'min': 20.1893, 'max': 21.1139}}
+2020-12-07 19:45:39,108 - callbacks - ERROR - 'measurement_time'
+Traceback (most recent call last):
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'measurement_time'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 96, in updateData
+    df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),unit='s')
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 'measurement_time'
+2020-12-07 19:48:41,121 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:49:51,127 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:49:53,129 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:49:55,128 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:49:57,170 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:49:59,129 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:01,128 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:03,129 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:05,129 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:07,133 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:09,130 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:11,165 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:13,140 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:15,139 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:17,140 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:19,137 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:21,136 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:23,137 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:25,136 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:27,158 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:29,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:31,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:33,142 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:35,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:37,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:39,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:41,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:43,162 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:45,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:47,163 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:49,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:51,166 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:53,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:55,207 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:57,147 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:50:59,165 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:01,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:03,165 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:05,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:07,147 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:09,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:11,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:13,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:15,147 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:17,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:19,142 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:21,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:23,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:25,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:27,170 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:29,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:31,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:33,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:35,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:37,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:39,143 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:41,148 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:43,146 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:45,144 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:47,147 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:49,146 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:51,146 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:53,145 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:55,146 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:57,147 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:51:59,151 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:01,150 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:03,150 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:05,148 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:07,190 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:09,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:11,160 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:13,152 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:15,153 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:17,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:19,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:21,150 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:23,152 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:25,151 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:27,151 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:29,153 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:31,151 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:33,153 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:35,153 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:37,192 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:39,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:41,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:43,154 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:45,155 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:47,160 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:49,155 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:51,155 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:53,157 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:55,156 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:57,163 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:52:59,158 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:01,158 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:03,158 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:05,164 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:07,159 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:09,195 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:11,166 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:13,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:15,159 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:17,159 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:19,167 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:21,160 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:23,164 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:25,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:27,161 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:29,168 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:31,160 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:33,162 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:35,165 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:37,167 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:39,172 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:41,175 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:43,169 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:45,170 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:47,198 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:49,169 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:51,170 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:53,169 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:55,170 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:57,171 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:53:59,171 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:54:01,171 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:54:57,579 - callbacks - ERROR - No columns to parse from file
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 89, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-07 19:56:28,703 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:28,703 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:30,799 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:30,799 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:32,739 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:32,739 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:34,686 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:34,686 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:36,847 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:36,847 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:38,787 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:38,787 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:40,731 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:40,732 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:42,780 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:42,780 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:44,725 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:44,725 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:46,773 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:46,773 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:48,717 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:48,717 - callbacks - INFO - Updating stream definitions from server.
+2020-12-07 19:56:50,769 - callbacks - ERROR - The server responds to the request with error message: `Stream declared, but no data in range.`
+2020-12-07 19:56:50,769 - callbacks - INFO - Updating stream definitions from server.
