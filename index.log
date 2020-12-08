@@ -1490,3 +1490,15 @@ NameError: name 'sub' is not defined
 2020-12-08 00:07:38,133 - __main__ - INFO - 0038
 2020-12-08 00:07:38,133 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f6a8fbc1ee0>, 'kwargs': {}, 'id': 1}
 2020-12-08 00:07:38,133 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-08 00:12:15,018 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-08 00:12:15,018 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 00:12:16,893 - __main__ - DEBUG - There are no streams selected to subscribe to
+2020-12-08 00:12:18,221 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-08 00:12:22,351 - __main__ - INFO - 0038
+2020-12-08 00:12:22,351 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 00:12:22,351 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f7459ab9ee0>, 'kwargs': {}, 'id': 1}
+2020-12-08 00:12:22,439 - __main__ - INFO - 0038
+2020-12-08 00:12:22,440 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-08 00:12:22,440 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7f7459ab9ee0>, 'kwargs': {}, 'id': 3}
+2020-12-08 00:12:22,441 - __main__ - INFO - 0038
+2020-12-08 00:12:22,442 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
