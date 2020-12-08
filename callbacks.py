@@ -94,7 +94,7 @@ def updateData(n,subList,oldData,streamID,subTime):
             try:
                 df = pd.read_csv(fileName)
             except pd.errors.EmptyDataError:
-                logger.exception("No data to get, probably not subscribed to any stream")
+                logger.error("No data to get")
                 raise PreventUpdate
             #now overwrite the old data
             open(fileName, 'w').close()
