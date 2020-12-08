@@ -48,7 +48,7 @@ def serve_layout_graph():
             html.Div(id='hidden-container',
                 style= {'display': 'block'},
                 children =[
-                    html.Div(id = '24hr-graph-container', children = [] )
+                    html.Div(id = '24hr-graph-container', children = [dcc.Loading(id='24hr-loading',children=[],type='circle')] )
                     ]
                 )
         ]

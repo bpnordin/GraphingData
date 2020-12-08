@@ -3039,3 +3039,212 @@ pandas.errors.EmptyDataError: No columns to parse from file
 2020-12-08 00:14:54,465 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903486709844372480, 'stop': 6903486710699071488}, 'FORT': {'standard_deviation': 0.06320599199112516, 'average': 19.033134389240857, 'min': 18.7821, 'max': 19.3588}}
 2020-12-08 00:14:56,154 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903471248142495744, 'stop': 6903471249048733696}, 'FORT': {'standard_deviation': 0.063685657870685, 'average': 19.02446232077359, 'min': 18.7413, 'max': 19.2428}}
 2020-12-08 00:14:57,044 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903455786006827008, 'stop': 6903455786711201792}, 'FORT': {'standard_deviation': 0.06400000133253983, 'average': 19.065062607449853, 'min': 18.8322, 'max': 19.3149}}
+2020-12-08 00:14:58,827 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903440324188986368, 'stop': 6903440325060864000}, 'FORT': {'standard_deviation': 0.06219198854707634, 'average': 19.072283937996552, 'min': 18.8385, 'max': 19.3525}}
+2020-12-08 00:15:01,000 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903424862512878592, 'stop': 6903424863363281920}, 'FORT': {'standard_deviation': 0.1011287123609535, 'average': 19.176287274242846, 'min': 18.8573, 'max': 19.575}}
+2020-12-08 00:15:03,052 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903409400012137472, 'stop': 6903409400875425792}, 'FORT': {'standard_deviation': 0.10301834767490652, 'average': 19.435689693299253, 'min': 19.0547, 'max': 19.7913}}
+2020-12-08 00:15:05,443 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903393938825657344, 'stop': 6903393939684649984}, 'FORT': {'standard_deviation': 0.20080052420801467, 'average': 19.834019625493138, 'min': 19.3117, 'max': 20.4369}}
+2020-12-08 00:15:07,990 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903378476316325888, 'stop': 6903378477175319552}, 'FORT': {'standard_deviation': 0.4836988298095217, 'average': 21.07938297765922, 'min': 20.0326, 'max': 22.1199}}
+2020-12-08 00:16:02,047 - callbacks - DEBUG - None
+2020-12-08 00:16:06,932 - callbacks - DEBUG - None
+2020-12-08 00:16:06,932 - callbacks - DEBUG - graphing 24hr
+2020-12-08 00:16:07,236 - callbacks - DEBUG - starting reads
+2020-12-08 00:16:10,330 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903734580975484928, 'stop': 6903734581834477568}, 'FORT': {'standard_deviation': 0.15540391948789603, 'average': 19.036234530494244, 'min': 18.6504, 'max': 19.5092}}
+2020-12-08 00:16:13,413 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903719119389572096, 'stop': 6903719120244270080}, 'FORT': {'standard_deviation': 0.08184997722189673, 'average': 19.35089743775011, 'min': 19.0109, 'max': 19.6346}}
+2020-12-08 00:16:16,076 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903703657236722688, 'stop': 6903703658095716352}, 'FORT': {'standard_deviation': 0.20328050038951437, 'average': 19.495232327274746, 'min': 19.0485, 'max': 20.0765}}
+2020-12-08 00:16:18,468 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903688195272853504, 'stop': 6903688196106077184}, 'FORT': {'standard_deviation': 7.845197585246758, 'average': 5.88831408558911, 'min': -0.323743, 'max': 19.7693}}
+2020-12-08 00:16:21,429 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903672733308983296, 'stop': 6903672733996178432}, 'FORT': {'standard_deviation': 5.613875045856923, 'average': 5.700601304739154, 'min': -0.295536, 'max': 11.1598}}
+2020-12-08 00:16:24,278 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903657271873394688, 'stop': 6903657272732387328}, 'FORT': {'standard_deviation': 5.336471668388246, 'average': 3.597906651034713, 'min': -0.295536, 'max': 11.0877}}
+2020-12-08 00:16:27,200 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903641809321113600, 'stop': 6903641810132862976}, 'FORT': {'standard_deviation': 5.48651901170172, 'average': 6.458086769461745, 'min': -0.355085, 'max': 11.3447}}
+2020-12-08 00:16:30,036 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903626348186172416, 'stop': 6903626348899136512}, 'FORT': {'standard_deviation': 9.127030801400887, 'average': 6.434140127347484, 'min': -0.301804, 'max': 19.061}}
+2020-12-08 00:16:32,400 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903610885891590144, 'stop': 6903610886754878464}, 'FORT': {'standard_deviation': 0.06666495539068809, 'average': 18.857576914101568, 'min': 18.5815, 'max': 19.0829}}
+2020-12-08 00:16:35,399 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903595423700086784, 'stop': 6903595424559080448}, 'FORT': {'standard_deviation': 0.2915642694797441, 'average': 19.284462759042164, 'min': 18.594, 'max': 19.9166}}
+2020-12-08 00:16:37,747 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903579962028274688, 'stop': 6903579962887268352}, 'FORT': {'standard_deviation': 0.09293093175439512, 'average': 19.186143709014114, 'min': 18.8165, 'max': 19.5061}}
+2020-12-08 00:16:40,774 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903564499939850240, 'stop': 6903564500798843904}, 'FORT': {'standard_deviation': 0.08573505094239858, 'average': 18.973483796708187, 'min': 18.6692, 'max': 19.2867}}
+2020-12-08 00:16:43,715 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903549038757664768, 'stop': 6903549039616658432}, 'FORT': {'standard_deviation': 0.06199898589615544, 'average': 18.91558774240151, 'min': 18.6661, 'max': 19.1394}}
+2020-12-08 00:16:46,806 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903533576278398976, 'stop': 6903533577124506624}, 'FORT': {'standard_deviation': 0.06515854098192382, 'average': 18.94318396530635, 'min': 18.6316, 'max': 19.1989}}
+2020-12-08 00:16:49,853 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903518114215744512, 'stop': 6903518115126277120}, 'FORT': {'standard_deviation': 0.06582588787506652, 'average': 18.990574159488748, 'min': 18.7162, 'max': 19.2585}}
+2020-12-08 00:16:52,783 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903502652548227072, 'stop': 6903502653402925056}, 'FORT': {'standard_deviation': 0.06369904398400068, 'average': 19.016635274505447, 'min': 18.7413, 'max': 19.2365}}
+2020-12-08 00:16:55,762 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903487190970904576, 'stop': 6903487191743997952}, 'FORT': {'standard_deviation': 0.06331420170208649, 'average': 19.033049241371646, 'min': 18.7821, 'max': 19.3588}}
+2020-12-08 00:16:58,301 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903471729191717888, 'stop': 6903471730046415872}, 'FORT': {'standard_deviation': 0.06329879040064151, 'average': 19.024306791152604, 'min': 18.7413, 'max': 19.2428}}
+2020-12-08 00:16:59,466 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903456267322337280, 'stop': 6903456268185625600}, 'FORT': {'standard_deviation': 0.06427919364450808, 'average': 19.064366260744986, 'min': 18.8259, 'max': 19.3149}}
+2020-12-08 00:17:01,354 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903440805238207488, 'stop': 6903440806101496832}, 'FORT': {'standard_deviation': 0.06225302541560672, 'average': 19.07233521306739, 'min': 18.8385, 'max': 19.3525}}
+2020-12-08 00:17:03,289 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903425343536330752, 'stop': 6903425344399619072}, 'FORT': {'standard_deviation': 0.09927900321441338, 'average': 19.16795692692414, 'min': 18.8573, 'max': 19.575}}
+2020-12-08 00:17:05,584 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903409881499446272, 'stop': 6903409882349849600}, 'FORT': {'standard_deviation': 0.10278312273229812, 'average': 19.42919259917769, 'min': 19.0547, 'max': 19.7913}}
+2020-12-08 00:17:07,878 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903394420046678016, 'stop': 6903394420720987136}, 'FORT': {'standard_deviation': 0.19373787767438175, 'average': 19.812275523698396, 'min': 19.3117, 'max': 20.3962}}
+2020-12-08 00:17:10,751 - callbacks - DEBUG - done with read {'measurement_time': {'start': 6903378957382727680, 'stop': 6903378958233132032}, 'FORT': {'standard_deviation': 0.48191346400061924, 'average': 21.027521268200513, 'min': 20.0201, 'max': 22.0134}}
+2020-12-08 00:20:18,312 - callbacks - DEBUG - None
+2020-12-08 00:49:00,904 - callbacks - DEBUG - None
+2020-12-08 00:49:09,101 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:49:14,539 - callbacks - DEBUG - None
+2020-12-08 00:49:23,903 - callbacks - DEBUG - None
+2020-12-08 00:49:24,196 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:49:26,224 - callbacks - DEBUG - done with read 0/24 for stream Hybrid_Mux
+2020-12-08 00:49:28,171 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 00:49:30,010 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 00:49:31,297 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 00:49:33,026 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 00:49:35,158 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 00:49:38,483 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:40,484 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:42,498 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:44,486 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:46,499 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:48,487 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:50,486 - callbacks - ERROR - No data to get, probably not subscribed to any stream
+Traceback (most recent call last):
+  File "/home/bradleynordin/Documents/GraphingData/callbacks.py", line 92, in updateData
+    df = pd.read_csv(fileName)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/bradleynordin/.local/share/virtualenvs/GraphingData-0ufmG3h2/lib/python3.8/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 540, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+2020-12-08 00:49:52,753 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 00:49:54,671 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 00:49:56,380 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 00:49:58,490 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 00:50:00,460 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 00:50:02,596 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 00:50:05,064 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 00:50:07,669 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 00:50:10,665 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 00:50:13,636 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 00:50:16,704 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 00:50:19,474 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 00:50:21,977 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 00:50:24,181 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 00:50:27,161 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 00:50:30,060 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 00:50:32,860 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 00:50:35,617 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 00:50:41,379 - callbacks - DEBUG - None
+2020-12-08 00:50:42,660 - callbacks - DEBUG - None
+2020-12-08 00:50:43,321 - callbacks - DEBUG - None
+2020-12-08 00:50:43,656 - callbacks - DEBUG - None
+2020-12-08 00:51:17,755 - callbacks - DEBUG - cant graph 24hr b/c there are no streams selected
+2020-12-08 00:51:28,309 - callbacks - DEBUG - None
+2020-12-08 00:51:28,641 - callbacks - DEBUG - starting read for stream Hybrid_Mux
+2020-12-08 00:51:30,987 - callbacks - DEBUG - done with read 1/24 for stream Hybrid_Mux
+2020-12-08 00:51:32,728 - callbacks - DEBUG - done with read 2/24 for stream Hybrid_Mux
+2020-12-08 00:51:34,472 - callbacks - DEBUG - done with read 3/24 for stream Hybrid_Mux
+2020-12-08 00:51:35,841 - callbacks - DEBUG - done with read 4/24 for stream Hybrid_Mux
+2020-12-08 00:51:37,605 - callbacks - DEBUG - done with read 5/24 for stream Hybrid_Mux
+2020-12-08 00:51:39,684 - callbacks - DEBUG - done with read 6/24 for stream Hybrid_Mux
+2020-12-08 00:51:41,423 - callbacks - DEBUG - done with read 7/24 for stream Hybrid_Mux
+2020-12-08 00:51:43,235 - callbacks - DEBUG - done with read 8/24 for stream Hybrid_Mux
+2020-12-08 00:51:45,095 - callbacks - DEBUG - done with read 9/24 for stream Hybrid_Mux
+2020-12-08 00:51:46,919 - callbacks - DEBUG - done with read 10/24 for stream Hybrid_Mux
+2020-12-08 00:51:48,573 - callbacks - DEBUG - done with read 11/24 for stream Hybrid_Mux
+2020-12-08 00:51:50,432 - callbacks - DEBUG - done with read 12/24 for stream Hybrid_Mux
+2020-12-08 00:51:52,308 - callbacks - DEBUG - done with read 13/24 for stream Hybrid_Mux
+2020-12-08 00:51:54,200 - callbacks - DEBUG - done with read 14/24 for stream Hybrid_Mux
+2020-12-08 00:51:55,900 - callbacks - DEBUG - done with read 15/24 for stream Hybrid_Mux
+2020-12-08 00:51:57,701 - callbacks - DEBUG - done with read 16/24 for stream Hybrid_Mux
+2020-12-08 00:51:59,769 - callbacks - DEBUG - done with read 17/24 for stream Hybrid_Mux
+2020-12-08 00:52:01,616 - callbacks - DEBUG - done with read 18/24 for stream Hybrid_Mux
+2020-12-08 00:52:03,596 - callbacks - DEBUG - done with read 19/24 for stream Hybrid_Mux
+2020-12-08 00:52:05,180 - callbacks - DEBUG - done with read 20/24 for stream Hybrid_Mux
+2020-12-08 00:52:07,669 - callbacks - DEBUG - done with read 21/24 for stream Hybrid_Mux
+2020-12-08 00:52:10,391 - callbacks - DEBUG - done with read 22/24 for stream Hybrid_Mux
+2020-12-08 00:52:13,450 - callbacks - DEBUG - done with read 23/24 for stream Hybrid_Mux
+2020-12-08 00:52:16,522 - callbacks - DEBUG - done with read 24/24 for stream Hybrid_Mux
+2020-12-08 00:52:41,477 - callbacks - DEBUG - None
+2020-12-08 00:52:57,216 - callbacks - DEBUG - None
+2020-12-08 00:52:58,588 - callbacks - DEBUG - None

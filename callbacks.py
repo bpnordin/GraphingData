@@ -91,7 +91,7 @@ def updateData(n,subList,oldData,streamID,subTime):
             try:
                 df = pd.read_csv(fileName)
             except pd.errors.EmptyDataError:
-                logger.excpetion("No data to get, probably not subscribed to any stream")
+                logger.exception("No data to get, probably not subscribed to any stream")
                 raise PreventUpdate
             #now overwrite the old data
             open(fileName, 'w').close()
@@ -148,7 +148,7 @@ def show_graph(onBoolean):
     else:
         return {'display':'none'}
 
-@app.callback([Output('24hr-graph-container','children'),Output('24hr-graph-store','data')],
+@app.callback([Output('24hr-loading','children'),Output('24hr-graph-store','data')],
     Input('24hr-switch','on'),
    [ State('keyValues','data'),State('24hr-graph-store','data'),State('refresh-24hr','value')])
 def graph_average(onBoolean,subList,graphData,refresh):
@@ -159,10 +159,9 @@ def graph_average(onBoolean,subList,graphData,refresh):
 
     logger.debug(refresh)
 
-    if graphData is not None and len(refresh) == 0:
+    if graphData is not None and refresh is not None:
         return graphData,graphData
     if onBoolean:
-        logger.debug("graphing 24hr")
         graphs = []
         #start averaging over 24hrs
         window = 60*60
@@ -176,12 +175,12 @@ def graph_average(onBoolean,subList,graphData,refresh):
             }
             #get the averages
             data = []
-            logger.debug("starting reads")
+            logger.debug("starting read for stream {}".format(stream))
             for i in range(24):
                 start = start - window
                 stop = stop - window
                 data.append(read.get_stream_stat_data(stream,start=start,stop=stop))
-                logger.debug("done with read {}".format(data[i]))
+                logger.debug("done with read {}/{} for stream {}".format(i+1,24,stream))
             #now format the data
             xx = []
             yy = {}
