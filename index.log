@@ -4281,3 +4281,18 @@ NameError: name 'sub' is not defined
 2020-12-08 16:44:43,075 - __main__ - INFO - 0038
 2020-12-08 16:44:43,076 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
 2020-12-08 16:44:43,076 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fb6cfd55e50>, 'kwargs': {}, 'id': 1}
+2020-12-10 11:43:34,444 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-10 11:43:34,445 - __main__ - DEBUG - deleting the files ['data0038.csv']
+2020-12-10 11:46:49,688 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-10 11:46:49,689 - __main__ - DEBUG - deleting the files []
+2020-12-10 11:47:32,253 - __main__ - ERROR - tried unsubscribing with no sub function
+2020-12-10 11:47:32,253 - __main__ - DEBUG - deleting the files []
+2020-12-10 11:47:38,792 - __main__ - DEBUG - deleting the files []
+2020-12-10 11:47:46,973 - __main__ - INFO - 0038
+2020-12-10 11:47:46,974 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-10 11:47:46,975 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe5ff786e50>, 'kwargs': {}, 'id': 1}
+2020-12-10 11:47:47,200 - __main__ - INFO - 0038
+2020-12-10 11:47:47,200 - __main__ - DEBUG - The dict with all of the streamID is {'Hybrid_Mux': '0038'}
+2020-12-10 11:47:47,202 - __main__ - INFO - 0038
+2020-12-10 11:47:47,214 - __main__ - INFO - Subscribing to stream: Hybrid_Mux [0038]
+2020-12-10 11:47:47,214 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0038', 'callback': <function subCallback at 0x7fe5ff786e50>, 'kwargs': {}, 'id': 3}

@@ -116,5 +116,5 @@ if __name__ == '__main__':
     reset()
     sub = subscriber.Subscriber(config,logger)
 
-    app.run_server(use_reloader=False,debug=False,)
+    app.run_server(use_reloader=False,debug=True,host='0.0.0.0')
     sub.close()

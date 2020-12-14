@@ -103,7 +103,7 @@ def updateData(n,subList,oldData,streamID,subTime):
             #now convert to datetime object
             if not df.empty:
                 df['measurement_time'] = pd.to_datetime(df['measurement_time']/(2**32),
-                    unit='s',utc=True).tz_convert("US/Central")
+                    unit='s',utc=True).dt.tz_convert("US/Central")
                 data[stream] = df
 
             #get the amount of data we just got
@@ -196,7 +196,7 @@ def graph_average(onBoolean,subList,graphData,refresh,days):
             yy = {}
             for val in data:
                 xx.append(pd.to_datetime(val['measurement_time']['start']/(2**32),
-                    unit='s',utc=True).tz_convert("US/Central"))
+                    unit='s',utc=True).dt.tz_convert("US/Central"))
                 for keys in val:
                     if keys != 'measurement_time':
                         if keys not in yy.keys():
