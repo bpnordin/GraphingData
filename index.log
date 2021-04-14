@@ -4033,3 +4033,254 @@ NameError: name 'sub' is not defined
 2020-12-08 12:32:10,457 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0048', 'callback': <function subCallback at 0x7fe251e85dc0>, 'kwargs': {}, 'id': 5}
 2020-12-08 12:32:12,268 - __main__ - INFO - 0048
 2020-12-08 12:32:12,269 - __main__ - DEBUG - The dict with all of the streamID is {'AQUA_MONITORS': '0048'}
+2021-02-19 12:47:01,283 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-19 12:47:01,284 - __main__ - DEBUG - deleting the files []
+2021-02-19 12:47:24,277 - __main__ - DEBUG - deleting the files []
+2021-02-19 12:47:48,759 - __main__ - INFO - 0059
+2021-02-19 12:47:48,759 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 12:47:48,759 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 1}
+2021-02-19 12:47:48,759 - __main__ - INFO - 0056
+2021-02-19 12:47:48,760 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-19 12:47:48,760 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 3}
+2021-02-19 12:47:48,868 - __main__ - INFO - 0059
+2021-02-19 12:47:48,869 - __main__ - INFO - 0056
+2021-02-19 12:47:48,869 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059', 'Rb_box_bfield_sensor_3axis': '0056'}
+2021-02-19 12:47:48,876 - __main__ - INFO - 0059
+2021-02-19 12:47:48,876 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 12:47:48,876 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 5}
+2021-02-19 12:47:48,876 - __main__ - INFO - 0056
+2021-02-19 12:47:48,877 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-19 12:47:48,877 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 7}
+2021-02-19 13:31:24,321 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:26,312 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:28,311 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:30,311 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:32,312 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:34,321 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:36,312 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:38,312 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:40,310 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:42,311 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:43,077 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:45,066 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:31:45,397 - __main__ - DEBUG - deleting the files []
+2021-02-19 13:31:53,470 - __main__ - INFO - 0059
+2021-02-19 13:31:53,471 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 13:31:53,471 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 9}
+2021-02-19 13:31:53,471 - __main__ - INFO - 0056
+2021-02-19 13:31:53,471 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-19 13:31:53,471 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 11}
+2021-02-19 13:31:53,533 - __main__ - INFO - 0059
+2021-02-19 13:31:53,534 - __main__ - INFO - 0056
+2021-02-19 13:31:53,534 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059', 'Rb_box_bfield_sensor_3axis': '0056'}
+2021-02-19 13:31:53,537 - __main__ - INFO - 0059
+2021-02-19 13:31:53,537 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 13:31:53,538 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 13}
+2021-02-19 13:31:53,538 - __main__ - INFO - 0056
+2021-02-19 13:31:53,538 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-19 13:31:53,539 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 15}
+2021-02-19 13:57:37,583 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:57:39,573 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-19 13:57:40,788 - __main__ - DEBUG - deleting the files []
+2021-02-19 13:58:06,844 - __main__ - INFO - 0059
+2021-02-19 13:58:06,844 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 13:58:06,845 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 17}
+2021-02-19 13:58:06,897 - __main__ - INFO - 0059
+2021-02-19 13:58:06,897 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-19 13:58:06,904 - __main__ - INFO - 0059
+2021-02-19 13:58:06,904 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-19 13:58:06,904 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0C4502B0>, 'kwargs': {}, 'id': 19}
+2021-02-23 10:40:24,844 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 10:40:24,844 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 10:41:34,235 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:41:41,785 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:49:51,692 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 10:49:51,692 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:49:53,803 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:50:06,590 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:51:52,146 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 10:51:52,147 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:52:02,738 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:52:14,132 - __main__ - DEBUG - deleting the files []
+2021-02-23 10:52:25,578 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:02:27,041 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:02:27,043 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:03:24,045 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:03:24,047 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:05:27,679 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:05:27,681 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:06:04,467 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:06:04,469 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:06:35,382 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:06:35,384 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:07:20,039 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:07:20,039 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:08:17,300 - __main__ - ERROR - tried unsubscribing with no sub function right here
+2021-02-23 11:08:17,301 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:08:42,567 - __main__ - ERROR - tried unsubscribing with no sub function
+2021-02-23 11:08:42,568 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:09:20,529 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:12:15,731 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:12:41,513 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:13:27,190 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:13:41,142 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:17:29,678 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:17:39,004 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:21:21,867 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-23 11:21:52,085 - __main__ - INFO - 0056
+2021-02-23 11:21:52,086 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-23 11:21:52,087 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0CFAE2F8>, 'kwargs': {}, 'id': 1}
+2021-02-23 11:21:52,089 - __main__ - INFO - 0059
+2021-02-23 11:21:52,089 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:21:52,091 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CFAE2F8>, 'kwargs': {}, 'id': 3}
+2021-02-23 11:21:52,134 - __main__ - INFO - 0056
+2021-02-23 11:21:52,134 - __main__ - INFO - 0059
+2021-02-23 11:21:52,135 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_box_bfield_sensor_3axis': '0056', 'Rb_coil_monitors': '0059'}
+2021-02-23 11:21:52,136 - __main__ - INFO - 0056
+2021-02-23 11:21:52,140 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-23 11:21:52,144 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0CFAE2F8>, 'kwargs': {}, 'id': 5}
+2021-02-23 11:21:52,146 - __main__ - INFO - 0059
+2021-02-23 11:21:52,148 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:21:52,154 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CFAE2F8>, 'kwargs': {}, 'id': 7}
+2021-02-23 11:22:41,789 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-23 11:22:56,410 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:22:58,400 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:23:00,398 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:23:02,397 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:23:04,403 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:23:05,748 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 11:23:29,321 - __main__ - INFO - 0059
+2021-02-23 11:23:29,322 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:23:29,323 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 1}
+2021-02-23 11:23:29,324 - __main__ - INFO - 0056
+2021-02-23 11:23:29,326 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-23 11:23:29,327 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 3}
+2021-02-23 11:23:29,356 - __main__ - INFO - 0059
+2021-02-23 11:23:29,356 - __main__ - INFO - 0056
+2021-02-23 11:23:29,357 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059', 'Rb_box_bfield_sensor_3axis': '0056'}
+2021-02-23 11:23:29,359 - __main__ - INFO - 0059
+2021-02-23 11:23:29,362 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:23:29,367 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 5}
+2021-02-23 11:23:29,370 - __main__ - INFO - 0056
+2021-02-23 11:23:29,371 - __main__ - INFO - Subscribing to stream: Rb_box_bfield_sensor_3axis [0056]
+2021-02-23 11:23:29,374 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0056', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 7}
+2021-02-23 11:23:32,784 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 11:23:36,748 - __main__ - INFO - 0059
+2021-02-23 11:23:36,748 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:23:36,750 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 9}
+2021-02-23 11:23:36,770 - __main__ - INFO - 0059
+2021-02-23 11:23:36,771 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-23 11:23:36,773 - __main__ - INFO - 0059
+2021-02-23 11:23:36,775 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:23:36,780 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 11}
+2021-02-23 11:32:53,361 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 11:37:06,069 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:37:08,056 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 11:37:10,196 - __main__ - DEBUG - deleting the files []
+2021-02-23 11:37:19,847 - __main__ - INFO - 0059
+2021-02-23 11:37:19,847 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:37:19,848 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 13}
+2021-02-23 11:37:19,877 - __main__ - INFO - 0059
+2021-02-23 11:37:19,878 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-23 11:37:19,881 - __main__ - INFO - 0059
+2021-02-23 11:37:19,882 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 11:37:19,883 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 15}
+2021-02-23 20:52:59,329 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 20:53:01,320 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 20:53:02,670 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 20:53:15,008 - __main__ - INFO - 0059
+2021-02-23 20:53:15,009 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 20:53:15,009 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 17}
+2021-02-23 20:53:15,038 - __main__ - INFO - 0059
+2021-02-23 20:53:15,038 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-23 20:53:15,043 - __main__ - INFO - 0059
+2021-02-23 20:53:15,044 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 20:53:15,044 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CF9D2F8>, 'kwargs': {}, 'id': 19}
+2021-02-23 20:53:56,319 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-23 20:54:14,531 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 20:54:16,525 - __main__ - DEBUG - There are no streams selected to subscribe to
+2021-02-23 20:54:17,595 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 20:54:26,672 - __main__ - INFO - 0059
+2021-02-23 20:54:26,672 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 20:54:26,673 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CCCE2F8>, 'kwargs': {}, 'id': 1}
+2021-02-23 20:54:26,706 - __main__ - INFO - 0059
+2021-02-23 20:54:26,706 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-23 20:54:26,709 - __main__ - INFO - 0059
+2021-02-23 20:54:26,709 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 20:54:26,710 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CCCE2F8>, 'kwargs': {}, 'id': 3}
+2021-02-23 21:00:23,880 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-23 21:00:38,997 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-23 21:00:50,669 - __main__ - DEBUG - deleting the files []
+2021-02-23 21:01:06,712 - __main__ - INFO - 0059
+2021-02-23 21:01:06,713 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 21:01:06,713 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 1}
+2021-02-23 21:01:06,754 - __main__ - INFO - 0059
+2021-02-23 21:01:06,754 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-23 21:01:06,759 - __main__ - INFO - 0059
+2021-02-23 21:01:06,759 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-23 21:01:06,760 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 3}
+2021-02-24 10:40:23,567 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-24 10:40:35,180 - __main__ - INFO - 0059
+2021-02-24 10:40:35,181 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-24 10:40:35,181 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 5}
+2021-02-24 10:40:35,203 - __main__ - INFO - 0059
+2021-02-24 10:40:35,203 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-24 10:40:35,207 - __main__ - INFO - 0059
+2021-02-24 10:40:35,207 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-24 10:40:35,208 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 7}
+2021-02-24 12:14:31,073 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-24 12:14:35,776 - __main__ - INFO - 0059
+2021-02-24 12:14:35,776 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-24 12:14:35,777 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 9}
+2021-02-24 12:14:35,797 - __main__ - INFO - 0059
+2021-02-24 12:14:35,797 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-24 12:14:35,802 - __main__ - INFO - 0059
+2021-02-24 12:14:35,802 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-24 12:14:35,803 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 11}
+2021-02-25 12:30:41,707 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-25 12:31:20,561 - __main__ - INFO - 0059
+2021-02-25 12:31:20,562 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 12:31:20,562 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 13}
+2021-02-25 12:31:20,582 - __main__ - INFO - 0059
+2021-02-25 12:31:20,583 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-25 12:31:20,588 - __main__ - INFO - 0059
+2021-02-25 12:31:20,588 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 12:31:20,591 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 15}
+2021-02-25 13:23:50,013 - __main__ - DEBUG - deleting the files []
+2021-02-25 13:23:55,437 - __main__ - INFO - 0059
+2021-02-25 13:23:55,438 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:23:55,438 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 17}
+2021-02-25 13:23:55,466 - __main__ - INFO - 0059
+2021-02-25 13:23:55,467 - __main__ - INFO - 0059
+2021-02-25 13:23:55,468 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-25 13:23:55,468 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:23:55,470 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0CEED2F8>, 'kwargs': {}, 'id': 19}
+2021-02-25 13:24:54,212 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-25 13:25:02,615 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-25 13:25:15,726 - __main__ - INFO - 0059
+2021-02-25 13:25:15,727 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:25:15,727 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D40D2F8>, 'kwargs': {}, 'id': 1}
+2021-02-25 13:25:15,753 - __main__ - INFO - 0059
+2021-02-25 13:25:15,754 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-25 13:25:15,757 - __main__ - INFO - 0059
+2021-02-25 13:25:15,757 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:25:15,758 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D40D2F8>, 'kwargs': {}, 'id': 3}
+2021-02-25 13:25:29,205 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-25 13:25:34,509 - __main__ - INFO - 0059
+2021-02-25 13:25:34,510 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:25:34,510 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D40D2F8>, 'kwargs': {}, 'id': 5}
+2021-02-25 13:25:34,556 - __main__ - INFO - 0059
+2021-02-25 13:25:34,557 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-25 13:25:34,558 - __main__ - INFO - 0059
+2021-02-25 13:25:34,561 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:25:34,563 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D40D2F8>, 'kwargs': {}, 'id': 7}
+2021-02-25 13:26:25,161 - __main__ - DEBUG - deleting the files ['data0059.csv']
+2021-02-25 13:26:40,820 - __main__ - INFO - Go to http://127.0.0.1:8050/apps/home in your browser
+2021-02-25 13:26:51,068 - __main__ - INFO - 0059
+2021-02-25 13:26:51,068 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:26:51,068 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D3BE2F8>, 'kwargs': {}, 'id': 1}
+2021-02-25 13:26:51,090 - __main__ - INFO - 0059
+2021-02-25 13:26:51,090 - __main__ - DEBUG - The dict with all of the streamID is {'Rb_coil_monitors': '0059'}
+2021-02-25 13:26:51,094 - __main__ - INFO - 0059
+2021-02-25 13:26:51,095 - __main__ - INFO - Subscribing to stream: Rb_coil_monitors [0059]
+2021-02-25 13:26:51,095 - __main__ - INFO - sending cmd to process: {'action': 'SUBSCRIBE', 'stream_filter': '0059', 'callback': <function subCallback at 0x0D3BE2F8>, 'kwargs': {}, 'id': 3}
